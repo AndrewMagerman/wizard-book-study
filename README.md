@@ -59,13 +59,7 @@ Questions and Answers, Organisation, first steps
 - write a 'Hello, World' program in Scheme
 - optionally, buy the hardcopy of the book (recommended)
 
-## Meeting 1, Section 1.1 Functional Programming:
-### Wednesday 17th March, 18.00, 1 hour
 
-### Prerequisites:
-- read the book pages 1-31
-- watch lectures 1 & 2    
-- do homework for [Week 1](https://inst.eecs.berkeley.edu//~cs61a/reader/nodate-hw.pdf)
 
 
 
@@ -127,5 +121,12 @@ http://planet.racket-lang.org/display.ss?package=simply-scheme.plt&owner=dyoo
 
 JetBrains Products have a Racket syntax highlighter!!!
 
+#Pipeline
 
+## Meeting 1, Section 1.1 Functional Programming:
+### Wednesday 17th March, 18.00, 1 hour
 
+### Prerequisites:
+- read the book pages 1-31
+- watch lectures 1 & 2    
+- do homework for [Week 1](https://inst.eecs.berkeley.edu//~cs61a/reader/nodate-hw.pdf)
