@@ -2,12 +2,15 @@
 
 Let's study the Wizard book together.
 
+![Wizard book picture](resources/Wizard-book-meetup.png)
 
 The Wizard book (Structure and Interpretation of Computer Programs, a.k.a SICP)
 is the book that is used for teaching CS at Berkeley and Stanford Universities.
 It's a challenging read, introducing many fundamental concepts, and not for the
 faint of heart. It's one of these rare books where the reviews on Amazon are
 either 5 or one star. Love it or hate it.
+
+Here is an excerpt of the preface which I found particularly arresting:
 
 > First, we want to establish the idea that a computer language is not just a  
 > way of getting a computer to perform operations but rather that it is a novel 
