@@ -1,8 +1,9 @@
-# WizardBookStudy - Planning/DRAFT
+# WizardBookStudy
 
 Let's study the Wizard book together.
 
 ![Wizard book picture](resources/Wizard-book-meetup.png)
+
 
 The Wizard book (Structure and Interpretation of Computer Programs, a.k.a SICP)
 is the book that is used for teaching CS at Berkeley and Stanford Universities.
@@ -37,60 +38,82 @@ and that is what we will follow there. I tried the MIT lectures but found them
 difficult.
 
 The idea is: we study individually, but on an agreed schedule (i.e. watch
-Lectures 1,2,3 and do homework XXX, and have a regular online meetup where we
-exchange our issues and help each other.
+Lectures 1,2,3 and do homework XXX), and have a regular online meetup where we
+exchange our issues and help each other. Provisionally the schedule is every two weeks, but we'll
+see what pace is comfortable/sustainable.
 
-We will do the exams!
+We will do the exams! (not the official ones)
 
 
 
-## Schedule
+# Schedule
 
-TBD
+## Meeting 0, Kickstart: 
+###Wednesday 3rd March, 18.00, 45 minutes
 
-Kickstarter/First Meeting: First week of March
+Questions and Answers, Organisation, first steps
 
-- no meetings during official swiss school holidays
-- Pace: probably twice a month
-- Timing: probably on one week evening, like Wed evening at 1800, duration
-  45mins max.
+### Prerequisites:
+- clone this repo
+- install Dr. Racket
+- write a 'Hello, World' program in Scheme
+- optionally, buy the hardcopy of the book (recommended)
 
-## Infrastructure
+## Meeting 1, Section 1.1 Functional Programming:
+### Wednesday 17th March, 18.00, 1 hour
 
-Chat: Coder's only discord chat
+### Prerequisites:
+- read the book pages 1-31
+- watch lectures 1 & 2    
+- do homework for [Week 1](https://inst.eecs.berkeley.edu//~cs61a/reader/nodate-hw.pdf)
 
-Meetings via Meetup
 
-This site?
 
-- Advertisement through Coders Only newsletter
 
-## Members which have indicated interest:
+# Reference
 
-Felix Isensee 
+(Copied
+from [Federico Gelassi's github repository](https://github.com/fgalassi/cs61a-sp11))
 
-Pablo Verges 
-
-Matthias Osswald
-
-## What should I expect?
-
-It's about 100 to 200 hours of work.
-
-## Getting Started
-
-### Buy the book
+## The book
 
 **Structure and Interpretation of Computer Programs, second edition**
 
-Abelson, HaroldSussman, Gerald JaySussman, Julie
+Abelson, Harold | Sussman, Gerald Jay | Sussman, Julie
 
+## free online version:
+http://mitpress.mit.edu/sicp/
+
+
+## Buy the hardcopy (recommended)
 https://www.buchhaus.ch/de/detail/ISBN-9780262510875/Abelson-Harold/Structure-and-Interpretation-of-Computer-Programs-second-edition?bpmctrl=bpmrownr.1%7Cforeign.490271-1-0-0
+  
+## Recordings of the lectures by Brian Harvey
 
-alternatively you can read
-it [online](https://mitpress.mit.edu/sites/default/files/sicp/full-text/book/book.html)
+https://archive.org/details/ucberkeley-webcast-PL3E89002AA9B9879E
 
-### Install Racket
+## Homework
+https://inst.eecs.berkeley.edu//~cs61a/reader/nodate-hw.pdf
+
+###Homework Solutions
+- sicp wiki: http://community.schemewiki.org/?sicp-solutions
+- Solutions from summer 2011 (same homework and the old ones were not
+  published): http://wla.berkeley.edu/~cs61a/su11/solutions/
+
+
+## Projects
+https://inst.eecs.berkeley.edu//~cs61a/reader/vol1.html
+
+## Exams
+- midterms: https://inst.eecs.berkeley.edu//~cs61a/reader/vol2.html
+- final: https://inst.eecs.berkeley.edu//~cs61a/reader/vol2.html
+
+## Homepage CS61A
+https://inst.eecs.berkeley.edu//~cs61a/sp11/ 
+
+# Software
+
+## Install Racket
 
 https://racket-lang.org/download/
 
@@ -104,25 +127,5 @@ http://planet.racket-lang.org/display.ss?package=simply-scheme.plt&owner=dyoo
 
 JetBrains Products have a Racket syntax highlighter!!!
 
-## Reference
-
-(Copied
-from [Federico Gelassi's github repository](https://github.com/fgalassi/cs61a-sp11))
-
-- do readings on sicp: http://mitpress.mit.edu/sicp/ (of course i bought a
-  printed copy)
-- watch video
-  lectures: https://archive.org/details/ucberkeley-webcast-PL3E89002AA9B9879E
-- do homework: https://inst.eecs.berkeley.edu//~cs61a/reader/nodate-hw.pdf
-- do projects: https://inst.eecs.berkeley.edu//~cs61a/reader/vol1.html
-- take midterms: https://inst.eecs.berkeley.edu//~cs61a/reader/vol2.html
-- take final: https://inst.eecs.berkeley.edu//~cs61a/reader/vol2.html
-
-Homepage: https://inst.eecs.berkeley.edu//~cs61a/sp11/  
-Homework solutions:
-
-- sicp wiki: http://community.schemewiki.org/?sicp-solutions
-- Solutions from summer 2011 (same homework and the old ones were not
-  published): http://wla.berkeley.edu/~cs61a/su11/solutions/
 
 
