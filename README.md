@@ -47,6 +47,8 @@ We will do the exams! (not the official ones)
 
 Questions and Answers, Organisation, first steps
 
+Join the videochat: https://codersonly.whereby.com/hello
+
 ### Prerequisites:
 
 - clone this repo
