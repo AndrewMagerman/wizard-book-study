@@ -1,4 +1,4 @@
-# WizardBookStudy
+# wizard-book-study
 
 Let's study the Wizard book together.
 
@@ -46,6 +46,8 @@ We will do the exams! (not the official ones)
 ### Wednesday 3rd March, 18.00, 45 minutes
 
 Questions and Answers, Organisation, first steps
+
+Meetup: https://www.meetup.com/de-DE/coders-only/events/276169051/
 
 Join the videochat: https://codersonly.whereby.com/hello
 
@@ -116,11 +118,28 @@ http://planet.racket-lang.org/display.ss?package=simply-scheme.plt&owner=dyoo
 
 JetBrains Products have a Racket syntax highlighter!!!
 
+# Forums and chats
+
+## Discord Chat
+https://discord.gg/sPTMqH5zYN
+
+## subreddit
+https://www.reddit.com/r/sicp/
+
+## StackOverflow
+https://stackoverflow.com/questions/tagged/sicp
+
+
+# Reviews
+https://onestepcode.com/sicp-review/
+https://www.inchmeal.io/sicp/review.html
+
+
 # Pipeline
 
 ## Meeting 1, Section 1.1 Functional Programming:
 
-### Wednesday 17th March, 18.00, 1 hour
+### Date TBD
 
 ### Prerequisites:
 
