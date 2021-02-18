@@ -109,12 +109,10 @@ https://inst.eecs.berkeley.edu//~cs61a/sp11/
 
 https://racket-lang.org/download/
 
-and also install simply-scheme:
+### Install the sicp package
 
-type `(require (planet dyoo/simply-scheme:2:2))` in the interpreter
+https://docs.racket-lang.org/sicp-manual/Installation.html
 
-from:
-http://planet.racket-lang.org/display.ss?package=simply-scheme.plt&owner=dyoo
 
 JetBrains Products have a Racket syntax highlighter!!!
 
