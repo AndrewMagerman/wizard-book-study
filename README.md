@@ -122,6 +122,9 @@ https://docs.racket-lang.org/sicp-manual/Installation.html
 (require berkeley)
 ```
 
+### Common Racket Errors
+https://docs.google.com/document/d/1jGtldEcm_qPoHGknJOkWj1D4-doyBjDivaV_Vn7_Hxk/edit#
+
 JetBrains Products have a Racket syntax highlighter!!!
 
 # Forums and chats
