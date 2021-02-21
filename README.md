@@ -113,6 +113,14 @@ https://racket-lang.org/download/
 
 https://docs.racket-lang.org/sicp-manual/Installation.html
 
+### Install the berkeley package
+
+### Start your program files with
+
+``` racket
+#lang racket
+(require berkeley)
+```
 
 JetBrains Products have a Racket syntax highlighter!!!
 
