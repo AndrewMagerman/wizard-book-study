@@ -92,8 +92,6 @@ Written very concisely
 (require berkeley)
 ```  
 
-
-
 ---
 
 # Our logistics
