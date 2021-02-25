@@ -84,6 +84,18 @@ Written very concisely
 
 ---
 
+# Standards
+
+- Dr Racket with 
+``` racket
+#lang racket
+(require berkeley)
+```  
+
+
+
+---
+
 # Our logistics
 - Comprehension questions, homework questions: Discord
 - Sessions: invites through Meetup  
