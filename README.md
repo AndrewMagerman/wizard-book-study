@@ -76,6 +76,10 @@ http://mitpress.mit.edu/sicp/
 
 https://www.buchhaus.ch/de/detail/ISBN-9780262510875/Abelson-Harold/Structure-and-Interpretation-of-Computer-Programs-second-edition?bpmctrl=bpmrownr.1%7Cforeign.490271-1-0-0
 
+## Recommended book to learn lisp/scheme: the little schemer
+
+https://www.buchhaus.ch/de/detail/ISBN-9780262560993/Friedman-Daniel-P./The-Little-Schemer-fourth-edition?bpmctrl=bpmrownr.1%7Cforeign.490271-1-0-0
+
 ## Recordings of the lectures by Brian Harvey
 
 https://archive.org/details/ucberkeley-webcast-PL3E89002AA9B9879E
