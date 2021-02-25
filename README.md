@@ -85,10 +85,12 @@ https://archive.org/details/ucberkeley-webcast-PL3E89002AA9B9879E
 https://inst.eecs.berkeley.edu//~cs61a/reader/nodate-hw.pdf
 
 ### Homework Solutions
+ 
+https://people.eecs.berkeley.edu/~bh/61a-pages/Solutions/
 
-- sicp wiki: http://community.schemewiki.org/?sicp-solutions
-- Solutions from summer 2011 (same homework and the old ones were not
-  published): http://wla.berkeley.edu/~cs61a/su11/solutions/
+### Solutions for exercises in Book
+
+https://people.eecs.berkeley.edu/~bh/61a-pages/Solutions/
 
 ## Projects
 
