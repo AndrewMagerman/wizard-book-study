@@ -160,4 +160,7 @@ https://www.inchmeal.io/sicp/review.html
 
 - read the book pages 1-31
 - watch lectures 1 & 2
-- do homework for [Week 1](https://inst.eecs.berkeley.edu//~cs61a/reader/nodate-hw.pdf)
+- read the course notes for [Week 1](reference/berkeley_cs61a_material/course_reader_vol_2/notes.pdf)  
+- do homework for [Week 1](reference/berkeley_cs61a_material/course_reader_vol_1/hw.pdf)
+  - you will need to read [word.txt](reference/berkeley_cs61a_material/course_reader_vol_2/word.txt)
+
