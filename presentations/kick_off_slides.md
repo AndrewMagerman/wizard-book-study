@@ -241,6 +241,10 @@ Racket (a dialect of Scheme, which is a dialect of Lisp)
 
 # Pace
 
+The difficulty of the homework will determine the pace
+- initial 2-3 weeks: OK?
+- Wednesday or Friday?
+
 
 
 
