@@ -41,6 +41,7 @@ Generally: no discrimination
 
 
 ---
+
 # Goal
 
 > First, we want to establish the idea that a computer language is not just a  
@@ -48,12 +49,14 @@ Generally: no discrimination
 > formal medium for expressing ideas about methodology.
 
 ---
+
 # Goal
 
 > Thus, **programs must be written for people to read**, and only incidentally
 > for machines to execute.
 
 ---
+
 # Goal
 
 > Second, we believe that the essential material to be addressed by a subject
@@ -64,8 +67,8 @@ Generally: no discrimination
 > the foundations of computing,
 
 ---
-# Goal
 
+# Goal
 
 > but rather **the techniques used to control the intellectual complexity
 > of large software systems**.
@@ -78,9 +81,8 @@ Generally: no discrimination
 Written very concisely
 
 - read *everything* slowly
-    - Foreword, introduction, footnotes
-- don't get scared by the hairy mathematical examples, we won't use them    
-    
+  - Foreword, introduction, footnotes
+- don't get scared by the hairy mathematical examples, we won't use them
 
 ---
 
@@ -131,6 +133,74 @@ Written very concisely
 
 # The lectures
 
+## Course Summary
+
+---
+
+## 1. FUNCTIONAL PROGRAMMING
+
+- focus:
+  - repeatable input-output behavior
+  - composition of functions to layer complexity
+
+- hidden:
+  - side effect mechanisms (assignment)
+  - internal control structure of procedures
+
+---
+
+## 2. DATA ABSTRACTION
+
+- focus:
+  - semantic view of data aggregates
+- hidden:
+  - actual representation in memory
+
+---
+
+## 3. OBJECT ORIENTED PROGRAMMING
+
+- focus:
+  - time-varying local state
+  - metaphor of many autonomous actors
+
+- hidden:
+  - scheduling of interactions within the one computer
+  - procedural methods within an object
+
+---
+
+## 4. STREAMS
+
+- focus:
+  - metaphor of parallel operations on data aggregates
+  - signal processing model of computation
+
+- hidden:
+  - actual sequence of events in the computation
+
+---
+
+## 5. PROGRAMMING LANGUAGES
+
+- focus:
+  - provide a metaphor for computation
+  - embody common elements of large groups of problems
+
+- hidden:
+  - technology-specific implementation medium
+  - storage allocation, etc.
+
+---
+
+## 6. LOGIC PROGRAMMING
+
+- focus:
+  - declarative representation of knowledge
+  - inference rules
+
+- hidden:
+  - inference algorithm
 
 ---
 
@@ -141,7 +211,6 @@ Written very concisely
 - some skipping (order of chapters changed)
 - Chapter 5 ignored
 
-
 ---
 
 # The language
@@ -150,12 +219,12 @@ Racket (a dialect of Scheme, which is a dialect of Lisp)
 
 
 ---
+
 ## This isn't practical at all!
 
-- You'll be able to use these concepts everywhere independant of the language
+- You'll be able to use these concepts everywhere independently of the language
 - If you're using Python or JavaScript, you're in luck
-
-
+- The future is massive parallel computations
 
 ---
 
@@ -170,14 +239,20 @@ Racket (a dialect of Scheme, which is a dialect of Lisp)
 
 ---
 
+# Pace
+
+
+
+
+---
+
 # Our logistics
 
 - Comprehension questions, homework questions: Discord
 - Sessions: invites through Meetup
 - Administration such as changes, admin infos: Mailing list
-    - Please send me your e-mail in the chat
-    - We use Delta Chat as chat client (recommended)
-
+  - Please send me your e-mail in the chat
+  - We use Delta Chat as chat client (recommended)
 
 ---
 
