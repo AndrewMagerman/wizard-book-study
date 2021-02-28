@@ -131,6 +131,18 @@ Written very concisely
 
 ---
 
+## 5  Computing with Register Machines
+
+    5.1  Designing Register Machines
+    5.2  A Register-Machine Simulator
+    5.3  Storage Allocation and Garbage Collection
+    5.4  The Explicit-Control Evaluator
+    5.5  Compilation
+
+### We build a register machine and a compiler
+
+---
+
 # The lectures
 
 ## Course Summary
