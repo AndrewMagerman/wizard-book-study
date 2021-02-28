@@ -84,6 +84,8 @@ https://www.buchhaus.ch/de/detail/ISBN-9780262560993/Friedman-Daniel-P./The-Litt
 
 https://archive.org/details/ucberkeley-webcast-PL3E89002AA9B9879E
 
+https://www.youtube.com/watch?v=4leZ1Ca4f0g&list=PLhMnuBfGeCDNgVzLPxF9o5UNKG1b-LFY9
+
 ## Homework
 
 https://inst.eecs.berkeley.edu//~cs61a/reader/nodate-hw.pdf
@@ -92,9 +94,6 @@ https://inst.eecs.berkeley.edu//~cs61a/reader/nodate-hw.pdf
  
 https://people.eecs.berkeley.edu/~bh/61a-pages/Solutions/
 
-### Solutions for exercises in Book
-
-https://people.eecs.berkeley.edu/~bh/61a-pages/Solutions/
 
 ## Projects
 
@@ -120,6 +119,8 @@ https://racket-lang.org/download/
 https://docs.racket-lang.org/sicp-manual/Installation.html
 
 ### Install the berkeley package
+
+
 
 ### Start your program files with
 
@@ -147,6 +148,7 @@ https://stackoverflow.com/questions/tagged/sicp
 
 # Reviews
 https://onestepcode.com/sicp-review/
+
 https://www.inchmeal.io/sicp/review.html
 
 
