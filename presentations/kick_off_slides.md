@@ -26,9 +26,11 @@ Thanks to Coders Only for providing the infrastructure
 
 # Agenda
 
+- Who are we (country)
 - Our Goal
 - the book SICP
 - the Berkeley lectures
+- Our Repo
 - Pace
 - Questions & Answers
 
@@ -224,6 +226,14 @@ Written very concisely
 - simpler constructs introduced before lists: words and sentences
 - some skipping (order of chapters changed)
 - Chapter 5 ignored
+
+---
+
+## Our repo
+
+- all code in book and lectures, translated in racket (.rkt)
+- please tell me if I've missed anything
+
 
 ---
 
