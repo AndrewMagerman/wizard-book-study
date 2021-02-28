@@ -29,6 +29,8 @@ Thanks to Coders Only for providing the infrastructure
 - Our Goal
 - the book SICP
 - the Berkeley lectures
+- Pace
+- Questions & Answers
 
 ---
 
