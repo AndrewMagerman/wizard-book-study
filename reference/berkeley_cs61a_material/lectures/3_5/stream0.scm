@@ -1,6 +1,0 @@
-(define (perfect? n)
-  (define (iter i sum)
-    (cond ((= i n) sum)
-	  ((= 0 (remainder n i)) (iter (1+ i) (+ sum i)))
-	  (else (iter (1+ i) sum)) ))
-  (= n (iter 1 0)) )
