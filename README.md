@@ -154,15 +154,82 @@ https://www.inchmeal.io/sicp/review.html
 
 # Pipeline
 
-## Meeting 1, Section 1.1 Functional Programming:
+## Meeting 1, Functional Programming:
 
 ### Date TBD
 
-### Prerequisites:
+### Homework:
 
+- install Dr. Racket incl. bekerley package
+- log on to our Discord chat 
 - read the book pages 1-31
 - watch lectures 1 & 2
 - read the course notes for [Week 1](reference/berkeley_cs61a_material/course_reader_vol_2/notes.pdf)  
 - do homework for [Week 1](reference/berkeley_cs61a_material/course_reader_vol_1/hw.pdf)
   - you will need to read [word.txt](reference/berkeley_cs61a_material/course_reader_vol_2/word.txt)
 
+## Meeting 2, Higher-order procedures:
+
+Reading: Abelson & Sussman, Section 1.3
+
+### Date TBD
+
+## Meeting 3, Recursion and iteration:
+
+Reading: Abelson & Sussman, Section 1.2 through 1.2.4 (pages 31–47)
+
+## Meeting 4, Data abstraction:
+
+Reading: Abelson & Sussman, Sections 2.1 and 2.2.1 (pages 79–106)
+
+## Meeting 5, Hierarchical data:
+
+First Midterm
+
+Reading: Abelson & Sussman, Section 2.2.2–2.2.3, 2.3.1, 2.3.3
+
+## Meeting 6, Generic Operators:
+
+Reading: Abelson & Sussman, Sections 2.4 through 2.5.2 (pages 169–200)
+
+## Meeting 7, Object-oriented programming:
+
+Reading:
+Read “Object-Oriented Programming—Above-the-line view” (in course reader).
+
+![here](reference/berkeley_cs61a_material/course_reader_vol_2/oop/aboveline.pdf)
+
+
+## Meeting 8, Assignment, state, environments:
+
+Reading: Abelson & Sussman, Section 3.1, 3.2
+
+Also read “Object-Oriented Programming—Below-the-line view” (in course reader).
+
+![here](reference/berkeley_cs61a_material/course_reader_vol_2/oop/belowline.pdf)
+
+## Meeting 9, Mutable data, vectors:
+
+Reading: Abelson & Sussman, Section 3.3.1–3
+
+## Meeting 10, client/server, concurrency:
+
+Reading: Abelson & Sussman, Section 3.4
+
+## Meeting 11, Streams:
+
+Reading: Abelson & Sussman, Section 3.5.1–3, 3.5.5
+
+## Meeting 12, Metacircular evaluator:
+
+Reading: Abelson & Sussman, 4.1.1–6
+
+MapReduce paper in course reader.
+
+## Meeting 13, Analyzing evaluator, MapReduce:
+
+Reading: Therac paper in course reader.
+
+## Meeting 14, azy evaluator, nondeterministic evaluator:
+
+Reading: Abelson & Sussman, Section 4.2, 4.3
