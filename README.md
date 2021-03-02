@@ -56,7 +56,7 @@ Join the videochat: https://codersonly.whereby.com/hello
 
 (Copied from [Federico Gelassi's github repository](https://github.com/fgalassi/cs61a-sp11))
 
-## The book
+# The book
 
 **Structure and Interpretation of Computer Programs, second edition**
 
@@ -74,9 +74,13 @@ https://www.buchhaus.ch/de/detail/ISBN-9780262510875/Abelson-Harold/Structure-an
 
 https://www.buchhaus.ch/de/detail/ISBN-9780262560993/Friedman-Daniel-P./The-Little-Schemer-fourth-edition?bpmctrl=bpmrownr.1%7Cforeign.490271-1-0-0
 
+# The Lectures
+
 ## Recordings of the lectures by Brian Harvey
 
 https://archive.org/details/ucberkeley-webcast-PL3E89002AA9B9879E
+
+more convenient: in youtube
 
 https://www.youtube.com/watch?v=4leZ1Ca4f0g&list=PLhMnuBfGeCDNgVzLPxF9o5UNKG1b-LFY9
 
@@ -104,6 +108,8 @@ https://inst.eecs.berkeley.edu//~cs61a/sp11/
 
 # Software
 
+We are using Racket, a dialect of Scheme.
+
 ## Install Racket
 
 https://racket-lang.org/download/
@@ -113,8 +119,6 @@ https://racket-lang.org/download/
 https://docs.racket-lang.org/sicp-manual/Installation.html
 
 ### Install the berkeley package
-
-
 
 ### Start your program files with
 
@@ -189,13 +193,15 @@ Reading: Abelson & Sussman, Sections 2.4 through 2.5.2 (pages 169–200)
 ## Meeting 7, Object-oriented programming:
 
 Reading:
-Read “Object-Oriented Programming—Above-the-line view” ([in course reader](reference/berkeley_cs61a_material/course_reader_vol_2/oop/aboveline.pdf)).
+Read “Object-Oriented Programming—Above-the-line view”
+([in course reader](reference/berkeley_cs61a_material/course_reader_vol_2/oop/aboveline.pdf)).
 
 ## Meeting 8, Assignment, state, environments:
 
 Reading: Abelson & Sussman, Section 3.1, 3.2
 
-Also read “Object-Oriented Programming—Below-the-line view” ([in course reader](reference/berkeley_cs61a_material/course_reader_vol_2/oop/belowline.pdf)).
+Also read “Object-Oriented Programming—Below-the-line view”
+([in course reader](reference/berkeley_cs61a_material/course_reader_vol_2/oop/belowline.pdf)).
 
 ## Meeting 9, Mutable data, vectors:
 
