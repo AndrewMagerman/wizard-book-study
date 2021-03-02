@@ -51,13 +51,7 @@ Meetup: https://www.meetup.com/de-DE/coders-only/events/276169051/
 
 Join the videochat: https://codersonly.whereby.com/hello
 
-### Prerequisites:
-
-- clone this repo
-- install Dr. Racket
-- write a 'Hello, World' program in Scheme
-- optionally, buy the hardcopy of the book (recommended)
-
+}
 # Reference
 
 (Copied from [Federico Gelassi's github repository](https://github.com/fgalassi/cs61a-sp11))
