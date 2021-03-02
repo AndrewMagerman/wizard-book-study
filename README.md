@@ -195,18 +195,13 @@ Reading: Abelson & Sussman, Sections 2.4 through 2.5.2 (pages 169–200)
 ## Meeting 7, Object-oriented programming:
 
 Reading:
-Read “Object-Oriented Programming—Above-the-line view” (in course reader).
-
-![here](reference/berkeley_cs61a_material/course_reader_vol_2/oop/aboveline.pdf)
-
+Read “Object-Oriented Programming—Above-the-line view” ([in course reader](reference/berkeley_cs61a_material/course_reader_vol_2/oop/aboveline.pdf)).
 
 ## Meeting 8, Assignment, state, environments:
 
 Reading: Abelson & Sussman, Section 3.1, 3.2
 
-Also read “Object-Oriented Programming—Below-the-line view” (in course reader).
-
-![here](reference/berkeley_cs61a_material/course_reader_vol_2/oop/belowline.pdf)
+Also read “Object-Oriented Programming—Below-the-line view” ([in course reader](reference/berkeley_cs61a_material/course_reader_vol_2/oop/belowline.pdf)).
 
 ## Meeting 9, Mutable data, vectors:
 
@@ -230,6 +225,6 @@ MapReduce paper in course reader.
 
 Reading: Therac paper in course reader.
 
-## Meeting 14, azy evaluator, nondeterministic evaluator:
+## Meeting 14, lazy evaluator, nondeterministic evaluator:
 
 Reading: Abelson & Sussman, Section 4.2, 4.3
