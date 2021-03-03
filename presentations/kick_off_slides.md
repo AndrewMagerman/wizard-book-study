@@ -5,26 +5,13 @@ revealOptions:
     transition: 'fade'
 ---
 
-# Wizard book
-
-## Study Group: Kick-off
-
----
+## Wizard book Study Group
 
 ![Wizard Book picture](Wizard-book-meetup.png)
 
 ---
 
-![coders-only-logo](coders-only-logo.jpg)
-
-Thanks to Coders Only for providing the infrastructure
-
-- repository hub
-- Teleconferencing
-
----
-
-# Agenda
+# Agenda Kick-off
 
 - Who are we (country)
 - Our Goal
@@ -34,15 +21,24 @@ Thanks to Coders Only for providing the infrastructure
 - Pace
 - Questions & Answers
 
+
 ---
 
+![coders-only-logo](coders-only-logo.jpg)
+
+Thanks to `Coders Only` for hosting our infrastructure
+
+- repository on https://sourcehut.org/
+- Videoconferencing on https://whereby.com/
+
+---
 # Etiquette
 
 - stay on mute unless you talk
 - raise your hand if you want to talk
+- keep your video feed on
 
 Generally: no discrimination
-
 
 ---
 
@@ -56,7 +52,7 @@ Generally: no discrimination
 
 # Goal
 
-> Thus, **programs must be written for people to read**, and only incidentally
+> Thus, **programs must be written for people to read**, and only **incidentally**
 > for machines to execute.
 
 ---
@@ -76,6 +72,36 @@ Generally: no discrimination
 
 > but rather **the techniques used to control the intellectual complexity
 > of large software systems**.
+
+
+---
+
+# How do we meet this goal?
+
+- `Abstraction` is the central theme
+- with very simple building blocks (Lisp) we will build complex systems from scratch
+
+---
+
+> [Alan Kay:] Yes, that was the big revelation to me — when 
+> I finally understood that the half page of code on the bottom of page 13 of the Lisp 1.5 manual 
+> was Lisp in itself. 
+
+> These were “Maxwell’s Equations of Software!” 
+
+> This is the whole world of programming in a few lines that I can put my hand over.
+
+---
+
+![eval-apply](maxwell_equations_of_software.png)
+
+---
+
+## LISP isn't practical at all!
+
+- You'll be able to use these concepts everywhere independently of the language
+- If you're using Python or JavaScript, you're in luck
+- The future is massive parallel computations
 
 
 ---
@@ -144,6 +170,34 @@ Written very concisely
     5.5  Compilation
 
 ### We build a register machine and a compiler
+
+---
+## How do we do this?
+
+1. We are in a group
+
+---
+## How do we do this?
+
+1. We are in a group
+2. We take small bites
+
+
+---
+## How do we do this?
+
+1. We are in a group
+2. We take small bites
+3. We follow the Berkeley lectures
+
+---
+
+## Berkeley course simplifies SICP
+
+- Hairy mathematical examples avoided
+- simpler constructs introduced before lists: words and sentences
+- some skipping (order of chapters changed)
+- Chapter 5 ignored
 
 ---
 
@@ -218,20 +272,13 @@ Written very concisely
 - hidden:
   - inference algorithm
 
----
-
-## Berkeley course deviations
-
-- Hairy mathematical examples avoided
-- simpler constructs introduced before lists: words and sentences
-- some skipping (order of chapters changed)
-- Chapter 5 ignored
 
 ---
 
 ## Our repo
 
-- all code in book and lectures, translated in racket (.rkt)
+- All material pre-downloaded
+- all code in book and lectures, translated in Racket (.rkt)
 - please tell me if I've missed anything
 
 
@@ -241,14 +288,6 @@ Written very concisely
 
 Racket (a dialect of Scheme, which is a dialect of Lisp)
 
-
----
-
-## This isn't practical at all!
-
-- You'll be able to use these concepts everywhere independently of the language
-- If you're using Python or JavaScript, you're in luck
-- The future is massive parallel computations
 
 ---
 
@@ -276,11 +315,10 @@ The difficulty of the homework will determine the pace
 
 # Our logistics
 
-- Comprehension questions, homework questions: Discord
+- Comprehension questions, homework questions: Discord channel
+  - SICP Study Group
 - Sessions: invites through Meetup
-- Administration such as changes, admin infos: Mailing list
-  - Please send me your e-mail in the chat
-  - We use Delta Chat as chat client (recommended)
+
 
 ---
 
