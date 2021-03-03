@@ -7,6 +7,8 @@ revealOptions:
 
 ## Wizard book Study Group
 
+Welcome! - please: sound off, video on 
+
 ![Wizard Book picture](Wizard-book-meetup.png)
 
 ---
@@ -29,7 +31,7 @@ revealOptions:
 Thanks to `Coders Only` for hosting our infrastructure
 
 - repository on https://sourcehut.org/
-- Videoconferencing on https://whereby.com/
+- videoconferencing on https://whereby.com/
 
 ---
 # Etiquette
@@ -80,6 +82,23 @@ Generally: no discrimination
 
 - `Abstraction` is the central theme
 - with very simple building blocks (Lisp) we will build complex systems from scratch
+
+---
+
+high level of abstraction
+
+	application programs
+	high-level language (Scheme)
+	low-level language (C)
+	assembly language
+	machine language
+	architecture (registers, memory, arithmetic unit, etc.)
+	circuit elements (gates)
+	transistors
+	solid-state physics
+	quantum mechanics
+
+low level of abstraction
 
 ---
 
@@ -318,6 +337,20 @@ The difficulty of the homework will determine the pace
 - Comprehension questions, homework questions: Discord channel
   - SICP Study Group
 - Sessions: invites through Meetup
+
+
+---
+
+### Homework:
+
+- install Dr. Racket incl. bekerley package
+- log on to our Discord chat 
+- read the book pages 1-31
+- watch lectures 1 & 2
+- read the course notes for [Week 1](reference/berkeley_cs61a_material/course_reader_vol_2/notes.pdf)  
+- do homework for [Week 1](reference/berkeley_cs61a_material/course_reader_vol_1/hw.pdf)
+  - you will need to read [word.txt](reference/berkeley_cs61a_material/course_reader_vol_2/word.txt)
+
 
 
 ---

@@ -161,7 +161,7 @@ https://www.inchmeal.io/sicp/review.html
 - install Dr. Racket incl. bekerley package
 - log on to our Discord chat 
 - read the book pages 1-31
-- watch lectures 1 & 2
+- watch lectures 1 & 2 & 3 & 4
 - read the course notes for [Week 1](reference/berkeley_cs61a_material/course_reader_vol_2/notes.pdf)  
 - do homework for [Week 1](reference/berkeley_cs61a_material/course_reader_vol_1/hw.pdf)
   - you will need to read [word.txt](reference/berkeley_cs61a_material/course_reader_vol_2/word.txt)
@@ -169,6 +169,8 @@ https://www.inchmeal.io/sicp/review.html
 ## Meeting 2, Higher-order procedures:
 
 Reading: Abelson & Sussman, Section 1.3
+
+- watch lectures 3 & 4
 
 ### Date TBD
 
