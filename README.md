@@ -56,23 +56,32 @@ Join the videochat: https://codersonly.whereby.com/hello
 
 (Copied from [Federico Gelassi's github repository](https://github.com/fgalassi/cs61a-sp11))
 
-# The book
+# Books
 
-**Structure and Interpretation of Computer Programs, second edition**
+## **Structure and Interpretation of Computer Programs, second edition**
 
 Abelson, Harold | Sussman, Gerald Jay | Sussman, Julie
 
-## free online version:
+### free online version:
 
 http://mitpress.mit.edu/sicp/
 
-## Buy the hardcopy (recommended)
+### Buy the hardcopy (recommended)
 
 https://www.buchhaus.ch/de/detail/ISBN-9780262510875/Abelson-Harold/Structure-and-Interpretation-of-Computer-Programs-second-edition?bpmctrl=bpmrownr.1%7Cforeign.490271-1-0-0
 
-## Recommended book to learn lisp/scheme: the little schemer
+## The Little Schemer
+
+- Recommended book to learn lisp/scheme: 
 
 https://www.buchhaus.ch/de/detail/ISBN-9780262560993/Friedman-Daniel-P./The-Little-Schemer-fourth-edition?bpmctrl=bpmrownr.1%7Cforeign.490271-1-0-0
+
+## Simply Scheme
+
+- Recommended, written by the professor doing our lectures
+
+https://www.buchhaus.ch/de/buecher/fachbuecher/informatik/programmieren/detail/ISBN-9780262082815/Harvey-Brian-University-of-California-Author/Simply-Scheme
+
 
 # The Lectures
 
