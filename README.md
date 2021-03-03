@@ -41,17 +41,23 @@ We will do the exams! (not the official ones)
 
 # Schedule
 
-## Meeting 0, Kickstart:
+## Meeting 1, Functional Programming:
 
-### Wednesday 3rd March, 18.00, 45 minutes
+### Date Wednesday 24th March, 18.30 CET
 
-Questions and Answers, Organisation, first steps
+### Homework:
 
-Meetup: https://www.meetup.com/de-DE/coders-only/events/276169051/
+- install Dr. Racket incl. bekerley package
+- log on to our Discord chat 
+- read the book pages 1-31
+- watch lectures 1 & 2 & 3 & 4
+- read the course notes for [Week 1](reference/berkeley_cs61a_material/course_reader_vol_2/notes.pdf)  
+- do homework for [Week 1](reference/berkeley_cs61a_material/course_reader_vol_1/hw.pdf)
+  - you will need to read [word.txt](reference/berkeley_cs61a_material/course_reader_vol_2/word.txt)
 
 Join the videochat: https://codersonly.whereby.com/hello
 
-}
+
 # Reference
 
 (Copied from [Federico Gelassi's github repository](https://github.com/fgalassi/cs61a-sp11))
@@ -239,3 +245,18 @@ Reading: Therac paper in course reader.
 ## Meeting 14, lazy evaluator, nondeterministic evaluator:
 
 Reading: Abelson & Sussman, Section 4.2, 4.3
+
+
+# Archive
+
+## Meeting 0, Kickstart:
+
+### Wednesday 3rd March, 18.00, 45 minutes
+
+Questions and Answers, Organisation, first steps
+
+Meetup: https://www.meetup.com/de-DE/coders-only/events/276169051/
+
+Join the videochat: https://codersonly.whereby.com/hello
+
+}
