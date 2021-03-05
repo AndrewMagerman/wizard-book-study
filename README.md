@@ -133,14 +133,7 @@ https://racket-lang.org/download/
 
 https://docs.racket-lang.org/sicp-manual/Installation.html
 
-### Install the berkeley package
-
-### Start your program files with
-
-``` racket
-#lang racket
-(require berkeley)
-```
+Use 'Simply Scheme' as the selected language
 
 ### Common Racket Errors
 https://docs.google.com/document/d/1jGtldEcm_qPoHGknJOkWj1D4-doyBjDivaV_Vn7_Hxk/edit#

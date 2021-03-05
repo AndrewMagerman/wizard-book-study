@@ -1,6 +1,3 @@
-#lang racket
-(require berkeley)
-
 ;;; small-world.scm
 ;;; Miniature game world for debugging the CS61A adventure game project.
 ;;; You can load this instead of adv-world.scm, and reload it quickly

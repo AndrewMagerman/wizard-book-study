@@ -1,6 +1,3 @@
-#lang racket
-(require berkeley)
-
 ;;; obj.scm version 4.0 5/18/2000
 ;;; -- implementation of the object-oriented syntax
 ;; By Matt Wright, based on a handout from MIT
