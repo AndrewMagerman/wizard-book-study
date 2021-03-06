@@ -1,0 +1,35 @@
+Wow, you're very welcome!  I'm delighted that people are still finding my work useful.  And yes, you're welcome to copy anything anywhere.
+
+Words and sentences come from Logo, so I can't really take credit for them.
+
+
+About your questions:
+
+Lectures vs. weeks:  Attached is my first-day handout.  On page 18 you'll find a calendar.  The specific dates aren't important, but the general principle is:  Each week has three lecture hours, MWF.  In a standard week, Mon and Wed are SICP lectures, and Fri is something else -- "culture day."  But there aren't many standard weeks, because of Monday holidays, keeping the two halves of the Alan Kay video consecutive, three SICP days in the week that combines 3.1 and 3.2 (because you can't understand 3.1 until you read 3.2, and you can't understand 3.2 until you read 3.1, sigh), and so on.  So I hope this calendar will help you figure it out.
+
+Labs, projects, exams:  These are in the calendar too.  Basically labs meet in between Mon and Wed lectures.  In a perfect world, the labs would come even before the Mon lecture, because the best way to learn from a lecture is if you've already tried and perhaps failed to understand the ideas on your own in the lab. Discussion section comes between Wed and Fri lectures.  I spent 25 years trying to make the TAs shut up in discussion and let the students do the talking, but they always wanted to give lectures. :(  Both projects and exams are scheduled one per chapter, except that instead of a Chapter 4 midterm came the final exam.
+
+Chapter 5:  Once I tried to finish the entire book in a semester, and all the students died, not because Chapter 5 is so much harder, but just because there aren't enough weeks in a semester.  If you aren't limited by a semester calendar, go for it!  The Berkeley Logo interpreter is based on the Explicit Control Evaluator from Chapter 5, so at least I learned something from reading it. :)
+
+As for your discord, I'll try to catch up when things slow down -- right now every deadline is coming at once.
+
+On 3/5/21 1:53 AM, Andrew Magerman wrote:
+Dear Sir,
+
+My name is Andrew Magerman and I've just started a study group for the Wizard book. I am based in Switzerland and our kick-off meeting had 25 people from across the world - 3 from the USA, one from Turkey, one from the United Kingdom, and the rest from Switzerland. We're mostly working programmers, a lot of us without a formal CS background (I'm a thermodynamician by training, for instance).
+
+I write to thank you for making all your material available online, and also to ask permission ex post facto to copy it into our main repository on https://git.sr.ht/~codersonly/wizard-book-study/
+Your lectures and work make the studying far more palatable. Avoiding the hairy mathematical examples at the beginning of the book by introducing simpler primitives such as 'word' and 'sentence' is particularly helpful. Allow me also to commend your sense of humour and the patient way with which you explain complicated concepts, the lectures are delightful.
+
+In terms of IDE, we're eschewing Emacs and going for DrRacket, which has a 'Simply Scheme' language pack with which your published code works well.
+
+If you have the time, I'd be delighted if you could help me out, since I'm taking over the role of the teacher (Following the motto 'The best way to learn something is to teach it', I'm aiming at being just a couple of weeks ahead of the rest of the book).
+
+- I haven't understood the relationship between the 44 lectures and the 14 weeks of lectures. I'm assigning homework to the group by basically following the hw.pdf file and then adding which of the videos I find are the accompanying ones. Is there a key to this mapping that I am missing?
+
+- I am unsure on how to integrate the labs, the projects, and the exams into the study group (here again, I'm confused about the timing). Are there any recommendations you have? Are any optional, or pedagogically unsuitable?
+
+- I've noticed that you've avoided chapter 5 of SICP in your lectures and the notes, is this because it's one rabbit hole too many? Or weren't the students following?
+
+Best Regards,
+Andrew Magerman
