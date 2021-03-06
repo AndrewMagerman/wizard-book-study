@@ -1,6 +1,3 @@
-#lang racket
-(require berkeley)
-
 ;;;  Data for adventure game.  This file is adv-world.scm
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;

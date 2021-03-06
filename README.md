@@ -41,38 +41,53 @@ We will do the exams! (not the official ones)
 
 # Schedule
 
-## Meeting 0, Kickstart:
+## Meeting 1, Functional Programming:
 
-### Wednesday 3rd March, 18.00, 45 minutes
+### Date Wednesday 24th March, 18.30 CET
 
-Questions and Answers, Organisation, first steps
+### Homework:
 
-Meetup: https://www.meetup.com/de-DE/coders-only/events/276169051/
+- install Dr. Racket incl. bekerley package
+- log on to our Discord chat 
+- read the book pages 1-31
+- watch lectures 1 & 2 & 3 & 4
+- read the course notes for [Week 1](reference/berkeley_cs61a_material/course_reader_vol_2/notes.pdf)  
+- do homework for [Week 1](reference/berkeley_cs61a_material/course_reader_vol_1/hw.pdf)
+  - you will need to read [word.txt](reference/berkeley_cs61a_material/course_reader_vol_2/word.txt)
 
 Join the videochat: https://codersonly.whereby.com/hello
 
-}
+
 # Reference
 
 (Copied from [Federico Gelassi's github repository](https://github.com/fgalassi/cs61a-sp11))
 
-# The book
+# Books
 
-**Structure and Interpretation of Computer Programs, second edition**
+## **Structure and Interpretation of Computer Programs, second edition**
 
 Abelson, Harold | Sussman, Gerald Jay | Sussman, Julie
 
-## free online version:
+### free online version:
 
 http://mitpress.mit.edu/sicp/
 
-## Buy the hardcopy (recommended)
+### Buy the hardcopy (recommended)
 
 https://www.buchhaus.ch/de/detail/ISBN-9780262510875/Abelson-Harold/Structure-and-Interpretation-of-Computer-Programs-second-edition?bpmctrl=bpmrownr.1%7Cforeign.490271-1-0-0
 
-## Recommended book to learn lisp/scheme: the little schemer
+## The Little Schemer
+
+- Recommended book to learn lisp/scheme: 
 
 https://www.buchhaus.ch/de/detail/ISBN-9780262560993/Friedman-Daniel-P./The-Little-Schemer-fourth-edition?bpmctrl=bpmrownr.1%7Cforeign.490271-1-0-0
+
+## Simply Scheme
+
+- Recommended, written by the professor doing our lectures
+
+https://www.buchhaus.ch/de/buecher/fachbuecher/informatik/programmieren/detail/ISBN-9780262082815/Harvey-Brian-University-of-California-Author/Simply-Scheme
+
 
 # The Lectures
 
@@ -118,14 +133,7 @@ https://racket-lang.org/download/
 
 https://docs.racket-lang.org/sicp-manual/Installation.html
 
-### Install the berkeley package
-
-### Start your program files with
-
-``` racket
-#lang racket
-(require berkeley)
-```
+Use 'Simply Scheme' as the selected language
 
 ### Common Racket Errors
 https://docs.google.com/document/d/1jGtldEcm_qPoHGknJOkWj1D4-doyBjDivaV_Vn7_Hxk/edit#
@@ -161,7 +169,7 @@ https://www.inchmeal.io/sicp/review.html
 - install Dr. Racket incl. bekerley package
 - log on to our Discord chat 
 - read the book pages 1-31
-- watch lectures 1 & 2
+- watch lectures 1 & 2 & 3 & 4
 - read the course notes for [Week 1](reference/berkeley_cs61a_material/course_reader_vol_2/notes.pdf)  
 - do homework for [Week 1](reference/berkeley_cs61a_material/course_reader_vol_1/hw.pdf)
   - you will need to read [word.txt](reference/berkeley_cs61a_material/course_reader_vol_2/word.txt)
@@ -169,6 +177,8 @@ https://www.inchmeal.io/sicp/review.html
 ## Meeting 2, Higher-order procedures:
 
 Reading: Abelson & Sussman, Section 1.3
+
+- watch lectures 3 & 4
 
 ### Date TBD
 
@@ -228,3 +238,18 @@ Reading: Therac paper in course reader.
 ## Meeting 14, lazy evaluator, nondeterministic evaluator:
 
 Reading: Abelson & Sussman, Section 4.2, 4.3
+
+
+# Archive
+
+## Meeting 0, Kickstart:
+
+### Wednesday 3rd March, 18.00, 45 minutes
+
+Questions and Answers, Organisation, first steps
+
+Meetup: https://www.meetup.com/de-DE/coders-only/events/276169051/
+
+Join the videochat: https://codersonly.whereby.com/hello
+
+}

@@ -1,6 +1,3 @@
-#lang racket
-(require berkeley)
-
 ;;; To make a labyrinth underneath sproul-plaza, say
 ;;; (instantiate labyrinth sproul-plaza)
 ;;; now go down from sproul to enter

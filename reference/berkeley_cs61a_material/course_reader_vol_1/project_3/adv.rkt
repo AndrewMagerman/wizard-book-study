@@ -1,6 +1,3 @@
-#lang racket
-(require berkeley)
-
 ;; ADV.SCM
 ;; This file contains the definitions for the objects in the adventure
 ;; game and some utility procedures.
