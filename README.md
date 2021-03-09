@@ -178,11 +178,13 @@ https://www.meetup.com/de-DE/coders-only/events/276753430/
 - read the course notes for [Week 1](reference/berkeley_cs61a_material/course_reader_vol_2/notes.pdf)  
 - do homework for [Week 1](reference/berkeley_cs61a_material/course_reader_vol_1/hw.pdf)
   - you will need to read [word.txt](reference/berkeley_cs61a_material/course_reader_vol_2/word.txt)
+- do labs for week 1 (reference/berkeley_cs61a_material/course_reader_vol_1/labs.pdf)
 
 ## Meeting 2, Higher-order procedures:
 
 Reading: Abelson & Sussman, Section 1.3
 
+- do lab for week 2 (reference/berkeley_cs61a_material/course_reader_vol_1/labs.pdf)
 - watch lectures 5 & 6
 - do book excercises 1.31(a), 1.32(a), 1.33, 1.40, 1.41, 1.43, 1.46
 
@@ -192,30 +194,35 @@ Reading: Abelson & Sussman, Section 1.3
 
 Reading: Abelson & Sussman, Section 1.2 through 1.2.4 (pages 31–47)
 
+- do lab for week 3 (reference/berkeley_cs61a_material/course_reader_vol_1/labs.pdf)
 - watch lectures 7 & 8
 
 ## Meeting 4, Data abstraction:
 
 Reading: Abelson & Sussman, Sections 2.1 and 2.2.1 (pages 79–106)
 
+- do lab for week 4 (reference/berkeley_cs61a_material/course_reader_vol_1/labs.pdf)
 - watch lectures 9 & 10
 
 ## Meeting 5, Hierarchical data:
 
 First Midterm
 
+- do lab for week 5 (reference/berkeley_cs61a_material/course_reader_vol_1/labs.pdf)
 Reading: Abelson & Sussman, Section 2.2.2–2.2.3, 2.3.1, 2.3.3
 
 - watch lectures 12 & 13 & 14
 
 ## Meeting 6, Generic Operators:
 
+- do lab for week 6 (reference/berkeley_cs61a_material/course_reader_vol_1/labs.pdf)
 Reading: Abelson & Sussman, Sections 2.4 through 2.5.2 (pages 169–200)
 
 - watch lectures 16 & 17
 
 ## Meeting 7, Object-oriented programming:
 
+- do lab for week 7 (reference/berkeley_cs61a_material/course_reader_vol_1/labs.pdf)
 Reading:
 Read “Object-Oriented Programming—Above-the-line view”
 ([in course reader](reference/berkeley_cs61a_material/course_reader_vol_2/oop/aboveline.pdf)).
@@ -224,6 +231,8 @@ Read “Object-Oriented Programming—Above-the-line view”
 
 ## Meeting 8, Assignment, state, environments:
 
+
+- do lab for week 8 (reference/berkeley_cs61a_material/course_reader_vol_1/labs.pdf)
 Reading: Abelson & Sussman, Section 3.1, 3.2
 
 Also read “Object-Oriented Programming—Below-the-line view”
@@ -233,17 +242,24 @@ Also read “Object-Oriented Programming—Below-the-line view”
 
 ## Meeting 9, Mutable data, vectors:
 
+- do lab for week 9 (reference/berkeley_cs61a_material/course_reader_vol_1/labs.pdf)
+
+
 Reading: Abelson & Sussman, Section 3.3.1–3
 
 - watch lectures 24 & 26
 
 ## Meeting 10, client/server, concurrency:
 
+- do lab for week 10 (reference/berkeley_cs61a_material/course_reader_vol_1/labs.pdf)
+
 Reading: Abelson & Sussman, Section 3.4
 
 - watch lectures 30 & 31 & 32
 
 ## Meeting 11, Streams:
+
+- do lab for week 11 (reference/berkeley_cs61a_material/course_reader_vol_1/labs.pdf)
 
 Reading: Abelson & Sussman, Section 3.5.1–3, 3.5.5
 
@@ -255,9 +271,15 @@ Reading: Abelson & Sussman, 4.1.1–6
 
 MapReduce paper in course reader.
 
+
+- do lab for week 12 (reference/berkeley_cs61a_material/course_reader_vol_1/labs.pdf)
+
 - watch lectures 36 & 37
 
 ## Meeting 13, Analyzing evaluator, MapReduce:
+
+- do lab for week 13 (reference/berkeley_cs61a_material/course_reader_vol_1/labs.pdf)
+
 
 Reading: Therac paper in course reader.
 
@@ -265,6 +287,8 @@ Reading: Therac paper in course reader.
 
 
 ## Meeting 14, lazy evaluator, nondeterministic evaluator:
+
+- do lab for week 14 (reference/berkeley_cs61a_material/course_reader_vol_1/labs.pdf)
 
 Reading: Abelson & Sussman, Section 4.2, 4.3
 
