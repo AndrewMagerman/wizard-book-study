@@ -129,9 +129,11 @@ We are using Racket, a dialect of Scheme.
 
 https://racket-lang.org/download/
 
-### Install the sicp package
+### Install the simply-scheme package
+type `(require (planet dyoo/simply-scheme:2:2))` in the interpreter
 
-https://docs.racket-lang.org/sicp-manual/Installation.html
+from:
+http://planet.racket-lang.org/display.ss?package=simply-scheme.plt&owner=dyoo
 
 Use 'Simply Scheme' as the selected language
 
@@ -179,6 +181,7 @@ https://www.inchmeal.io/sicp/review.html
 Reading: Abelson & Sussman, Section 1.3
 
 - watch lectures 3 & 4
+- do book excercises 1.31(a), 1.32(a), 1.33, 1.40, 1.41, 1.43, 1.46
 
 ### Date TBD
 
