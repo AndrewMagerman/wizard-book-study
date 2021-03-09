@@ -183,7 +183,7 @@ https://www.meetup.com/de-DE/coders-only/events/276753430/
 
 Reading: Abelson & Sussman, Section 1.3
 
-- watch lectures 3 & 4
+- watch lectures 5 & 6
 - do book excercises 1.31(a), 1.32(a), 1.33, 1.40, 1.41, 1.43, 1.46
 
 ### Date TBD
@@ -192,9 +192,13 @@ Reading: Abelson & Sussman, Section 1.3
 
 Reading: Abelson & Sussman, Section 1.2 through 1.2.4 (pages 31–47)
 
+- watch lectures 7 & 8
+
 ## Meeting 4, Data abstraction:
 
 Reading: Abelson & Sussman, Sections 2.1 and 2.2.1 (pages 79–106)
+
+- watch lectures 9 & 10
 
 ## Meeting 5, Hierarchical data:
 
@@ -202,15 +206,21 @@ First Midterm
 
 Reading: Abelson & Sussman, Section 2.2.2–2.2.3, 2.3.1, 2.3.3
 
+- watch lectures 12 & 13 & 14
+
 ## Meeting 6, Generic Operators:
 
 Reading: Abelson & Sussman, Sections 2.4 through 2.5.2 (pages 169–200)
+
+- watch lectures 16 & 17
 
 ## Meeting 7, Object-oriented programming:
 
 Reading:
 Read “Object-Oriented Programming—Above-the-line view”
 ([in course reader](reference/berkeley_cs61a_material/course_reader_vol_2/oop/aboveline.pdf)).
+
+- watch lectures 18 & 19 & 20
 
 ## Meeting 8, Assignment, state, environments:
 
@@ -219,17 +229,25 @@ Reading: Abelson & Sussman, Section 3.1, 3.2
 Also read “Object-Oriented Programming—Below-the-line view”
 ([in course reader](reference/berkeley_cs61a_material/course_reader_vol_2/oop/belowline.pdf)).
 
+- watch lectures 21 & 22 & 23
+
 ## Meeting 9, Mutable data, vectors:
 
 Reading: Abelson & Sussman, Section 3.3.1–3
+
+- watch lectures 24 & 26
 
 ## Meeting 10, client/server, concurrency:
 
 Reading: Abelson & Sussman, Section 3.4
 
+- watch lectures 30 & 31 & 32
+
 ## Meeting 11, Streams:
 
 Reading: Abelson & Sussman, Section 3.5.1–3, 3.5.5
+
+- watch lectures 33 & 34 & 35
 
 ## Meeting 12, Metacircular evaluator:
 
@@ -237,14 +255,20 @@ Reading: Abelson & Sussman, 4.1.1–6
 
 MapReduce paper in course reader.
 
+- watch lectures 36 & 37
+
 ## Meeting 13, Analyzing evaluator, MapReduce:
 
 Reading: Therac paper in course reader.
+
+- watch lectures 38 & 39
+
 
 ## Meeting 14, lazy evaluator, nondeterministic evaluator:
 
 Reading: Abelson & Sussman, Section 4.2, 4.3
 
+- watch lectures 42 & 43 & 44
 
 # Archive
 
@@ -257,5 +281,3 @@ Questions and Answers, Organisation, first steps
 Meetup: https://www.meetup.com/de-DE/coders-only/events/276169051/
 
 Join the videochat: https://codersonly.whereby.com/hello
-
-}
