@@ -164,7 +164,10 @@ https://www.inchmeal.io/sicp/review.html
 
 ## Meeting 1, Functional Programming:
 
-### Date TBD
+### Date 24th March 2020, 18.30 CET
+
+meetup:
+https://www.meetup.com/de-DE/coders-only/events/276753430/
 
 ### Homework:
 
