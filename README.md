@@ -174,7 +174,7 @@ https://www.meetup.com/de-DE/coders-only/events/276753430/
 - install Dr. Racket incl. bekerley package
 - log on to our Discord chat 
 - read the book pages 1-31
-- watch lectures 1 & 2 & 3 & 4
+- watch lectures 1 & 2
 - read the course notes for [Week 1](reference/berkeley_cs61a_material/course_reader_vol_2/notes.pdf)  
 - do homework for [Week 1](reference/berkeley_cs61a_material/course_reader_vol_1/hw.pdf)
   - you will need to read [word.txt](reference/berkeley_cs61a_material/course_reader_vol_2/word.txt)
@@ -185,7 +185,7 @@ https://www.meetup.com/de-DE/coders-only/events/276753430/
 Reading: Abelson & Sussman, Section 1.3
 
 - do lab for week 2 (reference/berkeley_cs61a_material/course_reader_vol_1/labs.pdf)
-- watch lectures 5 & 6
+- watch lectures 3 & 4 & 5 & 6
 - do book excercises 1.31(a), 1.32(a), 1.33, 1.40, 1.41, 1.43, 1.46
 
 ### Date TBD
