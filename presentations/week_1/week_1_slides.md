@@ -33,10 +33,17 @@ Welcome! - please: sound off, video on
 ---
 # Things I hated
 
+Open discussion
+
 ---
 
 # Things I loved
 
+Open discussion
+
 ---
 
 # Tips and tricks
+
+- Display the functions that the professor is showing on a separate screen 
+(all are in the repo)
