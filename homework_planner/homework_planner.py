@@ -23,6 +23,10 @@ class Reference(object):
     def url(self):
         return 'hello'
 
+    @property
+    def markdown_link(self):
+        return f'[{self.title}]({self.path})'
+
 
 def homework_this_week(value: dict) -> List[str]:
     week = value["week"]
