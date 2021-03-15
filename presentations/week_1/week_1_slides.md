@@ -46,4 +46,4 @@ Open discussion
 # Tips and tricks
 
 - Display the functions that the professor is showing on a separate screen 
-(all are in the repo)
+(all are in the repo)f
