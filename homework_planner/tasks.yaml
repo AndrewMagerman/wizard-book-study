@@ -5,8 +5,8 @@ Week 1:
   Lectures: "1 & 2"
 Week 2:
   week: 2
-  Theme: "Functional Programming"
-  Reading: "Section 1.1, pages 1-31"
+  Theme: "Higher-order procedures"
+  Reading: "Section 1.3 - 1.2 skipped for now"
   Lectures: "3 & 4 & 5 & 6"
   book_exercises: "1.31(a), 1.32(a), 1.33, 1.40, 1.41, 1.43, 1.46"
 Week 3:
@@ -79,6 +79,8 @@ Week 12:
   week: 12
   Theme: "Metacircular evaluator"
   Reading: "Section 4.1.1–6 and MapReduce paper in course reader."
+  Reading_extra: { title: "MapReduce paper",
+                   path: "reference/berkeley_cs61a_material/course_reader_vol_2/mapreduce-osdi04.pdf" }
   Lectures: 36 & 37
   book_exercises: ""
 Week 13:
