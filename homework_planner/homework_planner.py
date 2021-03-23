@@ -31,6 +31,13 @@ class Reference(object):
 def homework_this_week(value: dict) -> List[str]:
     week = value["week"]
 
+    labs = "[](reference/berkeley_cs61a_material/course_reader_vol_1/labs.pdf)"
+    # - read the course notes for [Week 1](reference/berkeley_cs61a_material/course_reader_vol_2/notes.pdf)
+    # - do homework for [Week 1](reference/berkeley_cs61a_material/course_reader_vol_1/hw.pdf)
+    #   - you will need to read [word.txt](reference/berkeley_cs61a_material/course_reader_vol_2/word.txt)
+    # - do labs for week 1 (reference/berkeley_cs61a_material/course_reader_vol_1/labs.pdf)
+
+
     if "book_exercises" in value:
         homework_line_extra = f' including book exercises {value["book_exercises"]}'
     else:
@@ -40,7 +47,8 @@ def homework_this_week(value: dict) -> List[str]:
             f'read the book {value["Reading"]}',
             f'watch the lectures {value["Lectures"]}',
             f'read the course notes for week {week}',
-            f'do homework for week {week}{homework_line_extra}'
+            f'do homework for week {week}{homework_line_extra}',
+            f'cross-check your homework (solutions/week{week}.txt)'
             ]
 
 def markdown_output():
