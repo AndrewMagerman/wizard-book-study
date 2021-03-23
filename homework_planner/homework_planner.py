@@ -1,6 +1,8 @@
+import datetime
 from pathlib import Path
 from typing import List
 
+import pytz
 import yaml
 
 
@@ -57,23 +59,42 @@ def homework_this_week(value: dict) -> List[str]:
     list1.extend([f'watch the lectures {value["Lectures"]}',
                   f'read the {course_notes} for week {week}',
                   f'do {homework} for week {week}{homework_line_extra}',
-                  f'cross-check your homework (solutions/week{week}.txt)'
+                  f'cross-check your homework (solutions/week{week}.txt)',
                   ])
+
+    if "project" in value:
+        list1.extend([f'do {value["project"]}'])
+
+    if "exams" in value:
+        list1.extend([f'do {value["exams"]}'])
 
     return list1
 
+def date_generator():
+    start_date =  datetime.datetime(2021, 3, 24, 18, 30)
+
+    timezone = pytz.timezone("Europe/Zurich")
+    d_aware = timezone.localize(start_date)
+    yield d_aware
+    while True:
+        d_aware += datetime.timedelta(weeks=2)
+        yield d_aware
 
 def markdown_output():
+    dg = date_generator()
     target = Path(__file__).parent / 'homework.md'
     with target.open('w') as f:
         all_weeks = planning_dict()
         for week in all_weeks:
-            f.write(f'# {week}\n')
+            f.write(f'## {week} ({all_weeks[week]["Theme"]})\n\n')
             for h in homework_this_week(all_weeks[week]):
                 print(h)
                 f.write(f'- {h}\n')
+            d = next(dg)
+            f.write(f'\n\nWe **review** this work on Meeting {week}\n on {d.strftime("%c %Z")}')
             f.write('\n\n')
 
 
 if __name__ == '__main__':
     markdown_output()
+    #print(date_generator().strftime('%c %Z'))
