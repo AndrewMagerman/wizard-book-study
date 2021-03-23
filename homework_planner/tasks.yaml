@@ -1,0 +1,99 @@
+Week 1:
+  week: 1
+  Theme: "Functional Programming"
+  Reading: "Section 1.1, pages 1-31"
+  Lectures: "1 & 2"
+Week 2:
+  week: 2
+  Theme: "Functional Programming"
+  Reading: "Section 1.1, pages 1-31"
+  Lectures: "3 & 4 & 5 & 6"
+  book_exercises: "1.31(a), 1.32(a), 1.33, 1.40, 1.41, 1.43, 1.46"
+Week 3:
+  week: 3
+  Theme: "Recursion and iteration"
+  Reading: "Section 1.2 through 1.2.4 (pages 31–47)"
+  Lectures: "7 & 8"
+  book_exercises: ""
+Week 4:
+  week: 4
+  Theme: "Data abstraction"
+  Reading: "Sections 2.1 and 2.2.1 (pages 79–106)"
+  Lectures: "9 & 10 & 11"
+  book_exercises: ""
+  project: "Project 1"
+Week 5:
+  week: 5
+  Theme: "Hierarchical data"
+  Reading: "Section 2.2.2–2.2.3, 2.3.1, 2.3.3"
+  Lectures: "12 & 13 & 14"
+  book_exercises: ""
+  project: "Project 1"
+  exams: "First Midterm"
+Week 6:
+  week: 6
+  Theme: "Generic Operators"
+  Reading: "Sections 2.4 through 2.5.2 (pages 169–200)"
+  Lectures: "16 & 17"
+  book_exercises: ""
+  project: "Project 2"
+Week 7:
+  week: 7
+  Theme: "Object-oriented programming"
+  Reading: ""
+  Reading_extra: { title: "Object-Oriented Programming—Above-the-line view",
+                   path: "reference/berkeley_cs61a_material/course_reader_vol_2/oop/aboveline.pdf" }
+  Lectures: "18 & 19 & 20"
+  book_exercises: ""
+  project: "Project 2"
+Week 8:
+  week: 8
+  Theme: "Assignment, state, environments"
+  Reading: "Section 3.1, 3.2"
+  Reading_extra: { title: "Object-Oriented Programming—Below-the-line view",
+                   path: "reference/berkeley_cs61a_material/course_reader_vol_2/oop/belowline.pdf" }
+  Lectures: 21 & 22 & 23
+  book_exercises: ""
+  project: "Project 2"
+Week 9:
+  week: 9
+  Theme: "Mutable data, vectors"
+  Reading: "Section 3.3.1–3"
+  Lectures: 24 & 26
+  book_exercises: ""
+  project: "Project 3a"
+Week 10:
+  week: 10
+  Theme: "client/server, concurrency"
+  Reading: "Section 3.4"
+  Lectures: 30 & 31 & 32
+  book_exercises: ""
+  project: "Project 3b"
+Week 11:
+  week: 11
+  Theme: "Streams"
+  Reading: "Section 3.5.1–3, 3.5.5"
+  Lectures: 33 & 34 & 35
+  book_exercises: ""
+Week 12:
+  week: 12
+  Theme: "Metacircular evaluator"
+  Reading: "Section 4.1.1–6 and MapReduce paper in course reader."
+  Lectures: 36 & 37
+  book_exercises: ""
+Week 13:
+  week: 13
+  Theme: "Analyzing evaluator, MapReduce"
+  Reading: ""
+  Reading_extra: { title: "Therac paper",
+                   path: "reference/berkeley_cs61a_material/course_reader_vol_2/Therac-25.pdf" }
+  Lectures: 38 & 39
+  book_exercises: ""
+Week 14:
+  week: 14
+  Theme: "lazy evaluator, nondeterministic evaluator"
+  Reading: "Section 4.2, 4.3"
+  Lectures: 42 & 43 & 44
+  book_exercises: ""
+  project: "Project 4"
+# - do lab for week 4 (reference/berkeley_cs61a_material/course_reader_vol_1/labs.pdf)
