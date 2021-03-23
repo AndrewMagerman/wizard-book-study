@@ -55,6 +55,9 @@ We will do the exams! (not the official ones)
 - do homework for [Week 1](reference/berkeley_cs61a_material/course_reader_vol_1/hw.pdf)
   - you will need to read [word.txt](reference/berkeley_cs61a_material/course_reader_vol_2/word.txt)
 
+meetup:
+https://www.meetup.com/de-DE/coders-only/events/276753430/
+
 Join the videochat: https://codersonly.whereby.com/hello
 
 
