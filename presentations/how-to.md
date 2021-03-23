@@ -2,7 +2,7 @@
 https://github.com/webpro/reveal-md
 
 ```
-reveal-md presentations/kick_off_slides.md -w
+reveal-md presentations/week_0/kick_off_slides.md -w
 ```
 
 To print as pdf:

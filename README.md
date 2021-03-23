@@ -186,7 +186,7 @@ Reading: Abelson & Sussman, Section 1.3
 
 - do lab for week 2 (reference/berkeley_cs61a_material/course_reader_vol_1/labs.pdf)
 - watch lectures 3 & 4 & 5 & 6
-- do book excercises 1.31(a), 1.32(a), 1.33, 1.40, 1.41, 1.43, 1.46
+- do book exercises 1.31(a), 1.32(a), 1.33, 1.40, 1.41, 1.43, 1.46
 
 ### Date TBD
 
@@ -203,6 +203,7 @@ Reading: Abelson & Sussman, Sections 2.1 and 2.2.1 (pages 79–106)
 
 - do lab for week 4 (reference/berkeley_cs61a_material/course_reader_vol_1/labs.pdf)
 - watch lectures 9 & 10
+- do project 1
 
 ## Meeting 5, Hierarchical data:
 
@@ -219,6 +220,8 @@ Reading: Abelson & Sussman, Section 2.2.2–2.2.3, 2.3.1, 2.3.3
 Reading: Abelson & Sussman, Sections 2.4 through 2.5.2 (pages 169–200)
 
 - watch lectures 16 & 17
+
+- do project 2
 
 ## Meeting 7, Object-oriented programming:
 
@@ -249,6 +252,8 @@ Reading: Abelson & Sussman, Section 3.3.1–3
 
 - watch lectures 24 & 26
 
+- do project 3a
+
 ## Meeting 10, client/server, concurrency:
 
 - do lab for week 10 (reference/berkeley_cs61a_material/course_reader_vol_1/labs.pdf)
@@ -256,6 +261,8 @@ Reading: Abelson & Sussman, Section 3.3.1–3
 Reading: Abelson & Sussman, Section 3.4
 
 - watch lectures 30 & 31 & 32
+
+- do project 3b
 
 ## Meeting 11, Streams:
 
@@ -280,7 +287,6 @@ MapReduce paper in course reader.
 
 - do lab for week 13 (reference/berkeley_cs61a_material/course_reader_vol_1/labs.pdf)
 
-
 Reading: Therac paper in course reader.
 
 - watch lectures 38 & 39
@@ -293,6 +299,8 @@ Reading: Therac paper in course reader.
 Reading: Abelson & Sussman, Section 4.2, 4.3
 
 - watch lectures 42 & 43 & 44
+
+- do project 4
 
 # Archive
 
