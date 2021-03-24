@@ -91,7 +91,7 @@ def markdown_output():
                 print(h)
                 f.write(f'- {h}\n')
             d = next(dg)
-            f.write(f'\n\nWe **review** this work on Meeting {week}\n on {d.strftime("%c %Z")}')
+            f.write(f'\n\nWe **review** this work on Review Meeting {week} on {all_weeks[week]["Review_Meeting"]}')
             f.write('\n\n')
 
 

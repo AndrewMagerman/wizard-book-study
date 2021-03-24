@@ -8,8 +8,7 @@
 - cross-check your homework (solutions/week1.txt)
 
 
-We **review** this work on Meeting Week 1
- on Wed Mar 24 18:30:00 2021 CET
+We **review** this work on Review Meeting on Wednesday 24th March, 18.30 CET
 
 ## Week 2 (Higher-order procedures)
 
@@ -21,8 +20,7 @@ We **review** this work on Meeting Week 1
 - cross-check your homework (solutions/week2.txt)
 
 
-We **review** this work on Meeting Week 2
- on Wed Apr  7 18:30:00 2021 CET
+We **review** this work on Review Meeting on Wednesday 7th April, 18.30 CET
 
 ## Week 3 (Recursion and iteration)
 
@@ -35,8 +33,7 @@ We **review** this work on Meeting Week 2
 - do Project 1 - reference/berkeley_cs61a_material/course_reader_vol_1/project_1
 
 
-We **review** this work on Meeting Week 3
- on Wed Apr 21 18:30:00 2021 CET
+We **review** this work on Review Meeting on Wednesday 21st April, 18.30 CET
 
 ## Week 4 (Data abstraction)
 
@@ -48,8 +45,7 @@ We **review** this work on Meeting Week 3
 - cross-check your homework (solutions/week4.txt)
 
 
-We **review** this work on Meeting Week 4
- on Wed May  5 18:30:00 2021 CET
+We **review** this work on Review Meeting on Wednesday 5th May, 18.30 CET
 
 ## Week 5 (Hierarchical data)
 
@@ -62,8 +58,7 @@ We **review** this work on Meeting Week 4
 - do First Midterm
 
 
-We **review** this work on Meeting Week 5
- on Wed May 19 18:30:00 2021 CET
+We **review** this work on Review Meeting on Wednesday 19th May, 18.30 CET
 
 ## Week 6 (Generic Operators)
 
@@ -76,8 +71,7 @@ We **review** this work on Meeting Week 5
 - do Project 2 - section 2.2.4 of the book - all exercises
 
 
-We **review** this work on Meeting Week 6
- on Wed Jun  2 18:30:00 2021 CET
+We **review** this work on Review Meeting on Wednesday 2nd June, 18.30 CET
 
 ## Week 7 (Object-oriented programming)
 
@@ -89,8 +83,7 @@ We **review** this work on Meeting Week 6
 - cross-check your homework (solutions/week7.txt)
 
 
-We **review** this work on Meeting Week 7
- on Wed Jun 16 18:30:00 2021 CET
+We **review** this work on Review Meeting on Wednesday 16th June, 18.30 CET
 
 ## Week 8 (Assignment, state, environments)
 
@@ -104,8 +97,7 @@ We **review** this work on Meeting Week 7
 - do Second Midterm
 
 
-We **review** this work on Meeting Week 8
- on Wed Jun 30 18:30:00 2021 CET
+We **review** this work on Review Meeting on Wednesday 30th June, 18.30 CET
 
 ## Week 9 (Mutable data, vectors)
 
@@ -118,8 +110,7 @@ We **review** this work on Meeting Week 8
 - do Project 3a (with a partner)
 
 
-We **review** this work on Meeting Week 9
- on Wed Jul 14 18:30:00 2021 CET
+We **review** this work on Review Meeting on Wednesday 14th July, 18.30 CET
 
 ## Week 10 (client/server, concurrency)
 
@@ -132,8 +123,7 @@ We **review** this work on Meeting Week 9
 - do Project 3b (with a partner)
 
 
-We **review** this work on Meeting Week 10
- on Wed Jul 28 18:30:00 2021 CET
+We **review** this work on Review Meeting on Wednesday 25th August, 18.30 CET
 
 ## Week 11 (Streams)
 
@@ -145,8 +135,7 @@ We **review** this work on Meeting Week 10
 - cross-check your homework (solutions/week11.txt)
 
 
-We **review** this work on Meeting Week 11
- on Wed Aug 11 18:30:00 2021 CET
+We **review** this work on Review Meeting on Wednesday 8th September, 18.30 CET
 
 ## Week 12 (Metacircular evaluator)
 
@@ -160,8 +149,7 @@ We **review** this work on Meeting Week 11
 - do Third Midterm
 
 
-We **review** this work on Meeting Week 12
- on Wed Aug 25 18:30:00 2021 CET
+We **review** this work on Review Meeting on Wednesday 22nd September, 18.30 CET
 
 ## Week 13 (Analyzing evaluator, MapReduce)
 
@@ -173,8 +161,7 @@ We **review** this work on Meeting Week 12
 - cross-check your homework (solutions/week13.txt)
 
 
-We **review** this work on Meeting Week 13
- on Wed Sep  8 18:30:00 2021 CET
+We **review** this work on Review Meeting on Wednesday 6th October, 18.30 CET
 
 ## Week 14 (lazy evaluator, nondeterministic evaluator)
 
@@ -188,6 +175,5 @@ We **review** this work on Meeting Week 13
 - do Final Exam
 
 
-We **review** this work on Meeting Week 14
- on Wed Sep 22 18:30:00 2021 CET
+We **review** this work on Review Meeting on Wednesday 27th October, 18.30 CET
 
