@@ -14,5 +14,6 @@ To print as pdf:
 ```
 npm i puppeteer
 reveal-md presentations/kick_off_slides.md --print presentations/kick_off_slides/slides.pdf
+
+reveal-md presentations/week_1/week_1_slides.md --print presentations/week_1/week_1_slides.pdf
 ```
-}
