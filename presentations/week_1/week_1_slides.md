@@ -11,20 +11,25 @@ Welcome! - please: sound off, video on
 ![Wizard Book picture](Wizard-book-meetup.png)
 
 ---
-# Thankyou
+## super group - about 30
 
-**Pablo Verges** for taking the minutes of this session
 
+![Wizard Book picture](wizard_book_week_0.png)
+
+About 30 of us
 
 ---
-# Agenda Kick-off
+## Agenda  Week 1
 
 - Greetings from Prof Brian Harvey
 - Homework redefined
+- Admin  
 - Discussion
     - Things we loved
-    - Things we hated
+    - Pain points
     - Tips and tricks
+    - Show and Tell
+    
 
 ---
 # Excellent news
@@ -33,6 +38,7 @@ Professor Brian Harvey knows about our study group and gives us his blessing!
 
 > Wow, you're very welcome!  I'm delighted that people are still finding my work useful.
 
+email in repo
 
 ---
 
@@ -63,17 +69,33 @@ Professor Brian Harvey knows about our study group and gives us his blessing!
 ---
 # Exams
 
----
-# Discussions
+We will also be taking these!
 
 ---
-# Things I hated
+## Admin and organisation
+
+- Find a partner for the projects
+- Complete homework on the readme.md of the repo
+- Also duplicated in the discord channel
+- Homework-related questions in the relevant channel
+
+---
+# Discussions
+- Things we loved
+- Pain points
+- Tips and tricks
+- Show and Tell
+
+Minute-taker?
+
+---
+# hings we loved
 
 Open discussion
 
 ---
 
-# Things I loved
+# Pain points
 
 Open discussion
 

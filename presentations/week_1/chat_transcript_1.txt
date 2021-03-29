@@ -1,0 +1,189 @@
+
+https://docs.racket-lang.org/manual@simply-scheme/index.html
+
+18:27
+⁨Andrew⁩ started
+screenshare
+18:30
+sabine
+Hello everybody.
+18:33
+Richardsabine
+✋
+2
+18:33
+Umut Gercek
+Interesting UI :D
+18:33
+AndrewFlorence
+✋
+2
+RichardFabian
+👏
+2
+Umut GercekPaul HarrisonJohn Dalsgaard
+👍
+3
+18:35
+John DalsgaardFabian
+👏
+2
+Richard
+👍
+18:45
+⁨Andrew⁩’s
+screensharehas stopped
+18:56
+John Dalsgaard
+👍
+I've got to go. Have a nice evening
+18:57
+Maryam
+I don't have the channel
+18:58
+Andrew
+https://discord.gg/x4ksdBbw
+18:59
+Paul Harrison
+Sorry Folks, I have to run. Keep up the great work everyone :-)
+19:07
+Sky
+Uncle Bob! Great ideas for follow-up meetups after SICP :D
+19:09
+Andrew
+Umut, could you post a link to those lectures?
+19:10
+Catriel
+^ plz! XD
+19:11
+Umut Gercek
+3Blue1Brown He makes math oriented videos
+https://www.youtube.com/channel/UCYO_jab_esuFRV4b17AJtAw
+Manim The Animation engine forvideos:
+https://github.com/3b1b/manim
+19:12
+Sky
+question for folks: are you guys going through the labs using DrRacket?
+19:12
+sabine
+yes
+19:12
+Nico
+Emacs :)
+19:12
+Fabian
+I'll use DrRacket
+19:13
+Umut Gercek
+Emacs too :D
+19:13
+Sky
+greh emacs doesn't work on macos these days, I was at it for a few hours yesterday and everything broke hahah
+19:14
+Catriel
+I agree
+19:14
+Sky
+okay thanks for input folks, will try using DrRacket for the labs going forward
+19:15
+sabine
+As mentioned in one foodnote: Alan Perlis (paraphrasing Oscar Wilde) that ``Lisp programmers know the value of everything but the cost of nothing.''
+19:20
+Nico
+👍😂
+19:22
+Jeff
++1 for the MIT lectures
+19:25
+Catriel
+I believe Harold Abelson call that magic that happen in recursion: "wishful thinking"
+(when I said Susskind, I was refering to Sussman, sorry)
+19:27
+Bernhard
+I'd love to see that previous non-C-like version of Javascript!
+19:27
+Jeff
+"The secret to understand complex concepts is to ignore the details"
+~Hal
+19:28
+Vitkor
+I got to drop.
+19:28
+Catriel
+bye
+19:31
+Catriel
+it's not only functional; javascript has some ideas of Self, it's prototyped object programming. Where messages, resolve when a slot with a method definition is found in the hierarchy. Similar to dinamic scoping.
+I think that a fair quantity of misunderstanding comes from there.
+19:32
+Sky
+Tata folks! Thanks so much for organizing!
+19:37
+Andrew
+You **do** sound like an elixir fanbox Felix
+Felixir
+19:37
+Jeff
+😂
+19:40
+Andrew
+next meeting invite: https://www.meetup.com/de-DE/coders-only/events/277135075/
+19:40
+Fabiansabine
+👍
+2
+19:41
+Raphaelrichard
+👍
+2
+19:43
+Catriel
+the same problem has the teacher that uses Smalltalk in my university
+19:45
+Florence
+gotta go, see you next time :)
+19:45
+Catriel
+nice!
+19:49
+sabine
+Maybe you can share a screenshot later
+19:57
+Fabian
+https://docs.racket-lang.org/manual@simply-scheme/index.html
+19:58
+Maryam
+Thank you!
+19:59
+Bernhard
+👍 Thank you!
+19:59
+aleNicoUmut Gercek
+👏
+3
+19:59
+sabine
+Thank you 👏
+19:59
+Giammi
+thanks - have a good one everybody
+19:59
+Fabian
+👏
+19:59
+Catriel
+bye!
+19:59
+Nicolas Amaya
+👏
+aleFabian
+👋
+2
+19:59
+Felix Isensee
+thanks, see you
+19:59
+sabine
+👏
+Giammi
+👋
