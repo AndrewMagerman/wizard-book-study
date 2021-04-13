@@ -131,4 +131,5 @@ def link_summary(f):
 
 if __name__ == '__main__':
     discord_output()
-    # print(date_generator().strftime('%c %Z'))
+    markdown_output()
+
