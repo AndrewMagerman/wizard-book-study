@@ -1,3 +1,4 @@
 - no solution for project 1?
 - not clear that project 2 is in the book
 - three weeks was ok
+- church-hint was not found (help for ex 2.6)
