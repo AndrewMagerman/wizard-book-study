@@ -112,6 +112,7 @@ We are using Racket, a dialect of Scheme.
 https://racket-lang.org/download/
 
 ### Install the simply-scheme package
+`#lang racket`
 type `(require (planet dyoo/simply-scheme:2:2))` in the interpreter
 
 from:
