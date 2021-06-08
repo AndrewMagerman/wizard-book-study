@@ -112,6 +112,7 @@ We are using Racket, a dialect of Scheme.
 https://racket-lang.org/download/
 
 ### Install the simply-scheme package
+`#lang racket`
 type `(require (planet dyoo/simply-scheme:2:2))` in the interpreter
 
 from:
@@ -204,7 +205,7 @@ We **review** this work on Review Meeting Week 4 on Wednesday 19th May, 18.30 CE
 - do First Midterm
 
 
-We **review** this work on Review Meeting Week 5 on Wednesday 9th June, 18.30 CET
+We **review** this work on Review Meeting Week 5 on Wednesday 9th June, 19.00 CET
 
 ## Week 6 (Generic Operators)
 
@@ -217,7 +218,7 @@ We **review** this work on Review Meeting Week 5 on Wednesday 9th June, 18.30 CE
 - do Project 2 - section 2.2.4 of the book - all exercises
 
 
-We **review** this work on Review Meeting Week 6 on Wednesday 30th June, 18.30 CET
+We **review** this work on Review Meeting Week 6 on Wednesday 30th June, 19.00 CET
 
 ## Week 7 (Object-oriented programming)
 
@@ -229,7 +230,7 @@ We **review** this work on Review Meeting Week 6 on Wednesday 30th June, 18.30 C
 - cross-check your homework (solutions/week7.txt)
 
 
-We **review** this work on Review Meeting Week 7 on Wednesday 21st July, 18.30 CET
+We **review** this work on Review Meeting Week 7 on Wednesday 21st July, 19.00 CET
 
 ## Week 8 (Assignment, state, environments)
 
@@ -243,7 +244,7 @@ We **review** this work on Review Meeting Week 7 on Wednesday 21st July, 18.30 C
 - do Second Midterm
 
 
-We **review** this work on Review Meeting Week 8 on Wednesday 25th August, 18.30 CET
+We **review** this work on Review Meeting Week 8 on Wednesday 25th August, 19.00 CET
 
 ## Week 9 (Mutable data, vectors)
 
@@ -256,7 +257,7 @@ We **review** this work on Review Meeting Week 8 on Wednesday 25th August, 18.30
 - do Project 3a (with a partner)
 
 
-We **review** this work on Review Meeting Week 9 on Wednesday 15th September, 18.30 CET
+We **review** this work on Review Meeting Week 9 on Wednesday 15th September, 19.00 CET
 
 ## Week 10 (client/server, concurrency)
 
@@ -269,7 +270,7 @@ We **review** this work on Review Meeting Week 9 on Wednesday 15th September, 18
 - do Project 3b (with a partner)
 
 
-We **review** this work on Review Meeting Week 10 on Wednesday 6th October, 18.30 CET
+We **review** this work on Review Meeting Week 10 on Wednesday 6th October, 19.00 CET
 
 ## Week 11 (Streams)
 
@@ -281,7 +282,7 @@ We **review** this work on Review Meeting Week 10 on Wednesday 6th October, 18.3
 - cross-check your homework (solutions/week11.txt)
 
 
-We **review** this work on Review Meeting Week 11 on Wednesday 27th October, 18.30 CET
+We **review** this work on Review Meeting Week 11 on Wednesday 27th October, 19.00 CET
 
 ## Week 12 (Metacircular evaluator)
 
@@ -295,7 +296,7 @@ We **review** this work on Review Meeting Week 11 on Wednesday 27th October, 18.
 - do Third Midterm
 
 
-We **review** this work on Review Meeting Week 12 on Wednesday 17th November, 18.30 CET
+We **review** this work on Review Meeting Week 12 on Wednesday 17th November, 19.00 CET
 
 ## Week 13 (Analyzing evaluator, MapReduce)
 
@@ -307,7 +308,7 @@ We **review** this work on Review Meeting Week 12 on Wednesday 17th November, 18
 - cross-check your homework (solutions/week13.txt)
 
 
-We **review** this work on Review Meeting Week 13 on Wednesday 9th December, 18.30 CET
+We **review** this work on Review Meeting Week 13 on Wednesday 9th December, 19.00 CET
 
 ## Week 14 (lazy evaluator, nondeterministic evaluator)
 
@@ -321,5 +322,5 @@ We **review** this work on Review Meeting Week 13 on Wednesday 9th December, 18.
 - do Final Exam
 
 
-We **review** this work on Review Meeting Week 14 on Wednesday 12th January 2022, 18.30 CET
+We **review** this work on Review Meeting Week 14 on Wednesday 12th January 2022, 19.00 CET
 

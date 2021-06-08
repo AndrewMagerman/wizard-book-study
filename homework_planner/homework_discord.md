@@ -86,7 +86,7 @@ Week 5 (Hierarchical data)
 - do First Midterm
 
 
-We **review** this work on Review Meeting Week 5 on Wednesday 9th June, 18.30 CET
+We **review** this work on Review Meeting Week 5 on Wednesday 9th June, 19.00 CET
 
 repo: https://git.sr.ht/~codersonly/wizard-book-study
 labs = https://git.sr.ht/~codersonly/wizard-book-study/tree/master/item/reference/berkeley_cs61a_material/course_reader_vol_1/labs.pdf
@@ -106,7 +106,7 @@ Week 6 (Generic Operators)
 - do Project 2 - section 2.2.4 of the book - all exercises
 
 
-We **review** this work on Review Meeting Week 6 on Wednesday 30th June, 18.30 CET
+We **review** this work on Review Meeting Week 6 on Wednesday 30th June, 19.00 CET
 
 repo: https://git.sr.ht/~codersonly/wizard-book-study
 labs = https://git.sr.ht/~codersonly/wizard-book-study/tree/master/item/reference/berkeley_cs61a_material/course_reader_vol_1/labs.pdf
@@ -125,7 +125,7 @@ Week 7 (Object-oriented programming)
 - cross-check your homework (solutions/week7.txt)
 
 
-We **review** this work on Review Meeting Week 7 on Wednesday 21st July, 18.30 CET
+We **review** this work on Review Meeting Week 7 on Wednesday 21st July, 19.00 CET
 
 repo: https://git.sr.ht/~codersonly/wizard-book-study
 labs = https://git.sr.ht/~codersonly/wizard-book-study/tree/master/item/reference/berkeley_cs61a_material/course_reader_vol_1/labs.pdf
@@ -146,7 +146,7 @@ Week 8 (Assignment, state, environments)
 - do Second Midterm
 
 
-We **review** this work on Review Meeting Week 8 on Wednesday 25th August, 18.30 CET
+We **review** this work on Review Meeting Week 8 on Wednesday 25th August, 19.00 CET
 
 repo: https://git.sr.ht/~codersonly/wizard-book-study
 labs = https://git.sr.ht/~codersonly/wizard-book-study/tree/master/item/reference/berkeley_cs61a_material/course_reader_vol_1/labs.pdf
@@ -166,7 +166,7 @@ Week 9 (Mutable data, vectors)
 - do Project 3a (with a partner)
 
 
-We **review** this work on Review Meeting Week 9 on Wednesday 15th September, 18.30 CET
+We **review** this work on Review Meeting Week 9 on Wednesday 15th September, 19.00 CET
 
 repo: https://git.sr.ht/~codersonly/wizard-book-study
 labs = https://git.sr.ht/~codersonly/wizard-book-study/tree/master/item/reference/berkeley_cs61a_material/course_reader_vol_1/labs.pdf
@@ -186,7 +186,7 @@ Week 10 (client/server, concurrency)
 - do Project 3b (with a partner)
 
 
-We **review** this work on Review Meeting Week 10 on Wednesday 6th October, 18.30 CET
+We **review** this work on Review Meeting Week 10 on Wednesday 6th October, 19.00 CET
 
 repo: https://git.sr.ht/~codersonly/wizard-book-study
 labs = https://git.sr.ht/~codersonly/wizard-book-study/tree/master/item/reference/berkeley_cs61a_material/course_reader_vol_1/labs.pdf
@@ -205,7 +205,7 @@ Week 11 (Streams)
 - cross-check your homework (solutions/week11.txt)
 
 
-We **review** this work on Review Meeting Week 11 on Wednesday 27th October, 18.30 CET
+We **review** this work on Review Meeting Week 11 on Wednesday 27th October, 19.00 CET
 
 repo: https://git.sr.ht/~codersonly/wizard-book-study
 labs = https://git.sr.ht/~codersonly/wizard-book-study/tree/master/item/reference/berkeley_cs61a_material/course_reader_vol_1/labs.pdf
@@ -226,7 +226,7 @@ Week 12 (Metacircular evaluator)
 - do Third Midterm
 
 
-We **review** this work on Review Meeting Week 12 on Wednesday 17th November, 18.30 CET
+We **review** this work on Review Meeting Week 12 on Wednesday 17th November, 19.00 CET
 
 repo: https://git.sr.ht/~codersonly/wizard-book-study
 labs = https://git.sr.ht/~codersonly/wizard-book-study/tree/master/item/reference/berkeley_cs61a_material/course_reader_vol_1/labs.pdf
@@ -245,7 +245,7 @@ Week 13 (Analyzing evaluator, MapReduce)
 - cross-check your homework (solutions/week13.txt)
 
 
-We **review** this work on Review Meeting Week 13 on Wednesday 9th December, 18.30 CET
+We **review** this work on Review Meeting Week 13 on Wednesday 9th December, 19.00 CET
 
 repo: https://git.sr.ht/~codersonly/wizard-book-study
 labs = https://git.sr.ht/~codersonly/wizard-book-study/tree/master/item/reference/berkeley_cs61a_material/course_reader_vol_1/labs.pdf
@@ -266,7 +266,7 @@ Week 14 (lazy evaluator, nondeterministic evaluator)
 - do Final Exam
 
 
-We **review** this work on Review Meeting Week 14 on Wednesday 12th January 2022, 18.30 CET
+We **review** this work on Review Meeting Week 14 on Wednesday 12th January 2022, 19.00 CET
 
 repo: https://git.sr.ht/~codersonly/wizard-book-study
 labs = https://git.sr.ht/~codersonly/wizard-book-study/tree/master/item/reference/berkeley_cs61a_material/course_reader_vol_1/labs.pdf
