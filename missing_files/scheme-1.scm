@@ -1,7 +1,7 @@
 #lang planet dyoo/simply-scheme:2
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;; NOTE: I have copied this file from Brian Harveys lecuture "L14 Example Scheme Interpreter".
+;; NOTE: I have copied this file from Brian Harvey's lecture "L14 Example Scheme Interpreter".
 ;; This file should work in Dr.Racket.
 ;; I only had to change (flush) in the (scheme-1) function to (flush-output).
 ;; The file is not very readable in the video so there may be errors or
@@ -26,13 +26,13 @@
 ;; EVAL-1 takes an expression an returns its value.
 ;; APPLY-1 takes a procedure and a list of actual argument values, and
 ;; calls the procedure.
-;; They have these names to avoid conflict with STk's EVAL und APPLY,
+;; They have these names to avoid conflict with STk's EVAL and APPLY,
 ;; which have similar meanings.
 
 ;; Comments on EVAL-1:
 
 ;; There are four basic expression types in Scheme:
-;;    1. self-evaluating (a/k/a constant) expressions: numbers, <??>, etc.
+;;    1. self-evaluating (a/k/a constant) expressions: numbers, #t, etc.
 ;;    2. symbols (variables)
 ;;    3. special form (in this evaluator, just QOUTE, IF, and LAMBDA)
 ;;    4. procedure calls (can call a primitive or a LAMBDA-generated procedure)
@@ -41,7 +41,7 @@
 ;; procedure is here considered a constant expression. You can't type in
 ;; procedure values, but the value of a global variable can be a procedure,
 ;; and that value might get substituted for a parameter in the body of a
-;; higher-order function such as MAP, so the evaluator has to bea ready to
+;; higher-order function such as MAP, so the evaluator has to be ready to
 ;; see a built-in procedure as an "expression." Therefore, the procedure
 ;; CONSTANT? includes a check for (PROCEDURE? EXP).
 
@@ -119,7 +119,7 @@
 (define if-exp? (exp-checker 'if))
 (define lambda-exp? (exp-checker 'lambda))
 
-;; SUBSTITUTE subtitute actual arguments for *free* references to the
+;; SUBSTITUTE substitute actual arguments for *free* references to the
 ;; corresponding formal parameters. For example, given the expression
 ;;
 ;;      ((lambda (x y)
@@ -169,7 +169,7 @@
 
 ;; There is a strangeness in MAYBE-QOUTE, which must handle the
 ;; case of a primitive procedure as the actual argument value; these
-;; procedures shouldn't be qouted.
+;; procedures shouldn't be quoted.
 
 (define (substitute exp params args bound)
   (cond ((constant? exp) exp)
