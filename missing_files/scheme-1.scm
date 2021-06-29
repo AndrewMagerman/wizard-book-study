@@ -216,7 +216,7 @@
 ;               (lambda (map f n)
 ;                 (if (null? n)
 ;           	      '()
-;           	      (cons (f (car a)) (map map f (cdr a))) )) ))
+;           	      (cons (f (car n)) (map map f (cdr n))) )) ))
 ;            first
 ;            '(the rain in spain))
 ; (t r i s)
