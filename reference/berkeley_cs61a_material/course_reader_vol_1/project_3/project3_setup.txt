@@ -1,0 +1,86 @@
+INTRODUCTION
+============
+The explained steps in this document have been tested with GNU/Linux.
+
+SET-UP
+======
+From wizard-book-study/reference/berkeley_cs61a_material/course_reader_vol_1/project_3/adv.txt:
+GETTING STARTED
+To start, copy the following five files into your directory:
+   ~cs61a/lib/obj.scm           The object-oriented system
+   ~cs61a/lib/adv.scm           The adventure game program
+   ~cs61a/lib/tables.scm	An ADT you'll need for parts A5 and B4
+   ~cs61a/lib/adv-world.scm     The specific people, places, and things
+   ~cs61a/lib/small-world.scm   A smaller world you can use for debugging
+
+To work on this project, you must load these files into Scheme in the
+correct order: obj.scm first, then adv.scm and tables.scm when you're using
+that, and finally the particular world you're using, either adv-world.scm or
+small-world.scm.  The work you are asked to do refers to adv-world.scm;
+small-world.scm is provided in case you'd prefer to debug some of your
+procedures in a smaller world that may be less complicated to remember and
+also faster to load.
+
+The reason the adventure game is divided into adv.scm (containing the
+definitions of the object classes) and adv-world.scm (containing the
+specific instances of those objects in Berkeley) is that when you change
+something in adv.scm you may need to reload the entire world in order for
+your changed version to take effect.  Having two files means that you don't
+also have to reload the first batch of procedures.
+
+REQUIRED FILES
+==============
+wizard-book-study/reference/berkeley_cs61a_material/course_reader_vol_1/project_3
+wizard-book-study/reference/berkeley_cs61a_material/course_reader_vol_1/project_4/tables.rkt
+
+PATCH
+=====
+adv-world.rkt has to be modified otherwise it won't work:
+
+turquoise ~/p/sicp/prj3> diff adv-world-new.rkt adv-world-old.rkt
+25c25
+< (can-go MJC-Office 'west art-gallery)
+---
+> (can-go MJC-office 'west art-gallery)
+48,49c48,49
+< (define hacker (instantiate person 'hacker 61A-Lab))
+< (define nasty (instantiate thief 'nasty Sproul-Plaza))
+---
+> (define hacker (instantiate person 'hacker 61A-lab))
+> (define nasty (instantiate thief 'nasty sproul-plaza))
+
+DEMO
+====
+turquoise ~/p/sicp> docker run -v/home/turquoise/projects/sicp:/home -ti stklos/stklos:1.40 stklos
+  \    STklos version 1.40  (Id: 572641c)
+   \   Copyright (C) 1999-2020 Erick Gallesio <eg@unice.fr>
+  / \  Université Côte d'Azur
+ /   \ [Linux-5.7.0-3-MANJARO-x86_64/pthread/readline/utf8]
+stklos> (load "prj3/obj.rkt")
+stklos> (load "prj3/adv.rkt")
+stklos> (load "prj3/tables.rkt")
+stklos> (load "prj3/adv-world.rkt")
+stklos> (ask hacker 'go 'north)
+The workstations come back to life just in time.
+
+
+hacker moved from 61A-Lab to Pimentel
+appeared
+stklos> (ask hacker 'go 'north)
+
+
+hacker moved from Pimentel to Soda
+appeared
+stklos> (ask Soda 'appear Jolt)
+**** Error:
+%execute: variable `Jolt' unbound
+        (type ",help" for more information)
+stklos> (define Jolt (instantiate thing 'Jolt))
+;; Jolt
+stklos> (ask Soda 'appear Jolt)
+appeared
+stklos> (ask hacker 'take Jolt)
+
+hacker took Jolt
+taken
+stklos>
