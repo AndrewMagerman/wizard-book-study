@@ -1,0 +1,38 @@
+Andrew:
+
+Not very exciting
+
+Richard:
+
+OOP concepts were familiar
+overconfident
+too many braces
+why doesn't the language implement
+interested in the implementation of self
+
+recommended:
+https://www.youtube.com/watch?v=ncHmEUmJZf4&list=LL&index=2
+
+Harun:
+a bit bored by week 7
+tried Haskell, found it easier
+
+https://www.haskell.org/
+
+61as is the berkeley course for learning with scheme
+
+link: https://inst.eecs.berkeley.edu/~cs61as/library/
+
+
+Florence:
+not as mindblowing as the previous
+Talk from Corinna was really interesting
+https://www.youtube.com/watch?v=TbP2B1ijWr8
+
+
+big toolbox
+GUIs are great for inheritance
+
+
+
+
