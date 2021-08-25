@@ -1,0 +1,4 @@
+
+- picture project was difficult to realize
+
+adv-world has some uppercase/lowercase inconsistencies which Racket does not like

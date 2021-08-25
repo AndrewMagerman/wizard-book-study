@@ -1,0 +1,17 @@
+
+Groups:
+richi - Harun and Umut - Corinna
+
+Andrew:
+
+confused about syntax
+
+page 317
+define (count) as opposed to define count
+
+confused about difference between frame and environment
+if I extend an environment with a frame, I'm creating a new environment
+
+ask function really pretty
+
+
