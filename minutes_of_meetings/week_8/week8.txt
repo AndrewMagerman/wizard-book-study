@@ -1,6 +1,31 @@
+Status:
+
+Andrew:
+
+Richard:
+initially skeptical, but then found beauty
+lexical scoping, dispatch
+returning functions that you can call
+
+all still a bit confused
+
+Christian:
+Enjoyed the book, watched the lectures, nested environments
+
+
+Harun:
+Week 9 is loads of fun
+
+Umut:
+nice chapter
+extra for experts is the exercise with the let
+
+
 
 Groups:
 richi - Harun and Umut - Corinna
+https://mitpress.mit.edu/sites/default/files/sicp/full-text/book/book-Z-H-21.html#%_sec_3.2.1
+
 
 Andrew:
 
