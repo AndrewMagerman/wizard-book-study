@@ -1,0 +1,23 @@
+Andrew:
+
+
+Harun:
+didnt finish the project
+
+extra for experts
+
+
+Richard:
+
+Write access to repo:
+Linkedlists compared to Vectors, vectors are super fast, ll terribly inefficient
+read up on circular problem
+hare and turtle concept?
+
+Christian:
+Language issues
+
+Florence:
+very basic data structures, play with them
+actually doing them really helps
+box and pointer diagrams
