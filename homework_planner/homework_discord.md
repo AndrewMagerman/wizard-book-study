@@ -159,7 +159,7 @@ Week 9 (Mutable data, vectors)
 
 - do labs for week 9
 - read the book Section 3.3.1–3
-- watch the lectures 24 & 26
+- watch the lectures 24 & 25 & 26
 - read the course_notes for week 9
 - do homework for week 9 including book exercises 3.16, 3.17, 3.21, 3.25, 3.27
 - cross-check your homework (solutions/week9.txt)
@@ -179,9 +179,9 @@ Week 10 (client/server, concurrency)
 
 - do labs for week 10
 - read the book Section 3.4
-- watch the lectures 30 & 31 & 32
+- watch the lectures 29 & 30 & 31 & 32
 - read the course_notes for week 10
-- do homework for week 10 including book exercises 3.38, 3.39, 3.40, 3.41, 3.42, 3.44, 3.46, 3.48
+- do homework for week 10 including book exercises 3.38, 3.39, 3.40, 3.41, 3.42, 3.44, 3.46, 3.48, 3.33 to 3.37
 - cross-check your homework (solutions/week10.txt)
 - do Project 3b (with a partner)
 
@@ -199,7 +199,7 @@ Week 11 (Streams)
 
 - do labs for week 11
 - read the book Section 3.5.1–3, 3.5.5
-- watch the lectures 33 & 34 & 35
+- watch the lectures 27 & 28 & 33 & 34 & 35
 - read the course_notes for week 11
 - do homework for week 11 including book exercises 3.50, 3.51, 3.52, 3.53, 3.54, 3.55, 3.56, 3.64, 3.66, 3.68
 - cross-check your homework (solutions/week11.txt)

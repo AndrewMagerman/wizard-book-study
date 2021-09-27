@@ -103,7 +103,7 @@ We **review** this work on Review Meeting Week 8 on Wednesday 25th August, 19.00
 
 - do [labs](reference/berkeley_cs61a_material/course_reader_vol_1/labs.pdf) for week 9
 - read the book Section 3.3.1–3
-- watch the lectures 24 & 26
+- watch the lectures 24 & 25 & 26
 - read the [course notes](reference/berkeley_cs61a_material/course_reader_vol_2/notes.pdf) for week 9
 - do [homework](reference/berkeley_cs61a_material/course_reader_vol_1/hw.pdf) for week 9 including book exercises 3.16, 3.17, 3.21, 3.25, 3.27
 - cross-check your homework (solutions/week9.txt)
@@ -116,9 +116,9 @@ We **review** this work on Review Meeting Week 9 on Wednesday 15th September, 19
 
 - do [labs](reference/berkeley_cs61a_material/course_reader_vol_1/labs.pdf) for week 10
 - read the book Section 3.4
-- watch the lectures 30 & 31 & 32
+- watch the lectures 29 & 30 & 31 & 32
 - read the [course notes](reference/berkeley_cs61a_material/course_reader_vol_2/notes.pdf) for week 10
-- do [homework](reference/berkeley_cs61a_material/course_reader_vol_1/hw.pdf) for week 10 including book exercises 3.38, 3.39, 3.40, 3.41, 3.42, 3.44, 3.46, 3.48
+- do [homework](reference/berkeley_cs61a_material/course_reader_vol_1/hw.pdf) for week 10 including book exercises 3.38, 3.39, 3.40, 3.41, 3.42, 3.44, 3.46, 3.48, 3.33 to 3.37
 - cross-check your homework (solutions/week10.txt)
 - do Project 3b (with a partner)
 
@@ -129,7 +129,7 @@ We **review** this work on Review Meeting Week 10 on Wednesday 6th October, 19.0
 
 - do [labs](reference/berkeley_cs61a_material/course_reader_vol_1/labs.pdf) for week 11
 - read the book Section 3.5.1–3, 3.5.5
-- watch the lectures 33 & 34 & 35
+- watch the lectures 27 & 28 & 33 & 34 & 35
 - read the [course notes](reference/berkeley_cs61a_material/course_reader_vol_2/notes.pdf) for week 11
 - do [homework](reference/berkeley_cs61a_material/course_reader_vol_1/hw.pdf) for week 11 including book exercises 3.50, 3.51, 3.52, 3.53, 3.54, 3.55, 3.56, 3.64, 3.66, 3.68
 - cross-check your homework (solutions/week11.txt)
