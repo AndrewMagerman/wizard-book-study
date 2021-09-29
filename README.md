@@ -85,10 +85,12 @@ https://www.youtube.com/watch?v=4leZ1Ca4f0g&list=PLhMnuBfGeCDNgVzLPxF9o5UNKG1b-L
 
 https://inst.eecs.berkeley.edu//~cs61a/reader/nodate-hw.pdf
 
-### Homework Solutions
+### Homework Solutions from Brian Harvey
  
 https://people.eecs.berkeley.edu/~bh/61a-pages/Solutions/
 
+### cs61 library
+https://inst.eecs.berkeley.edu/~cs61as/library/
 
 ## Projects
 
