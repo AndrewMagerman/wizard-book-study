@@ -107,7 +107,12 @@ https://inst.eecs.berkeley.edu//~cs61a/sp11/
 
 # Software
 
-We are using Racket, a dialect of Scheme.
+We are using Racket, a dialect of Scheme. Most of the exercises can be
+done with the comfortable DrRacket IDE.
+
+Some require https://stklos.net/
+
+
 
 ## Install Racket
 
