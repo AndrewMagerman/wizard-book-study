@@ -125,7 +125,11 @@ Use 'Simply Scheme' as the selected language
 ### Common Racket Errors
 https://docs.google.com/document/d/1jGtldEcm_qPoHGknJOkWj1D4-doyBjDivaV_Vn7_Hxk/edit#
 
+### Syntax highlighting
+
 JetBrains Products have a Racket syntax highlighter!!!
+- Search for `Racket` in the Plugin Marketplace
+- Preferences/Editor/File Types : add *.scm under the Racket file 
 
 # Forums and chats
 
