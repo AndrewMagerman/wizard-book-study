@@ -26,23 +26,29 @@ in that case just load im-client.scm again.
 #### pull the latest image from docker
 
 ``` bash
-$ docker pull stklos/stklos:1.40          # grab the 1.40 version of STklos
-$ docker run -ti stklos/stklos:1.40       # and run it
+$ docker pull stklos/stklos:1.60          # grab the 1.40 version of STklos
+$ docker run -ti stklos/stklos:1.60       # and run it
 
 ...
 stklos> (version)
-"1.40"
+"1.60"
 stklos> (exit)
 ```
 
 #### run a simple instance of stklos
 
+docs: https://stklos.net/
 
 #### run stklos within a particular directory
 
 Navigate to the directory with the code you want to run
 
 ```
-docker run -v$(pwd):/home -ti stklos/stklos:1.60 stklos -f im-server.scm
+docker run -v$(pwd):/home -ti stklos/stklos:1.60 stklos
+```
+
+```
+stklos> (load "im-server.scm")
+stklos> (im-server)
 ```
 
