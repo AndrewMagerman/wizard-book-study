@@ -1,0 +1,3 @@
+
+
+docker run -v$(pwd):/home -ti stklos/stklos:1.40 stklos
