@@ -11,12 +11,12 @@ The implemented primitives reside in `im-server.scm` and `im-client.scm` respect
 When separated into a file, either the added functions won't be recognized or not executed at all.
 It is not clear why STklos is behaving in this way.
 
-## STklos for dummies
+## Introduction to STklos with Docker
 
-### Pull the latest image from docker
+### Pull the latest image from docker and start it
 
 ``` bash
-$ docker pull stklos/stklos:1.60          # grab the 1.40 version of STklos
+$ docker pull stklos/stklos:1.60          # grab the 1.60 version of STklos
 $ docker run -ti stklos/stklos:1.60       # and run it
 
 ...
@@ -25,8 +25,6 @@ stklos> (version)
 stklos> (exit)
 ```
 
-### Run a simple instance of STklos
-
 docs: https://stklos.net/
 
 ### Run STklos within a particular directory
@@ -34,12 +32,13 @@ docs: https://stklos.net/
 Navigate to the directory with the code you want to run
 
 ```
+cd wizard-book-study/missing_files/week10
 docker run -v$(pwd):/home -ti stklos/stklos:1.60 stklos
 ```
 
 ```
 stklos> (load "im-server.scm")
-stklos> (im-server)
+stklos> (im-server-start)
 ```
 
 ## Setting up the instant messaging programs
@@ -58,6 +57,7 @@ Use them to connect to the server as a client.
 ### Client
 First set your user with setenv!, for example `(setenv! "USER" "Harun")`,
 will set the environment variable "USER" to "Harun".
+(Note that this is not the Linux shell environment variable ${USER} from outside the Docker container! It is the ${USER} variable from the Docker container where stklos is running.)
 Now load im-client.scm and connect to the server via im-enroll `(im-enroll "172.17.0.2" 36395)`.
 Sometimes loading im-client.scm after setting the USER environment variable will lead to an error,
 in that case just repeat the aforementioned.
