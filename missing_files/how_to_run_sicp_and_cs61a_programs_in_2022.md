@@ -71,6 +71,11 @@ the /project_3 subdirectory with correct casing
 
 please refer to the subdirectory /week10
 
+## CS61a Week 11
+
+Here is how to implement this using Racket:
+
+https://docs.racket-lang.org/reference/streams.html
 
 # Exercises 
 
