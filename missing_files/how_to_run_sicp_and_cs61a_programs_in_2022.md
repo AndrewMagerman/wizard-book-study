@@ -76,6 +76,24 @@ please refer to the subdirectory /week10
 Here is how to implement this using Racket:
 
 https://docs.racket-lang.org/reference/streams.html
+https://docs.racket-lang.org/reference/Delayed_Evaluation.html
+
+`(require racket/stream)`
+
+Labs 1:
+`(require racket/promise)`
+
+Labs 2:
+type
+`(require pfds/stream)` in the DrRacket Interpreter to install, then use at the top of the program
+
+You will need to replace cons-stream with stream-cons
+
+Labs 3 & 4:
+`(require racket/stream)`
+`(require racket/promise)`
+
+The solutions are, bizzarely, under Week13
 
 # Exercises 
 

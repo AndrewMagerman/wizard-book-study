@@ -89,6 +89,9 @@ https://inst.eecs.berkeley.edu//~cs61a/reader/nodate-hw.pdf
  
 https://people.eecs.berkeley.edu/~bh/61a-pages/Solutions/
 
+Other good resource:
+https://evarga.gitbooks.io/solutions-guide-for-the-sicp-book/content/
+
 ### cs61 library
 https://inst.eecs.berkeley.edu/~cs61as/library/
 
