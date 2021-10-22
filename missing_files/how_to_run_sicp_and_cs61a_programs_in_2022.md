@@ -95,6 +95,19 @@ Labs 3 & 4:
 
 The solutions are, bizzarely, under Week13
 
+
+Function to show the first n elements in a stream using racket/stream.
+Inspired by Brian Allison
+https://wizardbook.wordpress.com/2010/12/20/exercise-3-56/
+```
+(define (show-stream s n)
+  (if (zero? n)
+      (displayln "done")
+      (begin
+        (show (stream-first s))
+        (show-stream (stream-rest s) (- n 1) ))))
+```
+
 # Exercises 
 
 ## 2.6
