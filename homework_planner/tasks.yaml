@@ -92,7 +92,7 @@ Week 12:
   Lectures: 36 & 37
   book_exercises: "4.3, 4.6, 4.7*, 4.10*, 4.11*, 4.13, 4.14, 4.15"
   exams: "Third Midterm"
-  Review_Meeting: "Wednesday 17th November, 19.00 CET"
+  Review_Meeting: "Monday 29th November, 19.00 CET"
 Week 13:
   week: 13
   Theme: "Analyzing evaluator, MapReduce"
@@ -101,7 +101,7 @@ Week 13:
                    path: "reference/berkeley_cs61a_material/course_reader_vol_2/Therac-25.pdf" }
   Lectures: 38 & 39
   book_exercises: "4.22, 4.23, 4.24"
-  Review_Meeting: "Wednesday 9th December, 19.00 CET"
+  Review_Meeting: "TBD"
 Week 14:
   week: 14
   Theme: "lazy evaluator, nondeterministic evaluator"
@@ -110,5 +110,5 @@ Week 14:
   book_exercises: "4.25, 4.26, 4.28, 4.42, 4.45, 4.49, 4.50, 4.52"
   project: "Project 4 (with a partner)"
   exams: "Final Exam"
-  Review_Meeting: "Wednesday 12th January 2022, 19.00 CET"
+  Review_Meeting: "TBD"
 
