@@ -226,7 +226,7 @@ Week 12 (Metacircular evaluator)
 - do Third Midterm
 
 
-We **review** this work on Review Meeting Week 12 on Wednesday 17th November, 19.00 CET
+We **review** this work on Review Meeting Week 12 on Monday 29th November, 19.00 CET
 
 repo: https://git.sr.ht/~codersonly/wizard-book-study
 labs = https://git.sr.ht/~codersonly/wizard-book-study/tree/master/item/reference/berkeley_cs61a_material/course_reader_vol_1/labs.pdf
@@ -245,7 +245,7 @@ Week 13 (Analyzing evaluator, MapReduce)
 - cross-check your homework (solutions/week13.txt)
 
 
-We **review** this work on Review Meeting Week 13 on Wednesday 9th December, 19.00 CET
+We **review** this work on Review Meeting Week 13 on TBD
 
 repo: https://git.sr.ht/~codersonly/wizard-book-study
 labs = https://git.sr.ht/~codersonly/wizard-book-study/tree/master/item/reference/berkeley_cs61a_material/course_reader_vol_1/labs.pdf
@@ -266,7 +266,7 @@ Week 14 (lazy evaluator, nondeterministic evaluator)
 - do Final Exam
 
 
-We **review** this work on Review Meeting Week 14 on Wednesday 12th January 2022, 19.00 CET
+We **review** this work on Review Meeting Week 14 on TBD
 
 repo: https://git.sr.ht/~codersonly/wizard-book-study
 labs = https://git.sr.ht/~codersonly/wizard-book-study/tree/master/item/reference/berkeley_cs61a_material/course_reader_vol_1/labs.pdf

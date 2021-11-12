@@ -310,7 +310,7 @@ We **review** this work on Review Meeting Week 11 on Wednesday 27th October, 19.
 - do Third Midterm
 
 
-We **review** this work on Review Meeting Week 12 on Wednesday 17th November, 19.00 CET
+We **review** this work on Review Meeting Week 12 on Monday 29th November, 19.00 CET
 
 ## Week 13 (Analyzing evaluator, MapReduce)
 
@@ -322,7 +322,7 @@ We **review** this work on Review Meeting Week 12 on Wednesday 17th November, 19
 - cross-check your homework (solutions/week13.txt)
 
 
-We **review** this work on Review Meeting Week 13 on Wednesday 9th December, 19.00 CET
+We **review** this work on Review Meeting Week 13 on TBD
 
 ## Week 14 (lazy evaluator, nondeterministic evaluator)
 
@@ -336,4 +336,5 @@ We **review** this work on Review Meeting Week 13 on Wednesday 9th December, 19.
 - do Final Exam
 
 
-We **review** this work on Review Meeting Week 14 on Wednesday 12th January 2022, 19.00 CET
+We **review** this work on Review Meeting Week 14 on TBD
+
