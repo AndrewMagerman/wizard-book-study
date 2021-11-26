@@ -131,6 +131,18 @@ These require sicp-concurrency
 (require (planet dyoo/sicp-concurrency:1:2/sicp-concurrency))
 ```
 
+## Chapter 4
+
+Following the recommendation of Ervin Varga 
+https://evarga.gitbooks.io/solutions-guide-for-the-sicp-book/content/chapter4.html
+
+
+To run the evaluator under DrRacket you must perform the following changes to the original sources:
+
+- Add the `#lang planet neil/sicp` directive at the beginning of each file.
+- Rename apply to apply-custom (or something else), as needed.
+
+
 
 # Miscellaneous help
 
