@@ -7,6 +7,7 @@ Then load a number of files:
 (load "simply-scheme.scm")
 (load "obj-harun.rkt")
 (load "logo.rkt")
+(load "disable-turtle-graphics.scm")
 (load "logo-meta.rkt")
 
 Simply-scheme has the Brian Harvey extensions to Scheme without which procedures like word, sentance or butfirst won't exist.
