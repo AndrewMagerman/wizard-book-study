@@ -59,7 +59,10 @@ def homework_this_week(value: dict, target='markdown') -> List[str]:
         path = value["Reading_extra"]["path"]
         list1.extend([f'read [{title}]({path})'])
 
-    list1.extend([f'watch the lectures {value["Lectures"]}',
+    if "Lectures" in value:
+        list1.extend([f'watch the lectures {value["Lectures"]}'])
+
+    list1.extend([
                   f'read the {course_notes} for week {week}',
                   f'do {homework} for week {week}{homework_line_extra}',
                   f'cross-check your homework (solutions/week{week}.txt)',

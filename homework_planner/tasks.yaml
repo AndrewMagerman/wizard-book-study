@@ -86,13 +86,28 @@ Week 11:
 Week 12:
   week: 12
   Theme: "Metacircular evaluator"
+  Reading: "Section 4.1.1–6"
+  Reading_extra: { title: "MapReduce paper",
+                   path: "reference/berkeley_cs61a_material/course_reader_vol_2/mapreduce-osdi04.pdf" }
+  Lectures: 36 & 37
+  book_exercises: "4.3, 4.6, 4.7, 4.10"
+  exams: "Third Midterm"
+  Review_Meeting: "Monday 29th November, 19.00 CET"
+Week 12b:
+  week: 12b
+  Theme: "Metacircular evaluator part 2"
   Reading: "Section 4.1.1–6 and MapReduce paper in course reader."
   Reading_extra: { title: "MapReduce paper",
                    path: "reference/berkeley_cs61a_material/course_reader_vol_2/mapreduce-osdi04.pdf" }
   Lectures: 36 & 37
-  book_exercises: "4.3, 4.6, 4.7*, 4.10*, 4.11*, 4.13, 4.14, 4.15"
-  exams: "Third Midterm"
-  Review_Meeting: "Monday 29th November, 19.00 CET"
+  book_exercises: "4.11, 4.13, 4.14, 4.15"
+  Review_Meeting: "Monday 13th December, 19.00 CET"
+Week 12c:
+  week: 12c
+  Theme: "Project 4a - A1 A2 B1 B2"
+  Reading: "logo.txt in reference/berkeley_cs61a_material/course_reader_vol_1/project_4"
+  book_exercises: "4.11, 4.13, 4.14, 4.15"
+  Review_Meeting: "Monday 10th January 2022, 19.00 CET"
 Week 13:
   week: 13
   Theme: "Analyzing evaluator, MapReduce"

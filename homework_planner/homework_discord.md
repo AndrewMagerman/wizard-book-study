@@ -217,16 +217,54 @@ homework = https://git.sr.ht/~codersonly/wizard-book-study/tree/master/item/refe
 Week 12 (Metacircular evaluator)
 
 - do labs for week 12
-- read the book Section 4.1.1–6 and MapReduce paper in course reader.
+- read the book Section 4.1.1–6
 - read [MapReduce paper](reference/berkeley_cs61a_material/course_reader_vol_2/mapreduce-osdi04.pdf)
 - watch the lectures 36 & 37
 - read the course_notes for week 12
-- do homework for week 12 including book exercises 4.3, 4.6, 4.7*, 4.10*, 4.11*, 4.13, 4.14, 4.15
+- do homework for week 12 including book exercises 4.3, 4.6, 4.7, 4.10
 - cross-check your homework (solutions/week12.txt)
 - do Third Midterm
 
 
 We **review** this work on Review Meeting Week 12 on Monday 29th November, 19.00 CET
+
+repo: https://git.sr.ht/~codersonly/wizard-book-study
+labs = https://git.sr.ht/~codersonly/wizard-book-study/tree/master/item/reference/berkeley_cs61a_material/course_reader_vol_1/labs.pdf
+course_notes = https://git.sr.ht/~codersonly/wizard-book-study/tree/master/item/reference/berkeley_cs61a_material/course_reader_vol_2/notes.pdf
+homework = https://git.sr.ht/~codersonly/wizard-book-study/tree/master/item/reference/berkeley_cs61a_material/course_reader_vol_1/hw.pdf
+
+
+
+Week 12b (Metacircular evaluator part 2)
+
+- do labs for week 12b
+- read the book Section 4.1.1–6 and MapReduce paper in course reader.
+- read [MapReduce paper](reference/berkeley_cs61a_material/course_reader_vol_2/mapreduce-osdi04.pdf)
+- watch the lectures 36 & 37
+- read the course_notes for week 12b
+- do homework for week 12b including book exercises 4.11, 4.13, 4.14, 4.15
+- cross-check your homework (solutions/week12b.txt)
+
+
+We **review** this work on Review Meeting Week 12b on Monday 13th December, 19.00 CET
+
+repo: https://git.sr.ht/~codersonly/wizard-book-study
+labs = https://git.sr.ht/~codersonly/wizard-book-study/tree/master/item/reference/berkeley_cs61a_material/course_reader_vol_1/labs.pdf
+course_notes = https://git.sr.ht/~codersonly/wizard-book-study/tree/master/item/reference/berkeley_cs61a_material/course_reader_vol_2/notes.pdf
+homework = https://git.sr.ht/~codersonly/wizard-book-study/tree/master/item/reference/berkeley_cs61a_material/course_reader_vol_1/hw.pdf
+
+
+
+Week 12c (Project 4a - A1 A2 B1 B2)
+
+- do labs for week 12c
+- read the book logo.txt in reference/berkeley_cs61a_material/course_reader_vol_1/project_4
+- read the course_notes for week 12c
+- do homework for week 12c including book exercises 4.11, 4.13, 4.14, 4.15
+- cross-check your homework (solutions/week12c.txt)
+
+
+We **review** this work on Review Meeting Week 12c on Monday 10th January 2022, 19.00 CET
 
 repo: https://git.sr.ht/~codersonly/wizard-book-study
 labs = https://git.sr.ht/~codersonly/wizard-book-study/tree/master/item/reference/berkeley_cs61a_material/course_reader_vol_1/labs.pdf
