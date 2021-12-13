@@ -20,7 +20,7 @@ Then load a number of files:
 (load "disable-turtle-graphics.scm")
 (load "logo-meta.rkt")
 
-Simply-scheme has the Brian Harvey extensions to Scheme without which procedures like word, sentance or butfirst won't exist.
+simply-scheme has the Brian Harvey extensions to Scheme without which procedures like word, sentance or butfirst won't exist.
 obj-harun is the Fixed Class defining library that Harun fixed for STKLOS
 logo.rkt and logo-meta.rkt are the files that build the LOGO interpreter which you have to enhance for the exercise
 
@@ -44,11 +44,11 @@ false
 
 
 GOTCHA NOTE: (4 hours invested (wasted?))
-in logo-meta.rkt procedures are added to the the-primitive-procedures table. If you change parts of the 
+In logo-meta.rkt procedures are added to the the-primitive-procedures table. If you change parts of the 
 procedure like logo-pred in exercise B2 but don't restart the docker environment you simply add further
 defintions for the same keys to the table. Since the original entry is still in the table the 
-apply-primitive-procedure will fine the original one and will not bother to look further for your new procedure.
-SO, TO BE SURE THAT YOUR LATEST CODE IS RUNNING, QUIT DOCKER CONTAINER AND START OVER!
+apply-primitive-procedure will find the original one and will not bother to look further for your new procedure.
+SO, TO BE SURE THAT YOUR LATEST CODE IS RUNNING, QUIT THE DOCKER CONTAINER AND START OVER!
 
 
 To try Richard's solution:
