@@ -1,6 +1,16 @@
 To run the LOGO interpreter with STKLOS in a Docker container:
 
+Change to the project_4 directory
+cd wizard-book-study\reference\berkeley_cs61a_material\course_reader_vol_1\project_4
+
+On Linux:
 docker run -v$(pwd):/home -ti stklos/stklos:1.60 stklos
+
+On Windows in PowerShell (VS Code):
+docker run -v {PWD}:/home -ti stklos/stklos:1.60 stklos
+
+On Windows in DOS:
+docker run -v %cd%:/home -ti stklos/stklos:1.60 stklos
 
 Then load a number of files:
 
