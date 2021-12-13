@@ -31,3 +31,27 @@ this is [a nested] list
 4
 ? print equalp 4 6
 false
+
+
+GOTCHA NOTE: (4 hours invested (wasted?))
+in logo-meta.rkt procedures are added to the the-primitive-procedures table. If you change parts of the 
+procedure like logo-pred in exercise B2 but don't restart the docker environment you simply add further
+defintions for the same keys to the table. Since the original entry is still in the table the 
+apply-primitive-procedure will fine the original one and will not bother to look further for your new procedure.
+SO, TO BE SURE THAT YOUR LATEST CODE IS RUNNING, QUIT DOCKER CONTAINER AND START OVER!
+
+
+To try Richard's solution;
+
+(load "simply-scheme.scm")
+(load "obj-harun.rkt")
+(load "logo.rkt")
+(load "disable-turtle-graphics.scm")
+
+(load "richard-solution.scm")
+
+(load "logo-meta.rkt")
+
+(initialize-logo)
+
+;; try the LOGO commands above
