@@ -1,4 +1,6 @@
-;;; Problem A1   make-line-obj
+;; Problem A1   make-line-obj
+
+;; Create a LINE-OBJECT class with methods empty? next and put-back
 
 (define-class (LINE-OBJECT tokenizedInput)
     (method (empty?) (null? tokenizedInput))
@@ -16,6 +18,7 @@
         )
 )
 
+;; tests for the LINE-OBJECT class
 (define (assert-eq expected actual message)
   (if (equal? expected actual)
       'success
@@ -35,12 +38,12 @@
 (assert-eq (list 'new 'a 'b 'c) (ask Test-LINE-OBJECT-put-back-1 'tokenizedInput)  'Test-LINE-OBJECT-put-back-1)
 
 
-
+;; replace Brian Harvey's make-line-obj procedure
 (define (make-line-obj text)
     (instantiate LINE-OBJECT text))
   ;;(error "make-line-obj not written yet!"))
 
-
+;; tests
  (define Test-make-line-obj (make-line-obj (list 'a 'b 'c)) )
  (assert-eq (list 'a 'b 'c) (ask Test-make-line-obj 'tokenizedInput)  'Test-make-line-object)
   
@@ -57,7 +60,14 @@
     '=no-value=
 )
 
-;;; Problem B1    eval-line
+;; tests
+;; (logo-type 'hello)
+;; (logo-type (list '"[" 'a '"[" 'b 'c '"]" 'd '"]") )
+
+
+;; Problem B1    eval-line
+;; Logo-eval's job is to evaluate one instruction or expression and return
+;; its value.
 
 (define (eval-line line-obj env)
     (if (ask line-obj 'empty?) 
@@ -68,11 +78,11 @@
             (let ((proc (lookup-procedure token)))
                 (if (not proc) 
                     (error "I don't know how  to " token)
-                    (begin
-                        ;; collect-n-args puls the needed number of arguments of out line-obj list
+                    (let ((number-of-arguments (arg-count proc)))
+                        ;; collect-n-args pulls the needed number of arguments of out line-obj list
                         ;; then we cons the token to the args and package it up into a LINE-OBJECT.
                         ;; finally we ask logo-eval to interpret it
-                        (logo-eval (instantiate LINE-OBJECT (cons token (collect-n-args (arg-count proc) line-obj env))) env)
+                        (logo-eval (instantiate LINE-OBJECT (cons token (collect-n-args (abs number-of-arguments) line-obj env))) env)
                         (eval-line line-obj env)
 					)
                 )
@@ -81,11 +91,21 @@
     )
 )
 
+;; tests
 (define empty-line-obj (instantiate LINE-OBJECT '()))
 (assert-eq '=no-value= (eval-line empty-line-obj '()) 'Test-empty-line-obj)
 
 
-;;; Problem B2   logo-pred
+;; Problem B2   logo-pred
+
+;; Your job is to write the higher-order function LOGO-PRED whose argument is
+;; a Scheme predicate and whose return value is a Logo predicate, i.e., a
+;; function that returns TRUE instead of #T and FALSE instead of #F.
+
+;; Note that logo-pred returns a function, not the result of a function.
+;; So, in the second lambda notice how the if is not a (if. If it had a brace in
+;; front of it, the if would execute and we would return '[true] or '[false]. The
+;; brace in front of the if is the opening body of the lambda.
 
 (define (logo-pred pred)
     (lambda args (
