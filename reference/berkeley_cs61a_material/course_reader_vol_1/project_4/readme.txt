@@ -41,16 +41,16 @@ apply-primitive-procedure will fine the original one and will not bother to look
 SO, TO BE SURE THAT YOUR LATEST CODE IS RUNNING, QUIT DOCKER CONTAINER AND START OVER!
 
 
-To try Richard's solution;
+To try Richard's solution:
 
+docker run -v$(pwd):/home -ti stklos/stklos:1.60 stklos
 (load "simply-scheme.scm")
 (load "obj-harun.rkt")
 (load "logo.rkt")
 (load "disable-turtle-graphics.scm")
-
-(load "richard-solution.scm")
-
+(load "richard-solution.scm") ;; must be loaded before logo-meta.rkt
 (load "logo-meta.rkt")
+(load "richard-solution.scm") ;; Yes a second time (logo-meta.rkt overwrites some functions)
 
 (initialize-logo)
 
