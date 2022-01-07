@@ -4,7 +4,7 @@ This README will explain how to do the lab and homework of week 13.
 The MapReduce assignments can be solved with racket.
 To do so require mapreduce.rkt, which is from the cs61as_library.
 
-```lisp
+```racket
 #lang racket
 
 (require (file "~/projects/sicp/wizard-book-study/reference/cs61as_library/mapreduce-racket/mapreduce.rkt"))
@@ -18,7 +18,7 @@ To do so require mapreduce.rkt, which is from the cs61as_library.
                 (Users specify a map function that processes a key/value pair to generate a set of intermediate key/value pairs, and a reduce function that merges all intermediate values associated with the same intermediate key.)
                 (Many real world tasks are expressible in this model, as shown in the paper.)))
 
-(mapreduce (lambda (input-key-value-pair)
+(mapreduce (lambda (sentence)
              (list (make-kv-pair 'line 1)))
            +
            0
@@ -32,7 +32,7 @@ To do so require mapreduce.rkt, which is from the cs61as_library.
 For the third assignment the function match? is needed.
 The implementation is in missing_files/week13.
 
-```lisp
+```racket
 #lang racket
 
 (require (file "~/projects/sicp/wizard-book-study/missing_files/week13/match.rkt"))
