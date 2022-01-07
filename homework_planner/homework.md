@@ -141,7 +141,6 @@ We **review** this work on Review Meeting Week 11 on Wednesday 27th October, 19.
 
 - do [labs](reference/berkeley_cs61a_material/course_reader_vol_1/labs.pdf) for week 12
 - read the book Section 4.1.1–6
-- read [MapReduce paper](reference/berkeley_cs61a_material/course_reader_vol_2/mapreduce-osdi04.pdf)
 - watch the lectures 36 & 37
 - read the [course notes](reference/berkeley_cs61a_material/course_reader_vol_2/notes.pdf) for week 12
 - do [homework](reference/berkeley_cs61a_material/course_reader_vol_1/hw.pdf) for week 12 including book exercises 4.3, 4.6, 4.7, 4.10
@@ -169,7 +168,7 @@ We **review** this work on Review Meeting Week 12b on Monday 13th December, 19.0
 - do [labs](reference/berkeley_cs61a_material/course_reader_vol_1/labs.pdf) for week 12c
 - read the book logo.txt in reference/berkeley_cs61a_material/course_reader_vol_1/project_4
 - read the [course notes](reference/berkeley_cs61a_material/course_reader_vol_2/notes.pdf) for week 12c
-- do [homework](reference/berkeley_cs61a_material/course_reader_vol_1/hw.pdf) for week 12c including book exercises 4.11, 4.13, 4.14, 4.15
+- do [homework](reference/berkeley_cs61a_material/course_reader_vol_1/hw.pdf) for week 12c
 - cross-check your homework (solutions/week12c.txt)
 
 
