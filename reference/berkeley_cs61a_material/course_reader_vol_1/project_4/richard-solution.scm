@@ -49,16 +49,52 @@
   
 ;;; Problem A2   logo-type
 
+
 ;; RE: logo-type will be invoked with a word or with a list. 
 ;; It must not terminate with a newline
-;; logo-type prints the list using a map for each element or it displays the value
+;; Sublists must be surrounded by square brackets
+;; I choose to print the value or call a list printer if there is a list
+
 (define (logo-type val)
     (if (list? val) 
-        (map (lambda (t) (begin (display t) (display " "))) val)
+        (logo-type-list val)
         (display val)
     )
     '=no-value=
 )
+
+;; The list printer knows it gets a list and will use a map function to call a 
+;; lambda on each element of the list.
+;; The challenge is the requirement to print square brackets around sublists as in:
+;; ? print [this is [a nested] list]
+;; this is [a nested] list
+;; The solution is to test if the element is a sublist and if so print the square brackets
+;; and call the logo-type-list function recursively for the sublist.
+;; The next challenge is not to have a trailing space character at the end of the list.
+;; So we test if the element is the last element of the list and then choose to print nothing
+;; if it is the last element or a space if it is not.
+
+(define (logo-type-list lst)
+    (map (lambda (t) 
+        (begin 
+            (if (list? t)
+                (begin 
+                    (display "[")
+                        (logo-type-list t)
+                        (display "]")
+                    )
+                (display t) 
+            )
+            (if (eq? t (last lst))
+                (display "")
+                (display " ")
+            )
+        )
+        )
+        lst
+    )
+)
+
 
 ;; tests
 ;; (logo-type 'hello)
