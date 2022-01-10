@@ -66,6 +66,10 @@ docker run -v$(pwd):/home -ti stklos/stklos:1.60 stklos
 The recent versions of Scheme are now case-sensitive, we have rewritten the project files in
 the /project_3 subdirectory with correct casing
 
+## CS61a project 4
+Please read /missing_files/project_4/readme.txt
+
+
 
 ## CS61a Week 10 - instant messaging clients and server
 

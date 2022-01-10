@@ -302,7 +302,6 @@ We **review** this work on Review Meeting Week 11 on Wednesday 27th October, 19.
 
 - do [labs](reference/berkeley_cs61a_material/course_reader_vol_1/labs.pdf) for week 12
 - read the book Section 4.1.1–6
-- read [MapReduce paper](reference/berkeley_cs61a_material/course_reader_vol_2/mapreduce-osdi04.pdf)
 - watch the lectures 36 & 37
 - read the [course notes](reference/berkeley_cs61a_material/course_reader_vol_2/notes.pdf) for week 12
 - do [homework](reference/berkeley_cs61a_material/course_reader_vol_1/hw.pdf) for week 12 including book exercises 4.3, 4.6, 4.7, 4.10
@@ -330,7 +329,7 @@ We **review** this work on Review Meeting Week 12b on Monday 13th December, 19.0
 - do [labs](reference/berkeley_cs61a_material/course_reader_vol_1/labs.pdf) for week 12c
 - read the book logo.txt in reference/berkeley_cs61a_material/course_reader_vol_1/project_4
 - read the [course notes](reference/berkeley_cs61a_material/course_reader_vol_2/notes.pdf) for week 12c
-- do [homework](reference/berkeley_cs61a_material/course_reader_vol_1/hw.pdf) for week 12c including book exercises 4.11, 4.13, 4.14, 4.15
+- do [homework](reference/berkeley_cs61a_material/course_reader_vol_1/hw.pdf) for week 12c
 - cross-check your homework (solutions/week12c.txt)
 
 
@@ -346,7 +345,29 @@ We **review** this work on Review Meeting Week 12c on Monday 10th January 2022, 
 - cross-check your homework (solutions/week13.txt)
 
 
-We **review** this work on Review Meeting Week 13 on TBD
+We **review** this work on Review Meeting Week 13 on Monday 24th January 2022, 19.00
+
+## Week 13b (Project 4 - 3 and 4)
+
+- do [labs](reference/berkeley_cs61a_material/course_reader_vol_1/labs.pdf) for week 13
+- read the book logo.txt in reference/berkeley_cs61a_material/course_reader_vol_1/project_4
+- read the [course notes](reference/berkeley_cs61a_material/course_reader_vol_2/notes.pdf) for week 13
+- do [homework](reference/berkeley_cs61a_material/course_reader_vol_1/hw.pdf) for week 13
+- cross-check your homework (solutions/week13.txt)
+
+
+We **review** this work on Review Meeting Week 13b on Monday 7th February 2022, 19.00 CET
+
+## Week 13c (Project 4 - 5 and 6 and 7 )
+
+- do [labs](reference/berkeley_cs61a_material/course_reader_vol_1/labs.pdf) for week 13
+- read the book logo.txt in reference/berkeley_cs61a_material/course_reader_vol_1/project_4
+- read the [course notes](reference/berkeley_cs61a_material/course_reader_vol_2/notes.pdf) for week 13
+- do [homework](reference/berkeley_cs61a_material/course_reader_vol_1/hw.pdf) for week 13
+- cross-check your homework (solutions/week13.txt)
+
+
+We **review** this work on Review Meeting Week 13c on Monday 7th March 2022, 19.00 CET
 
 ## Week 14 (lazy evaluator, nondeterministic evaluator)
 
@@ -362,5 +383,14 @@ We **review** this work on Review Meeting Week 13 on TBD
 
 We **review** this work on Review Meeting Week 14 on TBD
 
+## Week 15 (Logic programming)
+
+- do [labs](reference/berkeley_cs61a_material/course_reader_vol_1/labs.pdf) for week 15
+- read the book Section 4.4.1–3
+- watch the lectures 42 & 43 & 44
+- read the [course notes](reference/berkeley_cs61a_material/course_reader_vol_2/notes.pdf) for week 15
+- do [homework](reference/berkeley_cs61a_material/course_reader_vol_1/hw.pdf) for week 15 including book exercises 4.56, 4.57, 4.58, 4.65
+- cross-check your homework (solutions/week15.txt)
 
 
+We **review** this work on Review Meeting Week 15 on TBD
