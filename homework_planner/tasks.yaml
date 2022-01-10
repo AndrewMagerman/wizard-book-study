@@ -113,7 +113,17 @@ Week 13:
                    path: "reference/berkeley_cs61a_material/course_reader_vol_2/Therac-25.pdf" }
   Lectures: 38 & 39
   book_exercises: "4.22, 4.23, 4.24"
-  Review_Meeting: "TBD"
+  Review_Meeting: "Monday 24th January 2022, 19.00"
+Week 13b:
+  week: 13
+  Theme: "Project 4 - 3 and 4"
+  Reading: "logo.txt in reference/berkeley_cs61a_material/course_reader_vol_1/project_4"
+  Review_Meeting: "Monday 7th February 2022, 19.00 CET"
+Week 13c:
+  week: 13
+  Theme: "Project 4 - 5 and 6 and 7 "
+  Reading: "logo.txt in reference/berkeley_cs61a_material/course_reader_vol_1/project_4"
+  Review_Meeting: "Monday 7th March 2022, 19.00 CET"
 Week 14:
   week: 14
   Theme: "lazy evaluator, nondeterministic evaluator"
@@ -123,4 +133,10 @@ Week 14:
   project: "Project 4 (with a partner)"
   exams: "Final Exam"
   Review_Meeting: "TBD"
-
+Week 15:
+  week: 15
+  Theme: "Logic programming"
+  Reading: "Section 4.4.1–3"
+  Lectures: 42 & 43 & 44
+  book_exercises: "4.56, 4.57, 4.58, 4.65"
+  Review_Meeting: "TBD"

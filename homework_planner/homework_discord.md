@@ -282,7 +282,43 @@ Week 13 (Analyzing evaluator, MapReduce)
 - cross-check your homework (solutions/week13.txt)
 
 
-We **review** this work on Review Meeting Week 13 on TBD
+We **review** this work on Review Meeting Week 13 on Monday 24th January 2022, 19.00
+
+repo: https://git.sr.ht/~codersonly/wizard-book-study
+labs = https://git.sr.ht/~codersonly/wizard-book-study/tree/master/item/reference/berkeley_cs61a_material/course_reader_vol_1/labs.pdf
+course_notes = https://git.sr.ht/~codersonly/wizard-book-study/tree/master/item/reference/berkeley_cs61a_material/course_reader_vol_2/notes.pdf
+homework = https://git.sr.ht/~codersonly/wizard-book-study/tree/master/item/reference/berkeley_cs61a_material/course_reader_vol_1/hw.pdf
+
+
+
+Week 13b (Project 4 - 3 and 4)
+
+- do labs for week 13
+- read the book logo.txt in reference/berkeley_cs61a_material/course_reader_vol_1/project_4
+- read the course_notes for week 13
+- do homework for week 13
+- cross-check your homework (solutions/week13.txt)
+
+
+We **review** this work on Review Meeting Week 13b on Monday 7th February 2022, 19.00 CET
+
+repo: https://git.sr.ht/~codersonly/wizard-book-study
+labs = https://git.sr.ht/~codersonly/wizard-book-study/tree/master/item/reference/berkeley_cs61a_material/course_reader_vol_1/labs.pdf
+course_notes = https://git.sr.ht/~codersonly/wizard-book-study/tree/master/item/reference/berkeley_cs61a_material/course_reader_vol_2/notes.pdf
+homework = https://git.sr.ht/~codersonly/wizard-book-study/tree/master/item/reference/berkeley_cs61a_material/course_reader_vol_1/hw.pdf
+
+
+
+Week 13c (Project 4 - 5 and 6 and 7 )
+
+- do labs for week 13
+- read the book logo.txt in reference/berkeley_cs61a_material/course_reader_vol_1/project_4
+- read the course_notes for week 13
+- do homework for week 13
+- cross-check your homework (solutions/week13.txt)
+
+
+We **review** this work on Review Meeting Week 13c on Monday 7th March 2022, 19.00 CET
 
 repo: https://git.sr.ht/~codersonly/wizard-book-study
 labs = https://git.sr.ht/~codersonly/wizard-book-study/tree/master/item/reference/berkeley_cs61a_material/course_reader_vol_1/labs.pdf
@@ -304,6 +340,25 @@ Week 14 (lazy evaluator, nondeterministic evaluator)
 
 
 We **review** this work on Review Meeting Week 14 on TBD
+
+repo: https://git.sr.ht/~codersonly/wizard-book-study
+labs = https://git.sr.ht/~codersonly/wizard-book-study/tree/master/item/reference/berkeley_cs61a_material/course_reader_vol_1/labs.pdf
+course_notes = https://git.sr.ht/~codersonly/wizard-book-study/tree/master/item/reference/berkeley_cs61a_material/course_reader_vol_2/notes.pdf
+homework = https://git.sr.ht/~codersonly/wizard-book-study/tree/master/item/reference/berkeley_cs61a_material/course_reader_vol_1/hw.pdf
+
+
+
+Week 15 (Logic programming)
+
+- do labs for week 15
+- read the book Section 4.4.1–3
+- watch the lectures 42 & 43 & 44
+- read the course_notes for week 15
+- do homework for week 15 including book exercises 4.56, 4.57, 4.58, 4.65
+- cross-check your homework (solutions/week15.txt)
+
+
+We **review** this work on Review Meeting Week 15 on TBD
 
 repo: https://git.sr.ht/~codersonly/wizard-book-study
 labs = https://git.sr.ht/~codersonly/wizard-book-study/tree/master/item/reference/berkeley_cs61a_material/course_reader_vol_1/labs.pdf
