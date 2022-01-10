@@ -63,7 +63,7 @@
     '=no-value=
 )
 
-;; The list printer knows it gets a list and will use a map function to call a 
+;; The list printer knows it gets a list and will use a map function to call a
 ;; lambda on each element of the list.
 ;; The challenge is the requirement to print square brackets around sublists as in:
 ;; ? print [this is [a nested] list]
@@ -152,8 +152,19 @@
     ))
 )
 
+;; Redefining the function to the 'spiffy' version that can handle any number of arguments unlike
+;; the first version above which can only deal with 1 or 2 argument predicate functions.
+;; Thanks Corinna for the apply hint.
+;; Again note that this function returns an evaluatable function. That's why there is no opening brace in
+;; front of the if. The if function will execute the (apply function using the supplied predicate function
+;; with all the arguments. The predicate function will return #t or #f in the Scheme binary type.
+;; The if function will return the string '[true] or '[false]
+(define (logo-pred pred)
+    (lambda args (
+        if (apply pred args) '[true] '[false]
+    ) )
+)
 
-;;((logo-pred (make-logo-arith equalp)) 2 2)
-;;((logo-pred (make-logo-arith equalp)) 2 3)
-;;((logo-pred empty?) '())
-
+;; ((logo-pred (make-logo-arith equalp)) 2 2)
+;; ((logo-pred (make-logo-arith equalp)) 2 3)
+;; ((logo-pred empty?) '())
