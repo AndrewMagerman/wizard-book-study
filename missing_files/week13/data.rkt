@@ -6,7 +6,8 @@
          lines
          file->linelist
          mapreduce-paper
-         data)
+         data
+         email1)
 
 ; Functions taken from wizard-book-study/reference/berkeley_cs61a_material/course_reader_vol_2/notes.pdf
 
@@ -34,6 +35,17 @@
                 (Computers are increasingly being introduced into safety-critical systems and as a consequence have been involved in accidents)
                 (Some of the most widely cited software-related accidents in safety-critical systems involved a computerized radiation therapy machine called the Therac-25)
                 (They have been described as the worst series of radiation accidents in the 35year history of medical accelerators)))
+
+(define email1 '(("cs61a-tb" "cs61a-tc" "mapreduce" "mapreduce is great! lucky students!")
+                 ("bot1337" "cs61a-ta" "free ipod now!" "buy herbal ipod enhancer!")
+                 ("bot1338" "cs61c-tf" "free ipod now!" "buy herbal ipod enhancer!")
+                 ("bot1338" "cs61c-xz" "free ipod now!" "buy herbal ipod enhancer!")
+                 ("bot1338" "cs61c-xz" "free water now!" "buy water now!")
+                 ("bot1338" "cs61c-xz" "free water now!" "buy water now!")
+                 ("cs61a-ab" "cs61a-kp" "scheme" "An elegant language.")
+                 ("cs61a-so" "cs61a-os" "keyboard" "Which keyboard would you recommend?")
+                 ("cs61a-va" "cs61a-qu" "water" "drink water it's healthy!")
+                 ("cs61a-qu" "cs61-va" "water" "I am drinking two liters of water every day!")))
 
 (define mapreduce-paper (file->linelist file1))
 (define data (append (file->linelist file2)
