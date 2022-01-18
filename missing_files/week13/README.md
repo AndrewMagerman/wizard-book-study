@@ -23,10 +23,15 @@ Data.rkt will provide files and file handling functions.
 ## Labs
 
 For the third assignment the function match? is needed.
-The implementation is in reference/berkeley_cs61a_material/lectures/1_3/mapreduce.scm
+The implementation is in "reference/berkeley_cs61a_material/lectures/1_3/mapreduce.scm".
 
 ## Homework
 
+For the first assignment use data.
+For the second assignment use email1 as data.
+
 ## Solutions
 
-Unfortunately there are no solutions.
+The solutions are in "missing_files/week13/solutions".
+
+## Reading Files from the Filesystem (Work in Progress)
