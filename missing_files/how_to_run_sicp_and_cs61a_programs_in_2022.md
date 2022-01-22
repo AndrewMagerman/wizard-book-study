@@ -104,11 +104,12 @@ Function to show the first n elements in a stream using racket/stream.
 Inspired by Brian Allison
 https://wizardbook.wordpress.com/2010/12/20/exercise-3-56/
 ```
+#lang racket
 (define (show-stream s n)
   (if (zero? n)
-      (displayln "done")
+      (display "done")
       (begin
-        (show (stream-first s))
+        (display (stream-first s))
         (show-stream (stream-rest s) (- n 1) ))))
 ```
 
