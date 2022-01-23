@@ -33,5 +33,3 @@ For the second assignment use email1 as data.
 ## Solutions
 
 The solutions are in "missing_files/week13/solutions".
-
-## Reading Files from the Filesystem (Work in Progress)
