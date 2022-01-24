@@ -1,0 +1,510 @@
+;;; CS 61A project 4 part II solutions
+
+
+;;; Problem A5   handle-infix
+
+
+(define (handle-infix value line-obj env)
+  (if (ask line-obj 'empty?)
+      value
+      (let ((token (ask line-obj 'next)))
+	(if (memq token '(+ - * / = < >))
+	    (handle-infix ((text (lookup-procedure (de-infix token)))
+			   value
+			   (eval-prefix line-obj env) )
+			  line-obj
+			  env)
+	    (begin
+	     (ask line-obj 'put-back token)
+	     value)))))
+
+
+
+;;; Problem B5    eval-definition
+
+(define (eval-definition line-obj)
+  (define (parse-formal token)
+    (if (eq? (first token) ':)
+	(bf token)
+	(error "Bad input name format in TO" token)))
+  (define (get-formals)
+    (if (ask line-obj 'empty?)
+	'()
+	(let ((token (ask line-obj 'next)))
+	  (cons (parse-formal token) (get-formals)))))
+
+  (define (get-body)
+    (prompt "-> ")
+    (let ((line (logo-read)))
+      (if (equal? line '(end))
+	  '()
+	  (cons line (get-body)))))
+
+  (let ((name (ask line-obj 'next)))
+    (let ((formals (get-formals)))
+      (set! the-procedures
+	    (cons (list name
+			'compound
+			(length formals)
+			(cons formals (get-body)))
+		  the-procedures))))
+  '=no-value=)
+
+
+;;; Problem 6    eval-sequence
+
+(define (eval-sequence exps env)
+  (if (null? exps)
+      '=no-value=
+      (let ((value (eval-line (make-line-obj (car exps)) env)))
+	(cond ((eq? value '=stop=) '=no-value=)
+	      ((and (pair? value) (eq? (car value) '=output=))
+	       (cdr value))
+	      ((not (eq? value '=no-value=))
+	       (error "You don't say what to do with" value))
+	      (else (eval-sequence (cdr exps) env))))))
+
+
+
+;;; Problem 7		dynamic scope
+
+The difference between lexical scope (Scheme) and dynamic scope (Logo) is
+that in lexical scope, calling a procedure creates a new environment by
+extending *the environment in which the procedure was created*; in dynamic
+scope, calling a procedure creates a new environment by extending *the
+current environment*.
+
+Where is this extending of environments done?  In APPLY:
+
+(define (mc-apply procedure arguments)
+  (cond ((primitive-procedure? procedure)
+         (apply-primitive-procedure procedure arguments))
+        ((compound-procedure? procedure)
+         (eval-sequence (procedure-body procedure)
+			(EXTEND-ENVIRONMENT			;;;
+			 (PROCEDURE-PARAMETERS PROCEDURE)	;;;
+			 ARGUMENTS				;;;
+			 (PROCEDURE-ENVIRONMENT PROCEDURE))))	;;;
+        (else
+         (error "Unknown procedure type -- APPLY" procedure))))
+
+We are going to do the same thing, except that the third argument to
+EXTEND-ENVIRONMENT will be the current environment.  Where do we find it?  In
+Scheme, APPLY doesn't know anything about the current environment!  So in the
+Logo interpreter, we're going to have to pass it as an additional argument:
+
+(define (logo-apply procedure arguments ENV)		;;;
+  (cond ((primitive-procedure? procedure)
+         (apply-primitive-procedure procedure arguments))
+        ((compound-procedure? procedure)
+         (eval-sequence (procedure-body procedure)
+                        (extend-environment
+                         (parameters procedure)
+                         arguments
+                         ENV)))				;;;
+        (else
+         (error "Unknown procedure type -- LOGO-APPLY" procedure))))
+
+We also have to modify the places where LOGO-APPLY is called, to provide
+the extra argument:
+
+(define (eval-prefix line-obj env)
+  (define (eval-helper paren-flag)
+    (let ((token (ask line-obj 'next)))
+      (cond ((self-evaluating? token) token)
+	    ...
+            (else
+	     (let ((proc (lookup-procedure token)))
+	       (if (null? proc) (error "i don't know how to" token))
+	       (if (list? (arg-count proc))
+	       	   (logo-apply proc
+			       (cons env
+				     (collect-n-args (car (arg-count proc))
+						     line-obj
+						     env))
+			       ENV)				;;;
+	       	   (logo-apply proc
+		       	       (collect-n-args (if paren-flag
+						   (arg-count proc)
+						   (abs (arg-count proc)))
+					       line-obj
+					       env)
+			       ENV)) )) )))			;;;
+  (eval-helper #f))
+
+Your solution to earlier parts of the project may have called LOGO-APPLY
+in different ways, but wherever you call LOGO-APPLY, you'll have to add the
+current environment as a third argument.
+
+This is one of those nice problems in which quite a small change in the code
+has a profound effect on the behavior of the interpreter.
+
+
+;;; Problem A8		stepping
+
+First, we have to extend the procedure ADT to include a stepped flag:
+
+(define (stepped? proc) (cadr (cddddr proc)))
+
+(define (set-stepped?! proc tf)
+  (set-car! (cdr (cddddr proc)) tf))
+
+Next, when we create a procedure, we have to put #F in that field.  (It's
+#F, not FALSE, because this flag is entirely internal to the interpreter,
+not visible to the user.)  This is just one line added to the place where
+a newly-defined procedure is added to the list of procedures:
+
+(define (eval-definition line-obj)
+  ...
+  (let ((name (ask line-obj 'next)))
+    (let ((formals (get-formals)))
+      (set! the-procedures
+	    (cons (list name
+			'compound
+			(length formals)
+			(cons formals (get-body))
+			#F)			;; NOT STEPPED
+		  the-procedures))))
+  '=no-value=)
+
+Next, we create the STEP and UNSTEP commands:
+
+(add-prim 'step 1 (lambda (name)
+		    (let ((proc (lookup-procedure name)))
+		      (if proc
+			  (set-stepped?! proc #t)))
+		    '=no-value=))
+
+(add-prim 'unstep 1 (lambda (name)
+		    (let ((proc (lookup-procedure name)))
+		      (if proc
+			  (set-stepped?! proc #f)))
+		    '=no-value=))
+
+Finally, we have to do the actual stepping of a called procedure.  Where
+is each line of a procedure definition evaluated?  In EVAL-SEQUENCE.  But
+we also have to change LOGO-APPLY to pass the stepping flag as an argument
+to eval-sequence:
+
+(define (logo-apply procedure arguments env)
+  (cond ((primitive-procedure? procedure)
+         (apply-primitive-procedure procedure arguments))
+        ((compound-procedure? procedure)
+         (eval-sequence (procedure-body procedure)
+                        (extend-environment
+                         (cons " test" (parameters procedure))
+                         (cons (lookup-variable-value " test" env)
+			       arguments)
+			 env)
+			(STEPPED? PROCEDURE)))	;; Added here.
+        (else
+         (error "Unknown procedure type -- LOGO-APPLY " procedure))))
+
+(define (eval-sequence exps env step?)
+  (if (null? exps)
+      '=no-value=
+      (BEGIN
+       (IF STEP?			  ;; This does the stepping.
+	   (BEGIN (LOGO-TYPE (CAR EXPS))
+		  (PROMPT ">>> ")
+		  (LOGO-READ)))
+       (let ((value (eval-line (make-line-obj (car exps)) env)))
+	 (cond ((eq? value '=stop=) '=no-value=)
+	       ((and (pair? value) (eq? (car value) '=output=))
+		(cdr value))
+	       ((not (eq? value '=no-value=))
+		(error "You don't say what to do with " value))
+	       (else (eval-sequence (cdr exps) env step?)))))))
+
+
+;;; Problem B8		TEST/IFT/IFF
+
+As suggested in the hint, we're going to add a hidden variable named
+" TEST" (with a space in front so users can't type it) to every environment.
+This means we have to put it in the global environment:
+
+(define (initialize-logo)
+  (SET! THE-GLOBAL-ENVIRONMENT (EXTEND-ENVIRONMENT '(" TEST") '(()) '()))
+  (set! the-procedures the-primitive-procedures)
+  (driver-loop))
+
+And we also have to put it in every frame created by a procedure call:
+
+(define (logo-apply procedure arguments env)
+  (cond ((primitive-procedure? procedure)
+         (apply-primitive-procedure procedure arguments))
+        ((compound-procedure? procedure)
+         (eval-sequence (procedure-body procedure)
+                        (extend-environment
+                         (CONS " TEST" (PARAMETERS PROCEDURE))
+                         (CONS (LOOKUP-VARIABLE-VALUE " TEST" ENV)
+			       ARGUMENTS)
+			 env))
+        (else
+         (error "Unknown procedure type -- LOGO-APPLY " procedure))))
+
+Finally, we're ready to implement the actual Logo primitives:
+
+(define (test env t/f)
+  (make env " TEST" t/f))
+
+(define (iftrue env exp)
+  (let ((t/f (lookup-variable-value " TEST" env)))
+    (cond ((eq? t/f 'true) (eval-line (make-line-obj exp) env))
+	  ((eq? t/f 'false) '=no-value=)
+	  (else (error "Input to TEST not true or false " t/f)))))
+
+(define (iffalse env exp)
+  (let ((t/f (lookup-variable-value " TEST" env)))
+    (cond ((eq? t/f 'false) (eval-line (make-line-obj exp) env))
+	  ((eq? t/f 'true) '=no-value=)
+	  (else (error "Input to TEST not true or false " t/f)))))
+
+Note that it matters that I called MAKE in test, rather than calling
+DEFINE-VARIABLE!.  MAKE returns =no-value=, as required for a primitive
+command, but define-variable! doesn't.
+
+And we have to add these primitives to the table:
+
+(add-prim 'test '(1) test)
+(add-prim 'iftrue '(1) iftrue)
+(add-prim 'ift '(1) iftrue)
+(add-prim 'iffalse '(1) iffalse)
+(add-prim 'iff '(1) iffalse)
+
+
+;;; NOTE:  Before problem 9, you should have combined your work with your
+;;; partner's work, and you should have noticed that both of you modified
+;;; LOGO-APPLY.  So you should have produced the following combined one:
+
+(define (logo-apply procedure arguments env)
+  (cond ((primitive-procedure? procedure)
+         (apply-primitive-procedure procedure arguments))
+        ((compound-procedure? procedure)
+         (eval-sequence (procedure-body procedure)
+                        (extend-environment
+                         (CONS " TEST" (PARAMETERS PROCEDURE))
+                         (CONS (LOOKUP-VARIABLE-VALUE " TEST" ENV)
+			       ARGUMENTS)
+			 env)
+			(STEPPED? PROCEDURE)))
+        (else
+         (error "Unknown procedure type -- LOGO-APPLY " procedure))))
+
+
+
+;;; Problem 9		static variables
+
+;;; One part of the problem is to modify the eval-definition that
+;;; you wrote in B4 to accept the STATIC keyword.  Changes are
+;;; shown in capital letters:
+
+(define (eval-definition line-obj)
+  (define (parse-formal token)
+    (if (eq? (first token) ':)
+	(bf token)
+	(error "Bad input name format in TO" token)))
+  (define (get-formals)
+    (if (ask line-obj 'empty?)
+	'()
+	(let ((token (ask line-obj 'next)))
+	  (IF (EQ? TOKEN 'STATIC)		;; added for problem 9
+	      '()				;; ...
+	      (cons (parse-formal token) (get-formals))))))
+
+;;; The following procedure is added for problem 9.
+  (DEFINE (GET-STATICS)
+    (IF (ASK LINE-OBJ 'EMPTY?)
+	(MAKE-FRAME '() '())
+	(LET ((VARIABLE (PARSE-FORMAL (ASK LINE-OBJ 'NEXT))))
+	  (LET ((VALUE (LOGO-EVAL LINE-OBJ THE-GLOBAL-ENVIRONMENT)))
+	    (LET ((FRAME (GET-STATICS)))
+	      (ADD-BINDING-TO-FRAME! VARIABLE VALUE FRAME)
+	      FRAME)))))
+;;; End of problem 9 addition.
+
+  (define (get-body)
+    (prompt "-> ")
+    (let ((line (logo-read)))
+      (if (equal? line '(end))
+	  '()
+	  (cons line (get-body)))))
+  (let ((name (ask line-obj 'next)))
+    (let ((formals (get-formals)))
+      (LET ((STATICS (IF (ASK LINE-OBJ 'EMPTY?)   ;; added for problem 9
+			 (MAKE-FRAME '() '())     ;; ...
+			 (GET-STATICS))))	  ;; ...
+	(set! the-procedures
+	      (cons (list name
+			  'compound
+			  (length formals)
+			  (cons formals (get-body))
+			  STATICS)		  ;; added for problem 9
+		  the-procedures)))))
+  '=no-value=)
+
+
+;; Then, we have to include the statics in the new environment
+;; when we invoke a procedure, by modifying logo-apply:
+
+(define (logo-apply procedure arguments env)
+  (cond ((primitive-procedure? procedure)
+         (apply-primitive-procedure procedure arguments))
+        ((compound-procedure? procedure)
+         (eval-sequence (procedure-body procedure)
+                        (extend-environment
+                         (cons " test" (parameters procedure))
+                         (cons (lookup-variable-value " test" env)
+			       arguments)
+			 (ADJOIN-FRAME			;; added for problem 9
+			  (STATICS-FRAME PROCEDURE)	;; ...
+			  env))
+			(stepped? procedure)))
+        (else
+         (error "Unknown procedure type -- LOGO-APPLY " procedure))))
+
+;; This uses a new selector that we must add to the ADT for procedures:
+
+(define (statics-frame proc) (car (cddddr proc)))
+
+;; and a new constructor for environments:
+
+(define adjoin-frame cons)
+
+
+-------------------- End of project 4 required solutions --------------------
+
+Extra for Experts -- Infix precedence
+=====================================
+
+Starting with the easy part, we know that for each infix operator we need to
+know not only the corresponding prefix procedure name, but also the
+precedence.  So instead of DE-INFIX we'll invent an "infix operator info"
+abstract data type:
+
+(define infix-name car)   ; This one is never actually called.
+(define prefix-name cadr)
+(define precedence caddr)
+
+(define (infix-op-info token)
+  (assoc token '((+ sum 2)
+		 (- difference 2)
+		 (* product 3)
+		 (/ quotient 3)
+		 (= equalp 1)
+		 (< lessp 1)
+		 (> greaterp 1))))
+
+Now, what should we do with these precedence numbers?  If we see an
+expression such as
+	2 * 3 + 4
+then as soon as we see the + sign (low precedence) we can compute the
+2*3 part (higher precedence).  But when the expression is
+	2 + 3 * 4
+then when we see the * we CAN'T compute 2+3, because * is higher
+precedence than the waiting +.
+
+(I've handwaved past an important detail:  What happens when we see
+the *first* infix operator in each of those cases?  It turns out that
+everything works out right if we imagine that there is a precedence-zero
+operation at the far left of the expression.  Try to work out why that
+is, for each of the examples above.  We're also going to imagine a
+precedence-zero operation at the far right of the expression; we fake
+this operation when the next token isn't an infix operator.)
+
+We have to remember more than just the operation immediately before the
+one we're looking at.  There might be a chain of low-to-high precedence
+operations:
+	5 = 2 + 3 * 4
+As each of these three operators is seen, the situation is like the second one
+above; we can't do any arithmetic yet.  Only when we reach a lower-precedence
+operation or the end of the expression (i.e., no more infix operators waiting)
+can we start calling procedures.
+
+So we're going to keep two lists in arguments to helper procedures:  a list
+of waiting operations (OP-STACK) and a list of waiting values (VAL-STACK).
+They're called "stack" because that's the standard name in computer
+programming for a data structure in which the most recently added element is
+the first one to be removed, which is what we want.
+
+HANDLE-INFIX has two helper procedures.  The first, GET-NEXT-OPER, reads
+the next token from the line-obj and sees if it's an infix operator.  If
+so, the operator's infix-operator-info is returned; if not, the token is
+PUT-BACK into the line-obj and a fake infix-operator-info with precedence
+zero is returned.  (The other two components of the i-o-i don't matter;
+the procedure uses % as the fake infix symbol and END-INFIX as the fake
+corresponding prefix procedure name, but neither of these will actually
+be used for anything.)
+
+The second helper procedure is called LOOP, a name that's justified by the
+fact that the procedure tail-calls itself, generating an iterative process
+(a loop).  It takes three arguments: an infix-operator-info list for a
+newly-read infix operation, the operation stack, and the value stack.
+
+There are two main cases and a base case in LOOP.  The procedure starts by
+comparing the precedence numbers for the newly-read operator and the one
+at the head of the operation stack.  If the new precedence is <= the old
+one, we have the 2*3+4 situation, in which we should go ahead and compute
+the 2*3 part, and then basically replace the 2*3 with its value, 6, by
+removing the 2 and 3 from the value stack, removing the * from the operator
+stack, and adding 6 to the value stack.  (Notice that we haven't read the 4
+yet; we've just read the + sign, which we keep as the NEXT-OPER argument for
+the next call to LOOP.  We won't read any more tokens until there's nothing
+else we can do with only what we've already read.)
+
+The base case is a special situation within the new <= old case: if the
+old precedence is zero, then the new must be zero also, and there are no
+more operations, new or old, waiting.  In this case there should be
+exactly one value on the value stack, and that's the value HANDLE-INFIX
+should return.
+
+The other main case is that the new precedence is > the old one.  This is
+the 2+3*4 situation; we have just read the * token, and we can't do any
+arithmetic yet.  Instead we should add the * to the operation stack, read
+the operand that follows it (using EVAL-PREFIX, as in the original version
+of HANDLE-INFIX), and add that operand to the value stack.  We then read
+a new token, looking for another infix operator.
+
+(Why do we lump new=old with new<old, rather than with new>old?  This is
+because we want to interpret 2-3-4 as (2-3)-4, not as 2-(3-4).  So if the
+two precedences are equal, we want to do some arithmetic now, not just
+add to the stacks.)
+
+(define (handle-infix value line-obj env)
+  (define (get-next-oper)
+    ; Get next infix operator, or
+    ; fake a precedence-0 if no next infix oper.
+    (if (ask line-obj 'empty?)
+	'(% end-infix 0)
+	(let* ((token (ask line-obj 'next))
+	       (ioi (infix-op-info token)))
+	  (if ioi
+	      ioi
+	      (begin (ask line-obj 'put-back token)
+		     '(% end-infix 0))))))
+  (define (loop next-oper op-stack val-stack)
+    ; Compare precedence of new oper with that of waiting one.
+    (let ((old-prec (precedence (car op-stack)))
+	  (old-name (prefix-name (car op-stack))))
+      (if (<= (precedence next-oper) old-prec)
+	  ; Waiting one is higher precedence, so do it now!
+	  ; This removes one oper from op-stack and
+	  ; replaces two values from val-stack with one new value.
+	  (if (= old-prec 0)
+	      (car val-stack)	; op-stack is empty!  Return final value.
+	      (loop next-oper
+		    (cdr op-stack)
+		    (cons ((text (lookup-procedure old-name))
+			   (cadr val-stack)
+			   (car val-stack))
+			  (cddr val-stack))))	; Remove two old values.
+	  ; New one is higher precedence, so add it to op-stack and
+	  ; read its corresponding right operand for val-stack.  Also
+	  ; read another token, after the new operand, looking for another
+	  ; infix operator.  The LET is to ensure that we read the current
+	  ; NEXT-OPER's right operand before reading a new NEXT-OPER.
+	  (let ((next-value (eval-prefix line-obj env)))
+	    (loop (get-next-oper)
+		  (cons next-oper op-stack)
+		  (cons next-value val-stack))))))
+  (loop (get-next-oper) (list '(% start-infix 0)) (list value)))

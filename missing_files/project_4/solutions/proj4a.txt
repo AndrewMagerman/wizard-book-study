@@ -1,0 +1,179 @@
+;;; CS 61A project 4 part I solutions
+
+
+;;; Problem A1   make-line-obj
+
+(define-class (line-obj text)
+  (method (next)
+    (let ((result (car text)))
+      (set! text (cdr text))
+      result))
+  (method (empty?) (null? text))
+  (method (put-back token) (set! text (cons token text))) )
+
+(define (make-line-obj text)
+  (instantiate line-obj text))
+
+
+;;; Problem A2   logo-type
+
+(define (logo-type val)
+  (define (print-one val)
+    (cond ((list? val)
+	   (display "[")
+	   (if (pair? val) (logo-type val))
+	   (display "]"))
+	  (else (display val))))
+  (define (iter val)
+    (print-one (car val))
+    (cond ((null? (cdr val)) '())
+	  (else (display " ") (iter (cdr val)))))
+  (cond ((null? val) '())
+	((list? val) (iter val))
+	(else (print-one val)))
+  '=no-value=)
+
+;; The above is not the only possible solution, but any solution must
+;; treat the top-level invocation differently from recursive calls in
+;; order to avoid brackets around the outermost list.  Points to note:
+;; 1.  This procedure is a Logo command, and so it must return =no-value=
+;;     like any other Logo command (as opposed to an operation).
+;; 2.  You may only invoke display on atoms; if you display a list it'll
+;;     be printed with parentheses instead of brackets.
+;; 3.  If your code says something like (list? (car val)) that probably
+;;     means you haven't really learned to believe in tree recursion;
+;;     the end test should be that val is a leaf, not that val is a tree
+;;     of leaves.  Life will be easier if you learn to think this way.
+
+
+;;; Problem B1    eval-line
+
+(define (eval-line line-obj env)
+  (if (ask line-obj 'empty?)
+      '=no-value=
+      (let ((value (logo-eval line-obj env)))
+	(if (eq? value '=no-value=)
+       	    (eval-line line-obj env)
+	    value))))
+
+
+
+;;; Problem B2   logo-pred
+
+(define (logo-pred pred)
+  (lambda args (if (apply pred args)
+		   'true
+		   'false)))
+
+
+
+;;; Problem 3    variable arg counts
+
+;; Modifications to eval-prefix shown in capital letters
+
+(define (eval-prefix line-obj env)
+  (define (eval-helper paren-flag)
+    (let ((token (ask line-obj 'next)))
+      (cond ((self-evaluating? token) token)
+	    ...
+            (else
+	     (let ((proc (lookup-procedure token)))
+	       (if (not proc) (error "I don't know how to" token))
+	       (IF (LIST? (ARG-COUNT PROC))
+	       	   (LOGO-APPLY PROC
+			       (CONS ENV
+				     (COLLECT-N-ARGS (CAR (ARG-COUNT PROC))
+						     LINE-OBJ
+						     ENV)))
+	       	   (LOGO-APPLY PROC
+		       	       (COLLECT-N-ARGS (IF PAREN-FLAG
+						   (ARG-COUNT PROC)
+						   (ABS (ARG-COUNT PROC)))
+					       LINE-OBJ
+					       ENV) )) )) )))
+  (eval-helper #f))
+
+;; Also, some of the primitives need their arg-counts modified:
+
+(add-prim 'word -2 word)
+(add-prim 'sentence -2 se)
+(add-prim 'se -2 se)
+(add-prim 'list -2 list)
+(add-prim 'sum -2 (make-logo-arith +))
+(add-prim 'product -2 (make-logo-arith *))
+
+
+
+;;; Problem 4    variables
+
+;;; data abstraction procedures
+
+(define (variable? exp)
+  (and (word? exp) (eq? (first exp) ':)))
+
+(define (variable-name exp)
+  (bf exp))
+
+;; Now, about the implementation of MAKE.  Here is the relevant code
+;; from the original Scheme evaluator (meta.scm):
+
+;; There are two procedures here, one that Scheme uses for SET! and
+;; one that it uses for DEFINE.
+
+;; (define (set-variable-value! var val env)
+;;   (define (env-loop env)
+;;     (define (scan vars vals)
+;;       (cond ((null? vars)
+;;              (env-loop (enclosing-environment env)))
+;;             ((eq? var (car vars))
+;;              (set-car! vals val))
+;;             (else (scan (cdr vars) (cdr vals)))))
+;;     (if (eq? env the-empty-environment)
+;;         (error "Unbound variable -- SET!" var)
+;;         (let ((frame (first-frame env)))
+;;           (scan (frame-variables frame)
+;;                 (frame-values frame)))))
+;;   (env-loop env))
+;; 
+;; (define (define-variable! var val env)
+;;   (let ((frame (first-frame env)))
+;;     (define (scan vars vals)
+;;       (cond ((null? vars)
+;;              (add-binding-to-frame! var val frame))
+;;             ((eq? var (car vars))
+;;              (set-car! vals val))
+;;             (else (scan (cdr vars) (cdr vals)))))
+;;     (scan (frame-variables frame)
+;;           (frame-values frame))))
+
+;; Logo is different from Scheme in that a new DEFINE goes into the
+;; global frame, not into the current frame.
+
+;; My solution was to combine these two procedures into one that does
+;; exactly what we want for Logo.  It's mostly like SET-VARIABLE-VALUE!
+;; except for the change noted below:
+
+(define (define-variable! var val env)
+  (define (env-loop env)
+    (define (scan vars vals)
+      (cond ((null? vars)
+             (env-loop (enclosing-environment env)))
+            ((eq? var (car vars))
+             (set-car! vals val))
+            (else (scan (cdr vars) (cdr vals)))))
+    (if (eq? env the-empty-environment)
+        (ADD-BINDING-TO-FRAME! VAR VAL (FIRST-FRAME THE-GLOBAL-ENVIRONMENT))
+        (let ((frame (first-frame env)))
+          (scan (frame-variables frame)
+                (frame-values frame)))))
+  (env-loop env))
+
+;; Then my actual MAKE procedure in logo.scm is a trivial invocation
+;; of this modified metacircular evaluator procedure:
+
+(define (make env var val)          ; Note order of arguments, env first.
+  (define-variable! var val env)
+  '=no-value=)
+
+;; But many other ways to organize this into helper procedures are
+;; possible.
