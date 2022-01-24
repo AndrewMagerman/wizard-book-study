@@ -1,3 +1,4 @@
+# Project 4
 To run the LOGO interpreter with STKLOS in a Docker container:
 
 Change to the project_4 directory
@@ -19,6 +20,9 @@ Then load a number of files:
 (load "logo.rkt")
 (load "disable-turtle-graphics.scm")
 (load "logo-meta.rkt")
+
+or just load one file:
+(load "set-up-logo.scm")
 
 simply-scheme has the Brian Harvey extensions to Scheme without which procedures like word, sentance or butfirst won't exist.
 obj-harun is the Fixed Class defining library that Harun fixed for STKLOS
