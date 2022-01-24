@@ -18,7 +18,7 @@ types = ["FIRE","WATER","PSYCHIC","GRASS","NORMAL","ELECTRIC","ICE", "FIGHTING",
 
 def process(arr):
     x = str(arr[0]).replace(" ","") + " " + process2(arr[1:])
-    print x 
+    print(x)
     return x 
 
 def process2(arr):
@@ -49,7 +49,7 @@ for line in inputFile:
         if type not in types:
             values[1] = values[0] + values[1]
             values = values[1:]
-        print values
+        print(values)
         values = process(values)
         outputFile.write(values)
         outputFile.write("\n")
