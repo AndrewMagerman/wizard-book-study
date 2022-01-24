@@ -1,0 +1,7 @@
+(load "simply-scheme.scm")
+(load "obj-harun.rkt")
+(load "logo.rkt")
+(load "disable-turtle-graphics.scm")
+(load "richard-solution.scm")
+(load "logo-meta.rkt")
+(load "richard-solution.scm")
