@@ -80,15 +80,19 @@ Week 11:
   week: 11
   Theme: "Streams"
   Reading: "Section 3.5.1–3, 3.5.5"
-  Lectures: 27 & 28 & 33 & 34 & 35
+  Lectures: 27 & 28 & 33 & 34
   book_exercises: "3.50, 3.51, 3.52, 3.53, 3.54, 3.55, 3.56, 3.64, 3.66, 3.68"
+  solutions: "reference/berkeley_cs61a_material/solutions/week13.txt" # yes weird
   Review_Meeting: "Wednesday 27th October, 19.00 CET"
 Week 12:
   week: 12
   Theme: "Metacircular evaluator"
   Reading: "Section 4.1.1–6"
-  Lectures: 36 & 37
+  Reading_extra: { title: "Therac paper",
+                   path: "reference/berkeley_cs61a_material/course_reader_vol_2/Therac-25.pdf" }
+  Lectures: 35 & 36 & 37
   book_exercises: "4.3, 4.6, 4.7, 4.10"
+  solutions: "reference/berkeley_cs61a_material/solutions/week12.txt"
   exams: "Third Midterm"
   Review_Meeting: "Monday 29th November, 19.00 CET"
 Week 12b:
@@ -99,37 +103,52 @@ Week 12b:
                    path: "reference/berkeley_cs61a_material/course_reader_vol_2/mapreduce-osdi04.pdf" }
   Lectures: 36 & 37
   book_exercises: "4.11, 4.13, 4.14, 4.15"
+  solutions: "reference/berkeley_cs61a_material/solutions/week12.txt"
   Review_Meeting: "Monday 13th December, 19.00 CET"
 Week 12c:
   week: 12c
   Theme: "Project 4a - A1 A2 B1 B2"
   Reading: "logo.txt in reference/berkeley_cs61a_material/course_reader_vol_1/project_4"
   Review_Meeting: "Monday 10th January 2022, 19.00 CET"
-Week 13:
-  week: 13
+  solutions: "no solutions"
+Week 13a:
+  week: 13a
   Theme: "Analyzing evaluator, MapReduce"
   Reading: ""
   Reading_extra: { title: "Therac paper",
                    path: "reference/berkeley_cs61a_material/course_reader_vol_2/Therac-25.pdf" }
   Lectures: 38 & 39
   book_exercises: "4.22, 4.23, 4.24"
+  solutions: "no solutions for Mapreduce, exercises reference/berkeley_cs61a_material/solutions/week12.txt"
   Review_Meeting: "Monday 24th January 2022, 19.00"
 Week 13b:
-  week: 13
+  week: 13b
   Theme: "Project 4 - 3 and 4"
   Reading: "logo.txt in reference/berkeley_cs61a_material/course_reader_vol_1/project_4"
+  project: "Project 4 (with a partner)"
+  solutions: "no solutions unfortunately"
   Review_Meeting: "Monday 7th February 2022, 19.00 CET"
-Week 13c:
-  week: 13
-  Theme: "Project 4 - 5 and 6 and 7 "
-  Reading: "logo.txt in reference/berkeley_cs61a_material/course_reader_vol_1/project_4"
-  Review_Meeting: "Monday 7th March 2022, 19.00 CET"
-Week 14:
-  week: 14
+Week 14a:
+  week: 14a
   Theme: "lazy evaluator, nondeterministic evaluator"
   Reading: "Section 4.2, 4.3"
   Lectures: 40 & 41
   book_exercises: "4.25, 4.26, 4.28, 4.42, 4.45, 4.49, 4.50, 4.52"
+  solutions: "reference/berkeley_cs61a_material/solutions/week14.txt"
+  Review_Meeting: "Monday 7th March 2022, 19.00 CET"
+Week 14b:
+  week: 13
+  Theme: "Project 4 - 5 and 6 and 7 "
+  Reading: "logo.txt in reference/berkeley_cs61a_material/course_reader_vol_1/project_4"
+  project: "Project 4 (with a partner)"
+  Review_Meeting: TBD
+Week 14c:
+  week: 14c
+  Theme: "lazy evaluator, nondeterministic evaluator"
+  Reading: "Section 4.2, 4.3"
+  Lectures: 40 & 41
+  book_exercises: "4.30, 4.32, 4.33, 4.36, 4.47, 4.48"
+  solutions: "reference/berkeley_cs61a_material/solutions/week14.txt"
   project: "Project 4 (with a partner)"
   exams: "Final Exam"
   Review_Meeting: "TBD"
@@ -139,4 +158,5 @@ Week 15:
   Reading: "Section 4.4.1–3"
   Lectures: 42 & 43 & 44
   book_exercises: "4.56, 4.57, 4.58, 4.65"
+  solutions: "reference/berkeley_cs61a_material/solutions/week15.txt"
   Review_Meeting: "TBD"
