@@ -70,7 +70,6 @@ the /project_3 subdirectory with correct casing
 Please read /missing_files/project_4/readme.txt
 
 
-
 ## CS61a Week 10 - instant messaging clients and server
 
 please refer to the subdirectory /week10
