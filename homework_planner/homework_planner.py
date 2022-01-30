@@ -126,8 +126,8 @@ def discord_output():
 
 
 def link_summary(f):
-    f.write('repo: https://git.sr.ht/~codersonly/wizard-book-study\n')
-    base = "https://git.sr.ht/~codersonly/wizard-book-study/tree/master/item/"
+    f.write('repo: https://github.com/AndrewMagerman/wizard-book-study\n')
+    base = "https://github.com/AndrewMagerman/wizard-book-study/tree/main/"
     f.write(
         f'labs = {base}reference/berkeley_cs61a_material/course_reader_vol_1/labs.pdf\n')
     f.write(
