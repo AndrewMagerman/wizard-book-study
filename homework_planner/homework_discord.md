@@ -10,10 +10,10 @@ Week 1 (Functional Programming)
 
 We **review** this work on Review Meeting Week 1 on Wednesday 24th March, 18.30 CET
 
-repo: https://git.sr.ht/~codersonly/wizard-book-study
-labs = https://git.sr.ht/~codersonly/wizard-book-study/tree/master/item/reference/berkeley_cs61a_material/course_reader_vol_1/labs.pdf
-course_notes = https://git.sr.ht/~codersonly/wizard-book-study/tree/master/item/reference/berkeley_cs61a_material/course_reader_vol_2/notes.pdf
-homework = https://git.sr.ht/~codersonly/wizard-book-study/tree/master/item/reference/berkeley_cs61a_material/course_reader_vol_1/hw.pdf
+repo: https://github.com/AndrewMagerman/wizard-book-study
+labs = https://github.com/AndrewMagerman/wizard-book-study/tree/main/reference/berkeley_cs61a_material/course_reader_vol_1/labs.pdf
+course_notes = https://github.com/AndrewMagerman/wizard-book-study/tree/main/reference/berkeley_cs61a_material/course_reader_vol_2/notes.pdf
+homework = https://github.com/AndrewMagerman/wizard-book-study/tree/main/reference/berkeley_cs61a_material/course_reader_vol_1/hw.pdf
 
 
 
@@ -29,10 +29,10 @@ Week 2 (Higher-order procedures)
 
 We **review** this work on Review Meeting Week 2 on Wednesday 7th April, 18.30 CET
 
-repo: https://git.sr.ht/~codersonly/wizard-book-study
-labs = https://git.sr.ht/~codersonly/wizard-book-study/tree/master/item/reference/berkeley_cs61a_material/course_reader_vol_1/labs.pdf
-course_notes = https://git.sr.ht/~codersonly/wizard-book-study/tree/master/item/reference/berkeley_cs61a_material/course_reader_vol_2/notes.pdf
-homework = https://git.sr.ht/~codersonly/wizard-book-study/tree/master/item/reference/berkeley_cs61a_material/course_reader_vol_1/hw.pdf
+repo: https://github.com/AndrewMagerman/wizard-book-study
+labs = https://github.com/AndrewMagerman/wizard-book-study/tree/main/reference/berkeley_cs61a_material/course_reader_vol_1/labs.pdf
+course_notes = https://github.com/AndrewMagerman/wizard-book-study/tree/main/reference/berkeley_cs61a_material/course_reader_vol_2/notes.pdf
+homework = https://github.com/AndrewMagerman/wizard-book-study/tree/main/reference/berkeley_cs61a_material/course_reader_vol_1/hw.pdf
 
 
 
@@ -49,10 +49,10 @@ Week 3 (Recursion and iteration)
 
 We **review** this work on Review Meeting Week 3 on Wednesday 28th April, 18.30 CET
 
-repo: https://git.sr.ht/~codersonly/wizard-book-study
-labs = https://git.sr.ht/~codersonly/wizard-book-study/tree/master/item/reference/berkeley_cs61a_material/course_reader_vol_1/labs.pdf
-course_notes = https://git.sr.ht/~codersonly/wizard-book-study/tree/master/item/reference/berkeley_cs61a_material/course_reader_vol_2/notes.pdf
-homework = https://git.sr.ht/~codersonly/wizard-book-study/tree/master/item/reference/berkeley_cs61a_material/course_reader_vol_1/hw.pdf
+repo: https://github.com/AndrewMagerman/wizard-book-study
+labs = https://github.com/AndrewMagerman/wizard-book-study/tree/main/reference/berkeley_cs61a_material/course_reader_vol_1/labs.pdf
+course_notes = https://github.com/AndrewMagerman/wizard-book-study/tree/main/reference/berkeley_cs61a_material/course_reader_vol_2/notes.pdf
+homework = https://github.com/AndrewMagerman/wizard-book-study/tree/main/reference/berkeley_cs61a_material/course_reader_vol_1/hw.pdf
 
 
 
@@ -68,10 +68,10 @@ Week 4 (Data abstraction)
 
 We **review** this work on Review Meeting Week 4 on Wednesday 19th May, 18.30 CET
 
-repo: https://git.sr.ht/~codersonly/wizard-book-study
-labs = https://git.sr.ht/~codersonly/wizard-book-study/tree/master/item/reference/berkeley_cs61a_material/course_reader_vol_1/labs.pdf
-course_notes = https://git.sr.ht/~codersonly/wizard-book-study/tree/master/item/reference/berkeley_cs61a_material/course_reader_vol_2/notes.pdf
-homework = https://git.sr.ht/~codersonly/wizard-book-study/tree/master/item/reference/berkeley_cs61a_material/course_reader_vol_1/hw.pdf
+repo: https://github.com/AndrewMagerman/wizard-book-study
+labs = https://github.com/AndrewMagerman/wizard-book-study/tree/main/reference/berkeley_cs61a_material/course_reader_vol_1/labs.pdf
+course_notes = https://github.com/AndrewMagerman/wizard-book-study/tree/main/reference/berkeley_cs61a_material/course_reader_vol_2/notes.pdf
+homework = https://github.com/AndrewMagerman/wizard-book-study/tree/main/reference/berkeley_cs61a_material/course_reader_vol_1/hw.pdf
 
 
 
@@ -88,10 +88,10 @@ Week 5 (Hierarchical data)
 
 We **review** this work on Review Meeting Week 5 on Wednesday 9th June, 19.00 CET
 
-repo: https://git.sr.ht/~codersonly/wizard-book-study
-labs = https://git.sr.ht/~codersonly/wizard-book-study/tree/master/item/reference/berkeley_cs61a_material/course_reader_vol_1/labs.pdf
-course_notes = https://git.sr.ht/~codersonly/wizard-book-study/tree/master/item/reference/berkeley_cs61a_material/course_reader_vol_2/notes.pdf
-homework = https://git.sr.ht/~codersonly/wizard-book-study/tree/master/item/reference/berkeley_cs61a_material/course_reader_vol_1/hw.pdf
+repo: https://github.com/AndrewMagerman/wizard-book-study
+labs = https://github.com/AndrewMagerman/wizard-book-study/tree/main/reference/berkeley_cs61a_material/course_reader_vol_1/labs.pdf
+course_notes = https://github.com/AndrewMagerman/wizard-book-study/tree/main/reference/berkeley_cs61a_material/course_reader_vol_2/notes.pdf
+homework = https://github.com/AndrewMagerman/wizard-book-study/tree/main/reference/berkeley_cs61a_material/course_reader_vol_1/hw.pdf
 
 
 
@@ -108,10 +108,10 @@ Week 6 (Generic Operators)
 
 We **review** this work on Review Meeting Week 6 on Wednesday 30th June, 19.00 CET
 
-repo: https://git.sr.ht/~codersonly/wizard-book-study
-labs = https://git.sr.ht/~codersonly/wizard-book-study/tree/master/item/reference/berkeley_cs61a_material/course_reader_vol_1/labs.pdf
-course_notes = https://git.sr.ht/~codersonly/wizard-book-study/tree/master/item/reference/berkeley_cs61a_material/course_reader_vol_2/notes.pdf
-homework = https://git.sr.ht/~codersonly/wizard-book-study/tree/master/item/reference/berkeley_cs61a_material/course_reader_vol_1/hw.pdf
+repo: https://github.com/AndrewMagerman/wizard-book-study
+labs = https://github.com/AndrewMagerman/wizard-book-study/tree/main/reference/berkeley_cs61a_material/course_reader_vol_1/labs.pdf
+course_notes = https://github.com/AndrewMagerman/wizard-book-study/tree/main/reference/berkeley_cs61a_material/course_reader_vol_2/notes.pdf
+homework = https://github.com/AndrewMagerman/wizard-book-study/tree/main/reference/berkeley_cs61a_material/course_reader_vol_1/hw.pdf
 
 
 
@@ -127,10 +127,10 @@ Week 7 (Object-oriented programming)
 
 We **review** this work on Review Meeting Week 7 on Wednesday 21st July, 19.00 CET
 
-repo: https://git.sr.ht/~codersonly/wizard-book-study
-labs = https://git.sr.ht/~codersonly/wizard-book-study/tree/master/item/reference/berkeley_cs61a_material/course_reader_vol_1/labs.pdf
-course_notes = https://git.sr.ht/~codersonly/wizard-book-study/tree/master/item/reference/berkeley_cs61a_material/course_reader_vol_2/notes.pdf
-homework = https://git.sr.ht/~codersonly/wizard-book-study/tree/master/item/reference/berkeley_cs61a_material/course_reader_vol_1/hw.pdf
+repo: https://github.com/AndrewMagerman/wizard-book-study
+labs = https://github.com/AndrewMagerman/wizard-book-study/tree/main/reference/berkeley_cs61a_material/course_reader_vol_1/labs.pdf
+course_notes = https://github.com/AndrewMagerman/wizard-book-study/tree/main/reference/berkeley_cs61a_material/course_reader_vol_2/notes.pdf
+homework = https://github.com/AndrewMagerman/wizard-book-study/tree/main/reference/berkeley_cs61a_material/course_reader_vol_1/hw.pdf
 
 
 
@@ -148,10 +148,10 @@ Week 8 (Assignment, state, environments)
 
 We **review** this work on Review Meeting Week 8 on Wednesday 25th August, 19.00 CET
 
-repo: https://git.sr.ht/~codersonly/wizard-book-study
-labs = https://git.sr.ht/~codersonly/wizard-book-study/tree/master/item/reference/berkeley_cs61a_material/course_reader_vol_1/labs.pdf
-course_notes = https://git.sr.ht/~codersonly/wizard-book-study/tree/master/item/reference/berkeley_cs61a_material/course_reader_vol_2/notes.pdf
-homework = https://git.sr.ht/~codersonly/wizard-book-study/tree/master/item/reference/berkeley_cs61a_material/course_reader_vol_1/hw.pdf
+repo: https://github.com/AndrewMagerman/wizard-book-study
+labs = https://github.com/AndrewMagerman/wizard-book-study/tree/main/reference/berkeley_cs61a_material/course_reader_vol_1/labs.pdf
+course_notes = https://github.com/AndrewMagerman/wizard-book-study/tree/main/reference/berkeley_cs61a_material/course_reader_vol_2/notes.pdf
+homework = https://github.com/AndrewMagerman/wizard-book-study/tree/main/reference/berkeley_cs61a_material/course_reader_vol_1/hw.pdf
 
 
 
@@ -168,10 +168,10 @@ Week 9 (Mutable data, vectors)
 
 We **review** this work on Review Meeting Week 9 on Wednesday 15th September, 19.00 CET
 
-repo: https://git.sr.ht/~codersonly/wizard-book-study
-labs = https://git.sr.ht/~codersonly/wizard-book-study/tree/master/item/reference/berkeley_cs61a_material/course_reader_vol_1/labs.pdf
-course_notes = https://git.sr.ht/~codersonly/wizard-book-study/tree/master/item/reference/berkeley_cs61a_material/course_reader_vol_2/notes.pdf
-homework = https://git.sr.ht/~codersonly/wizard-book-study/tree/master/item/reference/berkeley_cs61a_material/course_reader_vol_1/hw.pdf
+repo: https://github.com/AndrewMagerman/wizard-book-study
+labs = https://github.com/AndrewMagerman/wizard-book-study/tree/main/reference/berkeley_cs61a_material/course_reader_vol_1/labs.pdf
+course_notes = https://github.com/AndrewMagerman/wizard-book-study/tree/main/reference/berkeley_cs61a_material/course_reader_vol_2/notes.pdf
+homework = https://github.com/AndrewMagerman/wizard-book-study/tree/main/reference/berkeley_cs61a_material/course_reader_vol_1/hw.pdf
 
 
 
@@ -188,10 +188,10 @@ Week 10 (client/server, concurrency)
 
 We **review** this work on Review Meeting Week 10 on Wednesday 6th October, 19.00 CET
 
-repo: https://git.sr.ht/~codersonly/wizard-book-study
-labs = https://git.sr.ht/~codersonly/wizard-book-study/tree/master/item/reference/berkeley_cs61a_material/course_reader_vol_1/labs.pdf
-course_notes = https://git.sr.ht/~codersonly/wizard-book-study/tree/master/item/reference/berkeley_cs61a_material/course_reader_vol_2/notes.pdf
-homework = https://git.sr.ht/~codersonly/wizard-book-study/tree/master/item/reference/berkeley_cs61a_material/course_reader_vol_1/hw.pdf
+repo: https://github.com/AndrewMagerman/wizard-book-study
+labs = https://github.com/AndrewMagerman/wizard-book-study/tree/main/reference/berkeley_cs61a_material/course_reader_vol_1/labs.pdf
+course_notes = https://github.com/AndrewMagerman/wizard-book-study/tree/main/reference/berkeley_cs61a_material/course_reader_vol_2/notes.pdf
+homework = https://github.com/AndrewMagerman/wizard-book-study/tree/main/reference/berkeley_cs61a_material/course_reader_vol_1/hw.pdf
 
 
 
@@ -207,10 +207,10 @@ Week 11 (Streams)
 
 We **review** this work on Review Meeting Week 11 on Wednesday 27th October, 19.00 CET
 
-repo: https://git.sr.ht/~codersonly/wizard-book-study
-labs = https://git.sr.ht/~codersonly/wizard-book-study/tree/master/item/reference/berkeley_cs61a_material/course_reader_vol_1/labs.pdf
-course_notes = https://git.sr.ht/~codersonly/wizard-book-study/tree/master/item/reference/berkeley_cs61a_material/course_reader_vol_2/notes.pdf
-homework = https://git.sr.ht/~codersonly/wizard-book-study/tree/master/item/reference/berkeley_cs61a_material/course_reader_vol_1/hw.pdf
+repo: https://github.com/AndrewMagerman/wizard-book-study
+labs = https://github.com/AndrewMagerman/wizard-book-study/tree/main/reference/berkeley_cs61a_material/course_reader_vol_1/labs.pdf
+course_notes = https://github.com/AndrewMagerman/wizard-book-study/tree/main/reference/berkeley_cs61a_material/course_reader_vol_2/notes.pdf
+homework = https://github.com/AndrewMagerman/wizard-book-study/tree/main/reference/berkeley_cs61a_material/course_reader_vol_1/hw.pdf
 
 
 
@@ -228,10 +228,10 @@ Week 12 (Metacircular evaluator)
 
 We **review** this work on Review Meeting Week 12 on Monday 29th November, 19.00 CET
 
-repo: https://git.sr.ht/~codersonly/wizard-book-study
-labs = https://git.sr.ht/~codersonly/wizard-book-study/tree/master/item/reference/berkeley_cs61a_material/course_reader_vol_1/labs.pdf
-course_notes = https://git.sr.ht/~codersonly/wizard-book-study/tree/master/item/reference/berkeley_cs61a_material/course_reader_vol_2/notes.pdf
-homework = https://git.sr.ht/~codersonly/wizard-book-study/tree/master/item/reference/berkeley_cs61a_material/course_reader_vol_1/hw.pdf
+repo: https://github.com/AndrewMagerman/wizard-book-study
+labs = https://github.com/AndrewMagerman/wizard-book-study/tree/main/reference/berkeley_cs61a_material/course_reader_vol_1/labs.pdf
+course_notes = https://github.com/AndrewMagerman/wizard-book-study/tree/main/reference/berkeley_cs61a_material/course_reader_vol_2/notes.pdf
+homework = https://github.com/AndrewMagerman/wizard-book-study/tree/main/reference/berkeley_cs61a_material/course_reader_vol_1/hw.pdf
 
 
 
@@ -248,10 +248,10 @@ Week 12b (Metacircular evaluator part 2)
 
 We **review** this work on Review Meeting Week 12b on Monday 13th December, 19.00 CET
 
-repo: https://git.sr.ht/~codersonly/wizard-book-study
-labs = https://git.sr.ht/~codersonly/wizard-book-study/tree/master/item/reference/berkeley_cs61a_material/course_reader_vol_1/labs.pdf
-course_notes = https://git.sr.ht/~codersonly/wizard-book-study/tree/master/item/reference/berkeley_cs61a_material/course_reader_vol_2/notes.pdf
-homework = https://git.sr.ht/~codersonly/wizard-book-study/tree/master/item/reference/berkeley_cs61a_material/course_reader_vol_1/hw.pdf
+repo: https://github.com/AndrewMagerman/wizard-book-study
+labs = https://github.com/AndrewMagerman/wizard-book-study/tree/main/reference/berkeley_cs61a_material/course_reader_vol_1/labs.pdf
+course_notes = https://github.com/AndrewMagerman/wizard-book-study/tree/main/reference/berkeley_cs61a_material/course_reader_vol_2/notes.pdf
+homework = https://github.com/AndrewMagerman/wizard-book-study/tree/main/reference/berkeley_cs61a_material/course_reader_vol_1/hw.pdf
 
 
 
@@ -266,10 +266,10 @@ Week 12c (Project 4a - A1 A2 B1 B2)
 
 We **review** this work on Review Meeting Week 12c on Monday 10th January 2022, 19.00 CET
 
-repo: https://git.sr.ht/~codersonly/wizard-book-study
-labs = https://git.sr.ht/~codersonly/wizard-book-study/tree/master/item/reference/berkeley_cs61a_material/course_reader_vol_1/labs.pdf
-course_notes = https://git.sr.ht/~codersonly/wizard-book-study/tree/master/item/reference/berkeley_cs61a_material/course_reader_vol_2/notes.pdf
-homework = https://git.sr.ht/~codersonly/wizard-book-study/tree/master/item/reference/berkeley_cs61a_material/course_reader_vol_1/hw.pdf
+repo: https://github.com/AndrewMagerman/wizard-book-study
+labs = https://github.com/AndrewMagerman/wizard-book-study/tree/main/reference/berkeley_cs61a_material/course_reader_vol_1/labs.pdf
+course_notes = https://github.com/AndrewMagerman/wizard-book-study/tree/main/reference/berkeley_cs61a_material/course_reader_vol_2/notes.pdf
+homework = https://github.com/AndrewMagerman/wizard-book-study/tree/main/reference/berkeley_cs61a_material/course_reader_vol_1/hw.pdf
 
 
 
@@ -285,14 +285,14 @@ Week 13a (Analyzing evaluator, MapReduce)
 
 We **review** this work on Review Meeting Week 13a on Monday 24th January 2022, 19.00
 
-repo: https://git.sr.ht/~codersonly/wizard-book-study
-labs = https://git.sr.ht/~codersonly/wizard-book-study/tree/master/item/reference/berkeley_cs61a_material/course_reader_vol_1/labs.pdf
-course_notes = https://git.sr.ht/~codersonly/wizard-book-study/tree/master/item/reference/berkeley_cs61a_material/course_reader_vol_2/notes.pdf
-homework = https://git.sr.ht/~codersonly/wizard-book-study/tree/master/item/reference/berkeley_cs61a_material/course_reader_vol_1/hw.pdf
+repo: https://github.com/AndrewMagerman/wizard-book-study
+labs = https://github.com/AndrewMagerman/wizard-book-study/tree/main/reference/berkeley_cs61a_material/course_reader_vol_1/labs.pdf
+course_notes = https://github.com/AndrewMagerman/wizard-book-study/tree/main/reference/berkeley_cs61a_material/course_reader_vol_2/notes.pdf
+homework = https://github.com/AndrewMagerman/wizard-book-study/tree/main/reference/berkeley_cs61a_material/course_reader_vol_1/hw.pdf
 
 
 
-Week 13b (Project 4 - 3 and 4)
+Week 13b (Project 4 - 3 and 4, A5 and B5)
 
 - do labs for week 13b
 - read the book logo.txt in reference/berkeley_cs61a_material/course_reader_vol_1/project_4
@@ -304,10 +304,10 @@ Week 13b (Project 4 - 3 and 4)
 
 We **review** this work on Review Meeting Week 13b on Monday 7th February 2022, 19.00 CET
 
-repo: https://git.sr.ht/~codersonly/wizard-book-study
-labs = https://git.sr.ht/~codersonly/wizard-book-study/tree/master/item/reference/berkeley_cs61a_material/course_reader_vol_1/labs.pdf
-course_notes = https://git.sr.ht/~codersonly/wizard-book-study/tree/master/item/reference/berkeley_cs61a_material/course_reader_vol_2/notes.pdf
-homework = https://git.sr.ht/~codersonly/wizard-book-study/tree/master/item/reference/berkeley_cs61a_material/course_reader_vol_1/hw.pdf
+repo: https://github.com/AndrewMagerman/wizard-book-study
+labs = https://github.com/AndrewMagerman/wizard-book-study/tree/main/reference/berkeley_cs61a_material/course_reader_vol_1/labs.pdf
+course_notes = https://github.com/AndrewMagerman/wizard-book-study/tree/main/reference/berkeley_cs61a_material/course_reader_vol_2/notes.pdf
+homework = https://github.com/AndrewMagerman/wizard-book-study/tree/main/reference/berkeley_cs61a_material/course_reader_vol_1/hw.pdf
 
 
 
@@ -323,14 +323,14 @@ Week 14a (lazy evaluator, nondeterministic evaluator)
 
 We **review** this work on Review Meeting Week 14a on Monday 7th March 2022, 19.00 CET
 
-repo: https://git.sr.ht/~codersonly/wizard-book-study
-labs = https://git.sr.ht/~codersonly/wizard-book-study/tree/master/item/reference/berkeley_cs61a_material/course_reader_vol_1/labs.pdf
-course_notes = https://git.sr.ht/~codersonly/wizard-book-study/tree/master/item/reference/berkeley_cs61a_material/course_reader_vol_2/notes.pdf
-homework = https://git.sr.ht/~codersonly/wizard-book-study/tree/master/item/reference/berkeley_cs61a_material/course_reader_vol_1/hw.pdf
+repo: https://github.com/AndrewMagerman/wizard-book-study
+labs = https://github.com/AndrewMagerman/wizard-book-study/tree/main/reference/berkeley_cs61a_material/course_reader_vol_1/labs.pdf
+course_notes = https://github.com/AndrewMagerman/wizard-book-study/tree/main/reference/berkeley_cs61a_material/course_reader_vol_2/notes.pdf
+homework = https://github.com/AndrewMagerman/wizard-book-study/tree/main/reference/berkeley_cs61a_material/course_reader_vol_1/hw.pdf
 
 
 
-Week 14b (Project 4 - 5 and 6 and 7 )
+Week 14b (Project 4 - 6,7, A8, B8, 9)
 
 - do labs for week 13
 - read the book logo.txt in reference/berkeley_cs61a_material/course_reader_vol_1/project_4
@@ -342,10 +342,10 @@ Week 14b (Project 4 - 5 and 6 and 7 )
 
 We **review** this work on Review Meeting Week 14b on TBD
 
-repo: https://git.sr.ht/~codersonly/wizard-book-study
-labs = https://git.sr.ht/~codersonly/wizard-book-study/tree/master/item/reference/berkeley_cs61a_material/course_reader_vol_1/labs.pdf
-course_notes = https://git.sr.ht/~codersonly/wizard-book-study/tree/master/item/reference/berkeley_cs61a_material/course_reader_vol_2/notes.pdf
-homework = https://git.sr.ht/~codersonly/wizard-book-study/tree/master/item/reference/berkeley_cs61a_material/course_reader_vol_1/hw.pdf
+repo: https://github.com/AndrewMagerman/wizard-book-study
+labs = https://github.com/AndrewMagerman/wizard-book-study/tree/main/reference/berkeley_cs61a_material/course_reader_vol_1/labs.pdf
+course_notes = https://github.com/AndrewMagerman/wizard-book-study/tree/main/reference/berkeley_cs61a_material/course_reader_vol_2/notes.pdf
+homework = https://github.com/AndrewMagerman/wizard-book-study/tree/main/reference/berkeley_cs61a_material/course_reader_vol_1/hw.pdf
 
 
 
@@ -363,10 +363,10 @@ Week 14c (lazy evaluator, nondeterministic evaluator)
 
 We **review** this work on Review Meeting Week 14c on TBD
 
-repo: https://git.sr.ht/~codersonly/wizard-book-study
-labs = https://git.sr.ht/~codersonly/wizard-book-study/tree/master/item/reference/berkeley_cs61a_material/course_reader_vol_1/labs.pdf
-course_notes = https://git.sr.ht/~codersonly/wizard-book-study/tree/master/item/reference/berkeley_cs61a_material/course_reader_vol_2/notes.pdf
-homework = https://git.sr.ht/~codersonly/wizard-book-study/tree/master/item/reference/berkeley_cs61a_material/course_reader_vol_1/hw.pdf
+repo: https://github.com/AndrewMagerman/wizard-book-study
+labs = https://github.com/AndrewMagerman/wizard-book-study/tree/main/reference/berkeley_cs61a_material/course_reader_vol_1/labs.pdf
+course_notes = https://github.com/AndrewMagerman/wizard-book-study/tree/main/reference/berkeley_cs61a_material/course_reader_vol_2/notes.pdf
+homework = https://github.com/AndrewMagerman/wizard-book-study/tree/main/reference/berkeley_cs61a_material/course_reader_vol_1/hw.pdf
 
 
 
@@ -382,10 +382,10 @@ Week 15 (Logic programming)
 
 We **review** this work on Review Meeting Week 15 on TBD
 
-repo: https://git.sr.ht/~codersonly/wizard-book-study
-labs = https://git.sr.ht/~codersonly/wizard-book-study/tree/master/item/reference/berkeley_cs61a_material/course_reader_vol_1/labs.pdf
-course_notes = https://git.sr.ht/~codersonly/wizard-book-study/tree/master/item/reference/berkeley_cs61a_material/course_reader_vol_2/notes.pdf
-homework = https://git.sr.ht/~codersonly/wizard-book-study/tree/master/item/reference/berkeley_cs61a_material/course_reader_vol_1/hw.pdf
+repo: https://github.com/AndrewMagerman/wizard-book-study
+labs = https://github.com/AndrewMagerman/wizard-book-study/tree/main/reference/berkeley_cs61a_material/course_reader_vol_1/labs.pdf
+course_notes = https://github.com/AndrewMagerman/wizard-book-study/tree/main/reference/berkeley_cs61a_material/course_reader_vol_2/notes.pdf
+homework = https://github.com/AndrewMagerman/wizard-book-study/tree/main/reference/berkeley_cs61a_material/course_reader_vol_1/hw.pdf
 
 
 

@@ -348,7 +348,7 @@ We **review** this work on Review Meeting Week 12c on Monday 10th January 2022, 
 
 We **review** this work on Review Meeting Week 13a on Monday 24th January 2022, 19.00
 
-## Week 13b (Project 4 - 3 and 4)
+## Week 13b (Project 4 - 3 and 4, A5 and B5)
 
 - do [labs](reference/berkeley_cs61a_material/course_reader_vol_1/labs.pdf) for week 13b
 - read the book logo.txt in reference/berkeley_cs61a_material/course_reader_vol_1/project_4
@@ -372,7 +372,7 @@ We **review** this work on Review Meeting Week 13b on Monday 7th February 2022, 
 
 We **review** this work on Review Meeting Week 14a on Monday 7th March 2022, 19.00 CET
 
-## Week 14b (Project 4 - 5 and 6 and 7 )
+## Week 14b (Project 4 - 6,7, A8, B8, 9)
 
 - do [labs](reference/berkeley_cs61a_material/course_reader_vol_1/labs.pdf) for week 13
 - read the book logo.txt in reference/berkeley_cs61a_material/course_reader_vol_1/project_4
