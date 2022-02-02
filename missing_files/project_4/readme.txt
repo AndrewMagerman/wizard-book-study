@@ -13,6 +13,9 @@ docker run -v {PWD}:/home -ti stklos/stklos:1.60 stklos
 On Windows in DOS:
 docker run -v %cd%:/home -ti stklos/stklos:1.60 stklos
 
+on Mac M1:
+docker run --platform linux/amd64 -v$(pwd):/home -ti stklos/stklos:latest stklos
+
 Then load a number of files:
 
 (load "simply-scheme.scm")
