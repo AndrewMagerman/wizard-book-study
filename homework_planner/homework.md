@@ -211,31 +211,18 @@ We **review** this work on Review Meeting Week 13b on Monday 7th February 2022, 
 
 We **review** this work on Review Meeting Week 14a on Monday 7th March 2022, 19.00 CET
 
-## Week 14b (Project 4 - 6,7, A8, B8, 9)
+## Week 14b (lazy evaluator, nondeterministic evaluator)
 
-- do [labs](reference/berkeley_cs61a_material/course_reader_vol_1/labs.pdf) for week 13
-- read the book logo.txt in reference/berkeley_cs61a_material/course_reader_vol_1/project_4
-- read the [course notes](reference/berkeley_cs61a_material/course_reader_vol_2/notes.pdf) for week 13
-- do [homework](reference/berkeley_cs61a_material/course_reader_vol_1/hw.pdf) for week 13
-- cross-check your homework (solutions/week13.txt)
-- do Project 4 (with a partner)
-
-
-We **review** this work on Review Meeting Week 14b on TBD
-
-## Week 14c (lazy evaluator, nondeterministic evaluator)
-
-- do [labs](reference/berkeley_cs61a_material/course_reader_vol_1/labs.pdf) for week 14c
+- do [labs](reference/berkeley_cs61a_material/course_reader_vol_1/labs.pdf) for week 14b
 - read the book Section 4.2, 4.3
 - watch the lectures 40 & 41
-- read the [course notes](reference/berkeley_cs61a_material/course_reader_vol_2/notes.pdf) for week 14c
-- do [homework](reference/berkeley_cs61a_material/course_reader_vol_1/hw.pdf) for week 14c including book exercises 4.30, 4.32, 4.33, 4.36, 4.47, 4.48
+- read the [course notes](reference/berkeley_cs61a_material/course_reader_vol_2/notes.pdf) for week 14b
+- do [homework](reference/berkeley_cs61a_material/course_reader_vol_1/hw.pdf) for week 14b including book exercises 4.30, 4.32, 4.33, 4.36, 4.47, 4.48
 - cross-check your homework (reference/berkeley_cs61a_material/solutions/week14.txt)
-- do Project 4 (with a partner)
 - do Final Exam
 
 
-We **review** this work on Review Meeting Week 14c on TBD
+We **review** this work on Review Meeting Week 14b on Monday 21st March 2022, 19.00 CET
 
 ## Week 15 (Logic programming)
 

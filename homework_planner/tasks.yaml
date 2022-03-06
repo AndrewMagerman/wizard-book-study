@@ -137,21 +137,14 @@ Week 14a:
   solutions: "reference/berkeley_cs61a_material/solutions/week14.txt"
   Review_Meeting: "Monday 7th March 2022, 19.00 CET"
 Week 14b:
-  week: 13
-  Theme: "Project 4 - 6,7, A8, B8, 9"
-  Reading: "logo.txt in reference/berkeley_cs61a_material/course_reader_vol_1/project_4"
-  project: "Project 4 (with a partner)"
-  Review_Meeting: TBD
-Week 14c:
-  week: 14c
+  week: 14b
   Theme: "lazy evaluator, nondeterministic evaluator"
   Reading: "Section 4.2, 4.3"
   Lectures: 40 & 41
   book_exercises: "4.30, 4.32, 4.33, 4.36, 4.47, 4.48"
   solutions: "reference/berkeley_cs61a_material/solutions/week14.txt"
-  project: "Project 4 (with a partner)"
   exams: "Final Exam"
-  Review_Meeting: "TBD"
+  Review_Meeting: "Monday 21st March 2022, 19.00 CET"
 Week 15:
   week: 15
   Theme: "Logic programming"
