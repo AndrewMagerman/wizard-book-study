@@ -91,6 +91,18 @@
     )
 )
 
+;; turns out it doesn't work. Brian's does:
+
+;; Brian Harvey's solution
+(define (eval-line line-obj env)
+  (if (ask line-obj 'empty?)
+      '=no-value=
+      (let ((value (logo-eval line-obj env)))
+	(if (eq? value '=no-value=)
+       	    (eval-line line-obj env)
+	    value))))
+	    
+
 ;; tests
 (define empty-line-obj (instantiate LINE-OBJECT '()))
 (assert-eq '=no-value= (eval-line empty-line-obj '()) 'Test-empty-line-obj)
@@ -114,6 +126,19 @@
             (lambda () ( if (pred (car args) (car(cdr args)) ) '[true] '[false]) )
         )
     ))
+)
+
+;; Redefining the function to the 'spiffy' version that can handle any number of arguments unlike
+;; the first version above which can only deal with 1 or 2 argument predicate functions.
+;; Thanks Corinna for the apply hint.
+;; Again note that this function returns an evaluatable function. That's why there is no opening brace in
+;; front of the if. The if function will execute the (apply function using the supplied predicate function
+;; with all the arguments. The predicate function will return #t or #f in the Scheme binary type.
+;; The if function will return the string '[true] or '[false]
+(define (logo-pred pred)
+    (lambda args (
+        if (apply pred args) '[true] '[false]
+    ) )
 )
 
 
