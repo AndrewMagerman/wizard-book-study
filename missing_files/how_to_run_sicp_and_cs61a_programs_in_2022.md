@@ -137,13 +137,10 @@ These require sicp-concurrency
 
 ## Chapter 4
 
-Following the recommendation of Ervin Varga 
-https://evarga.gitbooks.io/solutions-guide-for-the-sicp-book/content/chapter4.html
-
 
 To run the evaluator under DrRacket you must perform the following changes to the original sources:
 
-- Add the `#lang planet neil/sicp` directive at the beginning of each file.
+- Select in Dr. Racket the language SICP (PLaneT 1.18). This is key!
 - Rename apply to apply-custom (or something else), as needed.
 
 
