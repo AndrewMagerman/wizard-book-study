@@ -360,7 +360,7 @@ Week 15 (Logic programming)
 - cross-check your homework (reference/berkeley_cs61a_material/solutions/week15.txt)
 
 
-We **review** this work on Review Meeting Week 15 on TBD
+We **review** this work on Review Meeting Week 15 on Monday 4th April 2022, 19.00 CET
 
 repo: https://github.com/AndrewMagerman/wizard-book-study
 labs = https://github.com/AndrewMagerman/wizard-book-study/tree/main/reference/berkeley_cs61a_material/course_reader_vol_1/labs.pdf

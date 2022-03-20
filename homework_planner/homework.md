@@ -234,5 +234,5 @@ We **review** this work on Review Meeting Week 14b on Monday 21st March 2022, 19
 - cross-check your homework (reference/berkeley_cs61a_material/solutions/week15.txt)
 
 
-We **review** this work on Review Meeting Week 15 on TBD
+We **review** this work on Review Meeting Week 15 on Monday 4th April 2022, 19.00 CET
 
