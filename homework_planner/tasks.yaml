@@ -31,6 +31,7 @@ Week 5:
   Theme: "Hierarchical data"
   Reading: "Section 2.2.2–2.2.3, 2.3.1, 2.3.3"
   Lectures: "12 & 13 & 14"
+  lab_exercises: "2.25, 2.53, 2.55, 2.27"
   book_exercises: "2.24, 2.26, 2.29, 2.30, 2.31, 2.32, 2.36, 2.37, 2.38, 2.54"
   exams: "First Midterm"
   Review_Meeting: "Wednesday 9th June, 19.00 CET"
@@ -65,6 +66,7 @@ Week 9:
   Theme: "Mutable data, vectors"
   Reading: "Section 3.3.1–3"
   Lectures: 24 & 25 & 26
+  lab_exercises: "3.12"
   book_exercises: "3.16, 3.17, 3.21, 3.25, 3.27"
   project: "Project 3a (with a partner)"
   Review_Meeting: "Wednesday 15th September, 19.00 CET"
@@ -91,6 +93,7 @@ Week 12:
   Reading_extra: { title: "Therac paper",
                    path: "reference/berkeley_cs61a_material/course_reader_vol_2/Therac-25.pdf" }
   Lectures: 35 & 36 & 37
+  lab_exercises: "4.1, 4.2, 4.4, 4.5"
   book_exercises: "4.3, 4.6, 4.7, 4.10"
   solutions: "reference/berkeley_cs61a_material/solutions/week12.txt"
   exams: "Third Midterm"
@@ -133,6 +136,7 @@ Week 14a:
   Theme: "lazy evaluator, nondeterministic evaluator"
   Reading: "Section 4.2, 4.3"
   Lectures: 40 & 41
+  lab_exercises: "4.27, 4.29"
   book_exercises: "4.25, 4.26, 4.28, 4.42, 4.45, 4.49, 4.50, 4.52"
   solutions: "reference/berkeley_cs61a_material/solutions/week14.txt"
   Review_Meeting: "Monday 7th March 2022, 19.00 CET"
@@ -150,6 +154,7 @@ Week 15:
   Theme: "Logic programming"
   Reading: "Section 4.4.1–3"
   Lectures: 42 & 43 & 44
+  lab_exercises: "4.55, 4.62"
   book_exercises: "4.56, 4.57, 4.58, 4.65"
   solutions: "reference/berkeley_cs61a_material/solutions/week15.txt"
   Review_Meeting: "Monday 4th April 2022, 19.00 CET"
