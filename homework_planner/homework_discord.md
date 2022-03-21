@@ -77,7 +77,7 @@ homework = https://github.com/AndrewMagerman/wizard-book-study/tree/main/referen
 
 Week 5 (Hierarchical data)
 
-- do labs for week 5
+- do labs for week 5 including book exercises 2.25, 2.53, 2.55, 2.27
 - read the book Section 2.2.2–2.2.3, 2.3.1, 2.3.3
 - watch the lectures 12 & 13 & 14
 - read the course_notes for week 5
@@ -157,7 +157,7 @@ homework = https://github.com/AndrewMagerman/wizard-book-study/tree/main/referen
 
 Week 9 (Mutable data, vectors)
 
-- do labs for week 9
+- do labs for week 9 including book exercises 3.12
 - read the book Section 3.3.1–3
 - watch the lectures 24 & 25 & 26
 - read the course_notes for week 9
@@ -216,7 +216,7 @@ homework = https://github.com/AndrewMagerman/wizard-book-study/tree/main/referen
 
 Week 12 (Metacircular evaluator)
 
-- do labs for week 12
+- do labs for week 12 including book exercises 4.1, 4.2, 4.4, 4.5
 - read the book Section 4.1.1–6
 - read [Therac paper](reference/berkeley_cs61a_material/course_reader_vol_2/Therac-25.pdf)
 - watch the lectures 35 & 36 & 37
@@ -313,7 +313,7 @@ homework = https://github.com/AndrewMagerman/wizard-book-study/tree/main/referen
 
 Week 14a (lazy evaluator, nondeterministic evaluator)
 
-- do labs for week 14a
+- do labs for week 14a including book exercises 4.27, 4.29
 - read the book Section 4.2, 4.3
 - watch the lectures 40 & 41
 - read the course_notes for week 14a
@@ -352,7 +352,7 @@ homework = https://github.com/AndrewMagerman/wizard-book-study/tree/main/referen
 
 Week 15 (Logic programming)
 
-- do labs for week 15
+- do labs for week 15 including book exercises 4.55, 4.62
 - read the book Section 4.4.1–3
 - watch the lectures 42 & 43 & 44
 - read the course_notes for week 15

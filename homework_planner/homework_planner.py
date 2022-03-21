@@ -46,7 +46,12 @@ def homework_this_week(value: dict, target='markdown') -> List[str]:
     else:
         homework_line_extra = ""
 
-    list1 = [f'do {labs} for week {week}',
+    if "lab_exercises" in value:
+        lab_line_extra = f' including book exercises {value["lab_exercises"]}'
+    else:
+        lab_line_extra = ""
+
+    list1 = [f'do {labs} for week {week}{lab_line_extra}',
              ]
 
     if "Reading" in value:

@@ -49,7 +49,7 @@ We **review** this work on Review Meeting Week 4 on Wednesday 19th May, 18.30 CE
 
 ## Week 5 (Hierarchical data)
 
-- do [labs](reference/berkeley_cs61a_material/course_reader_vol_1/labs.pdf) for week 5
+- do [labs](reference/berkeley_cs61a_material/course_reader_vol_1/labs.pdf) for week 5 including book exercises 2.25, 2.53, 2.55, 2.27
 - read the book Section 2.2.2–2.2.3, 2.3.1, 2.3.3
 - watch the lectures 12 & 13 & 14
 - read the [course notes](reference/berkeley_cs61a_material/course_reader_vol_2/notes.pdf) for week 5
@@ -101,7 +101,7 @@ We **review** this work on Review Meeting Week 8 on Wednesday 25th August, 19.00
 
 ## Week 9 (Mutable data, vectors)
 
-- do [labs](reference/berkeley_cs61a_material/course_reader_vol_1/labs.pdf) for week 9
+- do [labs](reference/berkeley_cs61a_material/course_reader_vol_1/labs.pdf) for week 9 including book exercises 3.12
 - read the book Section 3.3.1–3
 - watch the lectures 24 & 25 & 26
 - read the [course notes](reference/berkeley_cs61a_material/course_reader_vol_2/notes.pdf) for week 9
@@ -139,7 +139,7 @@ We **review** this work on Review Meeting Week 11 on Wednesday 27th October, 19.
 
 ## Week 12 (Metacircular evaluator)
 
-- do [labs](reference/berkeley_cs61a_material/course_reader_vol_1/labs.pdf) for week 12
+- do [labs](reference/berkeley_cs61a_material/course_reader_vol_1/labs.pdf) for week 12 including book exercises 4.1, 4.2, 4.4, 4.5
 - read the book Section 4.1.1–6
 - read [Therac paper](reference/berkeley_cs61a_material/course_reader_vol_2/Therac-25.pdf)
 - watch the lectures 35 & 36 & 37
@@ -201,7 +201,7 @@ We **review** this work on Review Meeting Week 13b on Monday 7th February 2022, 
 
 ## Week 14a (lazy evaluator, nondeterministic evaluator)
 
-- do [labs](reference/berkeley_cs61a_material/course_reader_vol_1/labs.pdf) for week 14a
+- do [labs](reference/berkeley_cs61a_material/course_reader_vol_1/labs.pdf) for week 14a including book exercises 4.27, 4.29
 - read the book Section 4.2, 4.3
 - watch the lectures 40 & 41
 - read the [course notes](reference/berkeley_cs61a_material/course_reader_vol_2/notes.pdf) for week 14a
@@ -226,7 +226,7 @@ We **review** this work on Review Meeting Week 14b on Monday 21st March 2022, 19
 
 ## Week 15 (Logic programming)
 
-- do [labs](reference/berkeley_cs61a_material/course_reader_vol_1/labs.pdf) for week 15
+- do [labs](reference/berkeley_cs61a_material/course_reader_vol_1/labs.pdf) for week 15 including book exercises 4.55, 4.62
 - read the book Section 4.4.1–3
 - watch the lectures 42 & 43 & 44
 - read the [course notes](reference/berkeley_cs61a_material/course_reader_vol_2/notes.pdf) for week 15
