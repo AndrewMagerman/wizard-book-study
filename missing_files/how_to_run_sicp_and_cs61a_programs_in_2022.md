@@ -143,6 +143,16 @@ To run the evaluator under DrRacket you must perform the following changes to th
 - Select in Dr. Racket the language SICP (PLaneT 1.18). This is key!
 - Rename apply to apply-custom (or something else), as needed.
 
+### 4.2.2 Lazy evaluation
+
+use `missing_files/week_14/ch4-leval.rkt`
+
+
+### 4.3.2 Ambivalent evaluation
+
+use `missing_files/week_14/ch4-ambeval.rkt`
+
+
 
 
 # Miscellaneous help

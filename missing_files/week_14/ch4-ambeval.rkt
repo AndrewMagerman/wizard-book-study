@@ -27,10 +27,36 @@
 ;;**implementation-dependent loading of evaluator file
 ;;Note: It is loaded first so that the section 4.2 definition
 ;; of eval overrides the definition from 4.1.1
-;(load "ch4-mceval.scm")
 (load "ch4-mceval.rkt")
 
+;; A longer list of primitives -- suitable for running everything in 4.3
+;; Overrides the list in ch4-mceval.scm
+;; Has Not to support Require; various stuff for code in text (including
+;;  support for Prime?); integer? and sqrt for exercise code;
+;;  eq? for ex. solution
 
+(define primitive-procedures
+  (list (list 'car car)
+        (list 'cdr cdr)
+        (list 'cons cons)
+        (list 'null? null?)
+        (list 'list list)
+        (list 'memq memq)
+        (list 'member member)
+        (list 'not not)
+        (list '+ +)
+        (list '- -)
+        (list '* *)
+        (list '= =)
+        (list '> >)
+        (list '>= >=)
+        (list 'abs abs)
+        (list 'remainder remainder)
+        (list 'integer? integer?)
+        (list 'sqrt sqrt)
+        (list 'eq? eq?)
+;;      more primitives
+        ))
 
 ;;;Code from SECTION 4.3.3, modified as needed to run it
 
@@ -265,35 +291,10 @@
                       (map let-val bindings))))
                      
 
-
-;; A longer list of primitives -- suitable for running everything in 4.3
-;; Overrides the list in ch4-mceval.scm
-;; Has Not to support Require; various stuff for code in text (including
-;;  support for Prime?); integer? and sqrt for exercise code;
-;;  eq? for ex. solution
 
-(define primitive-procedures
-  (list (list 'car car)
-        (list 'cdr cdr)
-        (list 'cons cons)
-        (list 'null? null?)
-        (list 'list list)
-        (list 'memq memq)
-        (list 'member member)
-        (list 'not not)
-        (list '+ +)
-        (list '- -)
-        (list '* *)
-        (list '= =)
-        (list '> >)
-        (list '>= >=)
-        (list 'abs abs)
-        (list 'remainder remainder)
-        (list 'integer? integer?)
-        (list 'sqrt sqrt)
-        (list 'eq? eq?)
-;;      more primitives
-        ))
+
 
 
 'AMB-EVALUATOR-LOADED
+(define the-global-environment (setup-environment))
+(driver-loop)

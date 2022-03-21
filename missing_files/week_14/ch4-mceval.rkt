@@ -368,6 +368,6 @@
 ;;; the file is loaded.
 ;;(define the-global-environment (setup-environment))
 ;;(driver-loop)
-(define the-global-environment (setup-environment))
+; (define the-global-environment (setup-environment))
 
 'METACIRCULAR-EVALUATOR-LOADED
