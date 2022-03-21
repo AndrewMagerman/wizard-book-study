@@ -5,7 +5,7 @@
 - watch the lectures 1 & 2
 - read the [course notes](reference/berkeley_cs61a_material/course_reader_vol_2/notes.pdf) for week 1
 - do [homework](reference/berkeley_cs61a_material/course_reader_vol_1/hw.pdf) for week 1
-- cross-check your homework (solutions/week1.txt)
+- cross-check your homework (reference/berkeley_cs61a_material/solutions/week1.txt)
 
 
 We **review** this work on Review Meeting Week 1 on Wednesday 24th March, 18.30 CET
@@ -17,7 +17,7 @@ We **review** this work on Review Meeting Week 1 on Wednesday 24th March, 18.30 
 - watch the lectures 3 & 4 & 5 & 6
 - read the [course notes](reference/berkeley_cs61a_material/course_reader_vol_2/notes.pdf) for week 2
 - do [homework](reference/berkeley_cs61a_material/course_reader_vol_1/hw.pdf) for week 2 including book exercises 1.31(a), 1.32(a), 1.33, 1.40, 1.41, 1.43, 1.46
-- cross-check your homework (solutions/week2.txt)
+- cross-check your homework (reference/berkeley_cs61a_material/solutions/week2.txt)
 
 
 We **review** this work on Review Meeting Week 2 on Wednesday 7th April, 18.30 CET
@@ -29,7 +29,7 @@ We **review** this work on Review Meeting Week 2 on Wednesday 7th April, 18.30 C
 - watch the lectures 7 & 8
 - read the [course notes](reference/berkeley_cs61a_material/course_reader_vol_2/notes.pdf) for week 3
 - do [homework](reference/berkeley_cs61a_material/course_reader_vol_1/hw.pdf) for week 3 including book exercises 1.16, 1.35, 1.37, 1.38
-- cross-check your homework (solutions/week3.txt)
+- cross-check your homework (reference/berkeley_cs61a_material/solutions/week3.txt)
 - do Project 1 - reference/berkeley_cs61a_material/course_reader_vol_1/project_1
 
 
@@ -42,7 +42,7 @@ We **review** this work on Review Meeting Week 3 on Wednesday 28th April, 18.30 
 - watch the lectures 9 & 10 & 11
 - read the [course notes](reference/berkeley_cs61a_material/course_reader_vol_2/notes.pdf) for week 4
 - do [homework](reference/berkeley_cs61a_material/course_reader_vol_1/hw.pdf) for week 4 including book exercises 2.7, 2.8, 2.10, 2.12, 2.17, 2.20, 2.22, 2.23
-- cross-check your homework (solutions/week4.txt)
+- cross-check your homework (reference/berkeley_cs61a_material/solutions/week4.txt)
 
 
 We **review** this work on Review Meeting Week 4 on Wednesday 19th May, 18.30 CET
@@ -54,7 +54,7 @@ We **review** this work on Review Meeting Week 4 on Wednesday 19th May, 18.30 CE
 - watch the lectures 12 & 13 & 14
 - read the [course notes](reference/berkeley_cs61a_material/course_reader_vol_2/notes.pdf) for week 5
 - do [homework](reference/berkeley_cs61a_material/course_reader_vol_1/hw.pdf) for week 5 including book exercises 2.24, 2.26, 2.29, 2.30, 2.31, 2.32, 2.36, 2.37, 2.38, 2.54
-- cross-check your homework (solutions/week5.txt)
+- cross-check your homework (reference/berkeley_cs61a_material/solutions/week5.txt)
 - do First Midterm
 
 
@@ -67,7 +67,7 @@ We **review** this work on Review Meeting Week 5 on Wednesday 9th June, 19.00 CE
 - watch the lectures 16 & 17
 - read the [course notes](reference/berkeley_cs61a_material/course_reader_vol_2/notes.pdf) for week 6
 - do [homework](reference/berkeley_cs61a_material/course_reader_vol_1/hw.pdf) for week 6 including book exercises 2.74, 2.75, 2.76, 2.77, 2.79, 2.80, 2.81, 2.83
-- cross-check your homework (solutions/week6.txt)
+- cross-check your homework (reference/berkeley_cs61a_material/solutions/week6.txt)
 - do Project 2 - section 2.2.4 of the book - all exercises
 
 
@@ -80,7 +80,7 @@ We **review** this work on Review Meeting Week 6 on Wednesday 30th June, 19.00 C
 - watch the lectures 18 & 19 & 20
 - read the [course notes](reference/berkeley_cs61a_material/course_reader_vol_2/notes.pdf) for week 7
 - do [homework](reference/berkeley_cs61a_material/course_reader_vol_1/hw.pdf) for week 7
-- cross-check your homework (solutions/week7.txt)
+- cross-check your homework (reference/berkeley_cs61a_material/solutions/week7.txt)
 
 
 We **review** this work on Review Meeting Week 7 on Wednesday 21st July, 19.00 CET
@@ -93,7 +93,7 @@ We **review** this work on Review Meeting Week 7 on Wednesday 21st July, 19.00 C
 - watch the lectures 21 & 22 & 23
 - read the [course notes](reference/berkeley_cs61a_material/course_reader_vol_2/notes.pdf) for week 8
 - do [homework](reference/berkeley_cs61a_material/course_reader_vol_1/hw.pdf) for week 8 including book exercises 3.3, 3.4, 3.7, 3.8, 3.10, 3.11
-- cross-check your homework (solutions/week8.txt)
+- cross-check your homework (reference/berkeley_cs61a_material/solutions/week8.txt)
 - do Second Midterm
 
 
@@ -106,7 +106,7 @@ We **review** this work on Review Meeting Week 8 on Wednesday 25th August, 19.00
 - watch the lectures 24 & 25 & 26
 - read the [course notes](reference/berkeley_cs61a_material/course_reader_vol_2/notes.pdf) for week 9
 - do [homework](reference/berkeley_cs61a_material/course_reader_vol_1/hw.pdf) for week 9 including book exercises 3.16, 3.17, 3.21, 3.25, 3.27
-- cross-check your homework (solutions/week9.txt)
+- cross-check your homework (reference/berkeley_cs61a_material/solutions/week9.txt)
 - do Project 3a (with a partner)
 
 
@@ -119,7 +119,7 @@ We **review** this work on Review Meeting Week 9 on Wednesday 15th September, 19
 - watch the lectures 29 & 30 & 31 & 32
 - read the [course notes](reference/berkeley_cs61a_material/course_reader_vol_2/notes.pdf) for week 10
 - do [homework](reference/berkeley_cs61a_material/course_reader_vol_1/hw.pdf) for week 10 including book exercises 3.38, 3.39, 3.40, 3.41, 3.42, 3.44, 3.46, 3.48, 3.33 to 3.37
-- cross-check your homework (solutions/week10.txt)
+- cross-check your homework (reference/berkeley_cs61a_material/solutions/week10.txt)
 - do Project 3b (with a partner)
 
 
@@ -235,4 +235,44 @@ We **review** this work on Review Meeting Week 14b on Monday 21st March 2022, 19
 
 
 We **review** this work on Review Meeting Week 15 on Monday 4th April 2022, 19.00 CET
+
+## Week 16 (Register Machines)
+
+- read the book Section 5.1-5.2
+- watch the lectures 9A from https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-001-structure-and-interpretation-of-computer-programs-spring-2005/video-lectures/
+- read the [course notes](reference/berkeley_cs61a_material/course_reader_vol_2/notes.pdf) for week 16
+- do [homework](reference/berkeley_cs61a_material/course_reader_vol_1/hw.pdf) for week 16 including book exercises 5.1 to 5.19
+
+
+We **review** this work on Review Meeting Week 16 on TBD
+
+## Week 17 (Explicit-control Evaluator)
+
+- read the book Section 5.4
+- watch the lectures 9B from https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-001-structure-and-interpretation-of-computer-programs-spring-2005/video-lectures/
+- read the [course notes](reference/berkeley_cs61a_material/course_reader_vol_2/notes.pdf) for week 17
+- do [homework](reference/berkeley_cs61a_material/course_reader_vol_1/hw.pdf) for week 17 including book exercises 5.23 to 5.30
+
+
+We **review** this work on Review Meeting Week 17 on TBD
+
+## Week 18 (Compilation)
+
+- read the book Section 5.5
+- watch the lectures 10A from https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-001-structure-and-interpretation-of-computer-programs-spring-2005/video-lectures/
+- read the [course notes](reference/berkeley_cs61a_material/course_reader_vol_2/notes.pdf) for week 18
+- do [homework](reference/berkeley_cs61a_material/course_reader_vol_1/hw.pdf) for week 18 including book exercises 5.31 to 5.52
+
+
+We **review** this work on Review Meeting Week 18 on TBD
+
+## Week 19 (Storage Allocation and garbabe collection)
+
+- read the book Section 5.3
+- watch the lectures 10B from https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-001-structure-and-interpretation-of-computer-programs-spring-2005/video-lectures/
+- read the [course notes](reference/berkeley_cs61a_material/course_reader_vol_2/notes.pdf) for week 19
+- do [homework](reference/berkeley_cs61a_material/course_reader_vol_1/hw.pdf) for week 19 including book exercises 5.20 and 5.21
+
+
+We **review** this work on Review Meeting Week 19 on TBD
 

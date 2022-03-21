@@ -5,7 +5,7 @@ Week 1 (Functional Programming)
 - watch the lectures 1 & 2
 - read the course_notes for week 1
 - do homework for week 1
-- cross-check your homework (solutions/week1.txt)
+- cross-check your homework (reference/berkeley_cs61a_material/solutions/week1.txt)
 
 
 We **review** this work on Review Meeting Week 1 on Wednesday 24th March, 18.30 CET
@@ -24,7 +24,7 @@ Week 2 (Higher-order procedures)
 - watch the lectures 3 & 4 & 5 & 6
 - read the course_notes for week 2
 - do homework for week 2 including book exercises 1.31(a), 1.32(a), 1.33, 1.40, 1.41, 1.43, 1.46
-- cross-check your homework (solutions/week2.txt)
+- cross-check your homework (reference/berkeley_cs61a_material/solutions/week2.txt)
 
 
 We **review** this work on Review Meeting Week 2 on Wednesday 7th April, 18.30 CET
@@ -43,7 +43,7 @@ Week 3 (Recursion and iteration)
 - watch the lectures 7 & 8
 - read the course_notes for week 3
 - do homework for week 3 including book exercises 1.16, 1.35, 1.37, 1.38
-- cross-check your homework (solutions/week3.txt)
+- cross-check your homework (reference/berkeley_cs61a_material/solutions/week3.txt)
 - do Project 1 - reference/berkeley_cs61a_material/course_reader_vol_1/project_1
 
 
@@ -63,7 +63,7 @@ Week 4 (Data abstraction)
 - watch the lectures 9 & 10 & 11
 - read the course_notes for week 4
 - do homework for week 4 including book exercises 2.7, 2.8, 2.10, 2.12, 2.17, 2.20, 2.22, 2.23
-- cross-check your homework (solutions/week4.txt)
+- cross-check your homework (reference/berkeley_cs61a_material/solutions/week4.txt)
 
 
 We **review** this work on Review Meeting Week 4 on Wednesday 19th May, 18.30 CET
@@ -82,7 +82,7 @@ Week 5 (Hierarchical data)
 - watch the lectures 12 & 13 & 14
 - read the course_notes for week 5
 - do homework for week 5 including book exercises 2.24, 2.26, 2.29, 2.30, 2.31, 2.32, 2.36, 2.37, 2.38, 2.54
-- cross-check your homework (solutions/week5.txt)
+- cross-check your homework (reference/berkeley_cs61a_material/solutions/week5.txt)
 - do First Midterm
 
 
@@ -102,7 +102,7 @@ Week 6 (Generic Operators)
 - watch the lectures 16 & 17
 - read the course_notes for week 6
 - do homework for week 6 including book exercises 2.74, 2.75, 2.76, 2.77, 2.79, 2.80, 2.81, 2.83
-- cross-check your homework (solutions/week6.txt)
+- cross-check your homework (reference/berkeley_cs61a_material/solutions/week6.txt)
 - do Project 2 - section 2.2.4 of the book - all exercises
 
 
@@ -122,7 +122,7 @@ Week 7 (Object-oriented programming)
 - watch the lectures 18 & 19 & 20
 - read the course_notes for week 7
 - do homework for week 7
-- cross-check your homework (solutions/week7.txt)
+- cross-check your homework (reference/berkeley_cs61a_material/solutions/week7.txt)
 
 
 We **review** this work on Review Meeting Week 7 on Wednesday 21st July, 19.00 CET
@@ -142,7 +142,7 @@ Week 8 (Assignment, state, environments)
 - watch the lectures 21 & 22 & 23
 - read the course_notes for week 8
 - do homework for week 8 including book exercises 3.3, 3.4, 3.7, 3.8, 3.10, 3.11
-- cross-check your homework (solutions/week8.txt)
+- cross-check your homework (reference/berkeley_cs61a_material/solutions/week8.txt)
 - do Second Midterm
 
 
@@ -162,7 +162,7 @@ Week 9 (Mutable data, vectors)
 - watch the lectures 24 & 25 & 26
 - read the course_notes for week 9
 - do homework for week 9 including book exercises 3.16, 3.17, 3.21, 3.25, 3.27
-- cross-check your homework (solutions/week9.txt)
+- cross-check your homework (reference/berkeley_cs61a_material/solutions/week9.txt)
 - do Project 3a (with a partner)
 
 
@@ -182,7 +182,7 @@ Week 10 (client/server, concurrency)
 - watch the lectures 29 & 30 & 31 & 32
 - read the course_notes for week 10
 - do homework for week 10 including book exercises 3.38, 3.39, 3.40, 3.41, 3.42, 3.44, 3.46, 3.48, 3.33 to 3.37
-- cross-check your homework (solutions/week10.txt)
+- cross-check your homework (reference/berkeley_cs61a_material/solutions/week10.txt)
 - do Project 3b (with a partner)
 
 
@@ -361,6 +361,74 @@ Week 15 (Logic programming)
 
 
 We **review** this work on Review Meeting Week 15 on Monday 4th April 2022, 19.00 CET
+
+repo: https://github.com/AndrewMagerman/wizard-book-study
+labs = https://github.com/AndrewMagerman/wizard-book-study/tree/main/reference/berkeley_cs61a_material/course_reader_vol_1/labs.pdf
+course_notes = https://github.com/AndrewMagerman/wizard-book-study/tree/main/reference/berkeley_cs61a_material/course_reader_vol_2/notes.pdf
+homework = https://github.com/AndrewMagerman/wizard-book-study/tree/main/reference/berkeley_cs61a_material/course_reader_vol_1/hw.pdf
+
+
+
+Week 16 (Register Machines)
+
+- read the book Section 5.1-5.2
+- watch the lectures 9A from https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-001-structure-and-interpretation-of-computer-programs-spring-2005/video-lectures/
+- read the course_notes for week 16
+- do homework for week 16 including book exercises 5.1 to 5.19
+
+
+We **review** this work on Review Meeting Week 16 on TBD
+
+repo: https://github.com/AndrewMagerman/wizard-book-study
+labs = https://github.com/AndrewMagerman/wizard-book-study/tree/main/reference/berkeley_cs61a_material/course_reader_vol_1/labs.pdf
+course_notes = https://github.com/AndrewMagerman/wizard-book-study/tree/main/reference/berkeley_cs61a_material/course_reader_vol_2/notes.pdf
+homework = https://github.com/AndrewMagerman/wizard-book-study/tree/main/reference/berkeley_cs61a_material/course_reader_vol_1/hw.pdf
+
+
+
+Week 17 (Explicit-control Evaluator)
+
+- read the book Section 5.4
+- watch the lectures 9B from https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-001-structure-and-interpretation-of-computer-programs-spring-2005/video-lectures/
+- read the course_notes for week 17
+- do homework for week 17 including book exercises 5.23 to 5.30
+
+
+We **review** this work on Review Meeting Week 17 on TBD
+
+repo: https://github.com/AndrewMagerman/wizard-book-study
+labs = https://github.com/AndrewMagerman/wizard-book-study/tree/main/reference/berkeley_cs61a_material/course_reader_vol_1/labs.pdf
+course_notes = https://github.com/AndrewMagerman/wizard-book-study/tree/main/reference/berkeley_cs61a_material/course_reader_vol_2/notes.pdf
+homework = https://github.com/AndrewMagerman/wizard-book-study/tree/main/reference/berkeley_cs61a_material/course_reader_vol_1/hw.pdf
+
+
+
+Week 18 (Compilation)
+
+- read the book Section 5.5
+- watch the lectures 10A from https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-001-structure-and-interpretation-of-computer-programs-spring-2005/video-lectures/
+- read the course_notes for week 18
+- do homework for week 18 including book exercises 5.31 to 5.52
+
+
+We **review** this work on Review Meeting Week 18 on TBD
+
+repo: https://github.com/AndrewMagerman/wizard-book-study
+labs = https://github.com/AndrewMagerman/wizard-book-study/tree/main/reference/berkeley_cs61a_material/course_reader_vol_1/labs.pdf
+course_notes = https://github.com/AndrewMagerman/wizard-book-study/tree/main/reference/berkeley_cs61a_material/course_reader_vol_2/notes.pdf
+homework = https://github.com/AndrewMagerman/wizard-book-study/tree/main/reference/berkeley_cs61a_material/course_reader_vol_1/hw.pdf
+
+
+
+Week 19 (Storage Allocation and garbabe collection)
+
+- read the book Section 5.3
+- watch the lectures 10B from https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-001-structure-and-interpretation-of-computer-programs-spring-2005/video-lectures/
+- read the course_notes for week 19
+- do homework for week 19 including book exercises 5.20 and 5.21
+
+
+We **review** this work on Review Meeting Week 19 on TBD
 
 repo: https://github.com/AndrewMagerman/wizard-book-study
 labs = https://github.com/AndrewMagerman/wizard-book-study/tree/main/reference/berkeley_cs61a_material/course_reader_vol_1/labs.pdf

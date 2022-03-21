@@ -36,6 +36,8 @@ def homework_this_week(value: dict, target='markdown') -> List[str]:
 
     labs, course_notes, homework = 'labs', 'course_notes', 'homework'
 
+    list1 = []
+
     if target == 'markdown':
         labs = "[labs](reference/berkeley_cs61a_material/course_reader_vol_1/labs.pdf)"
         course_notes = "[course notes](reference/berkeley_cs61a_material/course_reader_vol_2/notes.pdf)"
@@ -51,8 +53,10 @@ def homework_this_week(value: dict, target='markdown') -> List[str]:
     else:
         lab_line_extra = ""
 
-    list1 = [f'do {labs} for week {week}{lab_line_extra}',
-             ]
+    if "nolabs" not in value:
+        list1.extend([f'do {labs} for week {week}{lab_line_extra}',
+                      ]
+                     )
 
     if "Reading" in value:
         if value["Reading"] != "":
@@ -67,15 +71,16 @@ def homework_this_week(value: dict, target='markdown') -> List[str]:
     if "Lectures" in value:
         list1.extend([f'watch the lectures {value["Lectures"]}'])
 
-    solution = f'solutions/week{week}.txt'
+    list1.extend([
+        f'read the {course_notes} for week {week}',
+        f'do {homework} for week {week}{homework_line_extra}',
+    ])
+
     if "solutions" in value:
         solution = value["solutions"]
-
-    list1.extend([
-                  f'read the {course_notes} for week {week}',
-                  f'do {homework} for week {week}{homework_line_extra}',
-                  f'cross-check your homework ({solution})',
-                  ])
+        list1.extend([
+            f'cross-check your homework ({solution})',
+        ])
 
     if "project" in value:
         list1.extend([f'do {value["project"]}'])
@@ -117,7 +122,6 @@ def discord_output():
     target = Path(__file__).parent / 'homework_discord.md'
     with target.open('w') as f:
 
-
         all_weeks = planning_dict()
         for week in all_weeks:
             f.write(f'{week} ({all_weeks[week]["Theme"]})\n\n')
@@ -144,4 +148,3 @@ def link_summary(f):
 if __name__ == '__main__':
     discord_output()
     markdown_output()
-
