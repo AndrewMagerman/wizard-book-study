@@ -1,0 +1,1 @@
+("8.4" tarm64osx ("0a781f985ad9c46deed1a165385283df7ccb5f36" . "6e120cad886d4e9b63068be3d21b5ceefc36ec20") #"/Users/andrewmagerman/sourcecontrol/wizard-book-homework/week15/wizard-book-solutions-master-ch04-lib/ch04/lib/mutable.rkt" (collects #"errortrace" #"errortrace-key.rkt") (collects #"racket" #"main.rkt") (collects #"racket" #"runtime-config.rkt"))
