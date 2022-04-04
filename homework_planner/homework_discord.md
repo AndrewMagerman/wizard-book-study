@@ -377,7 +377,7 @@ Week 16 (Register Machines)
 - do homework for week 16 including book exercises 5.1 to 5.19
 
 
-We **review** this work on Review Meeting Week 16 on TBD
+We **review** this work on Review Meeting Week 16 on Monday 18th April 2022, 19.00 CET
 
 repo: https://github.com/AndrewMagerman/wizard-book-study
 labs = https://github.com/AndrewMagerman/wizard-book-study/tree/main/reference/berkeley_cs61a_material/course_reader_vol_1/labs.pdf

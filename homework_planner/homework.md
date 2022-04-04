@@ -244,7 +244,7 @@ We **review** this work on Review Meeting Week 15 on Monday 4th April 2022, 19.0
 - do [homework](reference/berkeley_cs61a_material/course_reader_vol_1/hw.pdf) for week 16 including book exercises 5.1 to 5.19
 
 
-We **review** this work on Review Meeting Week 16 on TBD
+We **review** this work on Review Meeting Week 16 on Monday 18th April 2022, 19.00 CET
 
 ## Week 17 (Explicit-control Evaluator)
 
