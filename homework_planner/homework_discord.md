@@ -396,7 +396,7 @@ Week 17 (Explicit-control Evaluator)
 - do homework for week 17 including book exercises 5.23 to 5.30
 
 
-We **review** this work on Review Meeting Week 17 on TBD
+We **review** this work on Review Meeting Week 17 on Monday 9th May 2022, 19.00 CET
 
 repo: https://github.com/AndrewMagerman/wizard-book-study
 labs = https://github.com/AndrewMagerman/wizard-book-study/tree/main/reference/berkeley_cs61a_material/course_reader_vol_1/labs.pdf

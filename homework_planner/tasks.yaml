@@ -176,6 +176,7 @@ Week 16:
   video: "https://www.youtube.com/watch?v=jPDAPmx4pXE&list=PLE18841CABEA24090&index=37"
   Lectures: 9A from https://ocw.mit.edu/courses/6-001-structure-and-interpretation-of-computer-programs-spring-2005/video_galleries/video-lectures/
   book_exercises: "5.1 to 5.19"
+  recommended_excercises: "5.1 to 5.8"
   Review_Meeting: "Monday 18th April 2022, 19.00 CET"
 Week 17:
   week: 17
@@ -185,7 +186,7 @@ Week 17:
   video: "https://www.youtube.com/watch?v=SLcZXbyGC3E&list=PLE18841CABEA24090&index=38"
   Lectures: 9B https://ocw.mit.edu/courses/6-001-structure-and-interpretation-of-computer-programs-spring-2005/video_galleries/video-lectures/
   book_exercises: "5.23 to 5.30"
-  Review_Meeting: "TBD"
+  Review_Meeting: "Monday 9th May 2022, 19.00 CET"
 Week 18:
   week: 18
   nolabs: True
