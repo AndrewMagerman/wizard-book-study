@@ -174,7 +174,7 @@ Week 16:
   Theme: "Register Machines"
   Reading: "Section 5.1-5.2"
   video: "https://www.youtube.com/watch?v=jPDAPmx4pXE&list=PLE18841CABEA24090&index=37"
-  Lectures: 9A from https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-001-structure-and-interpretation-of-computer-programs-spring-2005/video-lectures/
+  Lectures: 9A from https://ocw.mit.edu/courses/6-001-structure-and-interpretation-of-computer-programs-spring-2005/video_galleries/video-lectures/
   book_exercises: "5.1 to 5.19"
   Review_Meeting: "Monday 18th April 2022, 19.00 CET"
 Week 17:
@@ -183,7 +183,7 @@ Week 17:
   Theme: "Explicit-control Evaluator"
   Reading: "Section 5.4"
   video: "https://www.youtube.com/watch?v=SLcZXbyGC3E&list=PLE18841CABEA24090&index=38"
-  Lectures: 9B from https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-001-structure-and-interpretation-of-computer-programs-spring-2005/video-lectures/
+  Lectures: 9B https://ocw.mit.edu/courses/6-001-structure-and-interpretation-of-computer-programs-spring-2005/video_galleries/video-lectures/
   book_exercises: "5.23 to 5.30"
   Review_Meeting: "TBD"
 Week 18:
@@ -192,7 +192,7 @@ Week 18:
   Theme: "Compilation"
   Reading: "Section 5.5"
   video: "https://www.youtube.com/watch?v=SLcZXbyGC3E&list=PLE18841CABEA24090&index=38"
-  Lectures: 10A from https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-001-structure-and-interpretation-of-computer-programs-spring-2005/video-lectures/
+  Lectures: 10A from https://ocw.mit.edu/courses/6-001-structure-and-interpretation-of-computer-programs-spring-2005/video_galleries/video-lectures/
   book_exercises: "5.31 to 5.52"
   Review_Meeting: "TBD"
 Week 19:
@@ -201,6 +201,6 @@ Week 19:
   Theme: "Storage Allocation and garbabe collection"
   Reading: "Section 5.3"
   video: "https://www.youtube.com/watch?v=SLcZXbyGC3E&list=PLE18841CABEA24090&index=38"
-  Lectures: 10B from https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-001-structure-and-interpretation-of-computer-programs-spring-2005/video-lectures/
+  Lectures: 10B from https://ocw.mit.edu/courses/6-001-structure-and-interpretation-of-computer-programs-spring-2005/video_galleries/video-lectures/
   book_exercises: "5.20 and 5.21"
   Review_Meeting: "TBD"

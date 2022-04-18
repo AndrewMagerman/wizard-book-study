@@ -372,7 +372,8 @@ homework = https://github.com/AndrewMagerman/wizard-book-study/tree/main/referen
 Week 16 (Register Machines)
 
 - read the book Section 5.1-5.2
-- watch the lectures 9A from https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-001-structure-and-interpretation-of-computer-programs-spring-2005/video-lectures/
+- watch the lectures 9A from https://ocw.mit.edu/courses/6-001-structure-and-interpretation-of-computer-programs-spring-2005/video_galleries/video-lectures/
+- video link : https://www.youtube.com/watch?v=jPDAPmx4pXE&list=PLE18841CABEA24090&index=37
 - read the course_notes for week 16
 - do homework for week 16 including book exercises 5.1 to 5.19
 
@@ -389,7 +390,8 @@ homework = https://github.com/AndrewMagerman/wizard-book-study/tree/main/referen
 Week 17 (Explicit-control Evaluator)
 
 - read the book Section 5.4
-- watch the lectures 9B from https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-001-structure-and-interpretation-of-computer-programs-spring-2005/video-lectures/
+- watch the lectures 9B https://ocw.mit.edu/courses/6-001-structure-and-interpretation-of-computer-programs-spring-2005/video_galleries/video-lectures/
+- video link : https://www.youtube.com/watch?v=SLcZXbyGC3E&list=PLE18841CABEA24090&index=38
 - read the course_notes for week 17
 - do homework for week 17 including book exercises 5.23 to 5.30
 
@@ -406,7 +408,8 @@ homework = https://github.com/AndrewMagerman/wizard-book-study/tree/main/referen
 Week 18 (Compilation)
 
 - read the book Section 5.5
-- watch the lectures 10A from https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-001-structure-and-interpretation-of-computer-programs-spring-2005/video-lectures/
+- watch the lectures 10A from https://ocw.mit.edu/courses/6-001-structure-and-interpretation-of-computer-programs-spring-2005/video_galleries/video-lectures/
+- video link : https://www.youtube.com/watch?v=SLcZXbyGC3E&list=PLE18841CABEA24090&index=38
 - read the course_notes for week 18
 - do homework for week 18 including book exercises 5.31 to 5.52
 
@@ -423,7 +426,8 @@ homework = https://github.com/AndrewMagerman/wizard-book-study/tree/main/referen
 Week 19 (Storage Allocation and garbabe collection)
 
 - read the book Section 5.3
-- watch the lectures 10B from https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-001-structure-and-interpretation-of-computer-programs-spring-2005/video-lectures/
+- watch the lectures 10B from https://ocw.mit.edu/courses/6-001-structure-and-interpretation-of-computer-programs-spring-2005/video_galleries/video-lectures/
+- video link : https://www.youtube.com/watch?v=SLcZXbyGC3E&list=PLE18841CABEA24090&index=38
 - read the course_notes for week 19
 - do homework for week 19 including book exercises 5.20 and 5.21
 

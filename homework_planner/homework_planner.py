@@ -71,6 +71,9 @@ def homework_this_week(value: dict, target='markdown') -> List[str]:
     if "Lectures" in value:
         list1.extend([f'watch the lectures {value["Lectures"]}'])
 
+    if "video" in value:
+        list1.extend([f'video link : {value["video"]}'])
+
     list1.extend([
         f'read the {course_notes} for week {week}',
         f'do {homework} for week {week}{homework_line_extra}',
