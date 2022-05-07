@@ -362,7 +362,7 @@ We **review** this work on Review Meeting Week 13b on Monday 7th February 2022, 
 
 ## Week 14a (lazy evaluator, nondeterministic evaluator)
 
-- do [labs](reference/berkeley_cs61a_material/course_reader_vol_1/labs.pdf) for week 14a including book exercises 4.27, 4.29
+- do [labs](reference/berkeley_cs61a_material/course_reader_vol_1/labs.pdf) for week 14a including book exercises 4.27, 4.29 for the lazy evaluator and 4.35, 4.38 for the nondeterministic evaluator
 - read the book Section 4.2, 4.3
 - watch the lectures 40 & 41
 - read the [course notes](reference/berkeley_cs61a_material/course_reader_vol_2/notes.pdf) for week 14a
