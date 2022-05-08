@@ -152,6 +152,14 @@ use `missing_files/week_14/ch4-leval.rkt`
 
 use `missing_files/week_14/ch4-ambeval.rkt`
 
+## Chapter 5
+
+### Chapter 5.4
+
+Source: https://github.com/n3104/sicp
+
+Use the `missing_files/week_17/ch5-eceval.rkt` as the basis of all exercises
+
 
 
 
